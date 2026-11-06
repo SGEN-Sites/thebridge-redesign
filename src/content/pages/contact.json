@@ -1,0 +1,321 @@
+{
+ "slug": "contact",
+ "path": "/contact/",
+ "oldPath": "/contact.html",
+ "title": "Contact The Bridge Cannabis Experience | Astoria Queens NYC",
+ "description": "The Bridge Cannabis Experience is a premium cannabis dispensary in Astoria Queens NYC offering flower, vapes, edibles, concentrates, delivery, and curated cannabis products powered by culture, community, and social equity.",
+ "h1": "Contact Us",
+ "sections": [
+  {
+   "tag": "section",
+   "cls": "hero-contact",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "about-tag",
+     "text": "Get in Touch",
+     "group": "row"
+    },
+    {
+     "tag": "h1",
+     "cls": "",
+     "text": "Contact Us",
+     "group": "row",
+     "type": "h1"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Questions, wholesale inquiries, or just want to say what's good — we're here for it.",
+     "group": "row"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/the-bridge-logo.png",
+     "alt": "The Bridge - A Cannabis Experience Logo",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "text-center",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "p",
+     "cls": "icon",
+     "text": "🏪",
+     "group": "row"
+    },
+    {
+     "tag": "h5",
+     "cls": "",
+     "text": "Visit Us",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "25-15 Broadway Ave, Astoria, Queens, NY 11106",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "icon",
+     "text": "⏱",
+     "group": "row"
+    },
+    {
+     "tag": "h5",
+     "cls": "",
+     "text": "Store Hours",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Mon – Thu: 10 AM – 10 PM Fri – Sat: 10 AM – 11 PM Sun: 11 AM – 9 PM",
+     "group": "row"
+    },
+    {
+     "tag": "small",
+     "cls": "",
+     "text": "Hours may vary on holidays",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "icon",
+     "text": "📞",
+     "group": "row"
+    },
+    {
+     "tag": "h5",
+     "cls": "",
+     "text": "Contact & Socials",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "917-832-7420",
+     "group": "row",
+     "href": "tel:+19178327420"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "",
+     "group": "row",
+     "href": "https://facebook.com/THEBRIDGECANNABISNY"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "",
+     "group": "row",
+     "href": "https://tiktok.com/THEBRIDGECANNABISNY"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "",
+     "group": "row",
+     "href": "https://www.instagram.com/thebridgecannabisny"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "contact-map-section py-5",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "span",
+     "cls": "section-eyebrow",
+     "text": "Find Us"
+    },
+    {
+     "tag": "h2",
+     "cls": "section-title mt-3",
+     "text": "Our Astoria Location"
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.openstreetmap.org/export/embed.html?bbox=-73.93975,40.75525,-73.91575,40.77125&layer=mapnik&marker=40.76325,-73.92775",
+     "frameTitle": "The Bridge store location map"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "View Larger Map ↗",
+     "href": "https://www.openstreetmap.org/?mlat=40.76325&mlon=-73.92775#map=16/40.76325/-73.92775"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "contact-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h2",
+     "cls": "contact-title",
+     "text": "SEND US A MESSAGE"
+    },
+    {
+     "tag": "p",
+     "cls": "contact-subtitle",
+     "text": "Fill out the form below and we'll get back to you within 24–48 hours."
+    },
+    {
+     "tag": "label",
+     "cls": "cf-label",
+     "text": "NAME •",
+     "group": "row"
+    },
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "",
+     "placeholder": "Your name",
+     "group": "row"
+    },
+    {
+     "tag": "label",
+     "cls": "cf-label",
+     "text": "EMAIL •",
+     "group": "row"
+    },
+    {
+     "tag": "input",
+     "type": "email",
+     "name": "",
+     "placeholder": "you@example.com",
+     "group": "row"
+    },
+    {
+     "tag": "label",
+     "cls": "cf-label",
+     "text": "SUBJECT"
+    },
+    {
+     "tag": "select",
+     "items": [
+      "Select a subject…",
+      "General Inquiry",
+      "Partnership",
+      "Press",
+      "Other"
+     ]
+    },
+    {
+     "tag": "label",
+     "cls": "cf-label",
+     "text": "MESSAGE •"
+    },
+    {
+     "tag": "textarea",
+     "type": "",
+     "name": "",
+     "placeholder": "How can we help?"
+    },
+    {
+     "tag": "button",
+     "cls": "cf-btn",
+     "text": "SEND MESSAGE →"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "myth-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h2",
+     "cls": "myth-title",
+     "text": "Common Questions",
+     "group": "myth-section"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "How quickly will I hear back?",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "We aim to respond to all inquiries within 24–48 business hours. Wholesale and partnership inquiries may take slightly longer as they are handled by a dedicated team.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Do you have a physical storefront?",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "Yes, we have a store located at 25-15 Broadway Ave, Astoria, Queens, NY 11106.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "How can I check on my order status?",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "You can track your order from your account dashboard under \"Orders.\" If you checked out as a guest, use the tracking link sent to your email. For further help, reach out using the form above.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Can I return or exchange a product?",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "Due to the nature of our products, returns and exchanges are handled on a case-by-case basis. Please contact us within 7 days of delivery with your order number and reason for the request.",
+     "group": "accordion-body"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "bg-gray p-5",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Ready to explore?",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "font-mono ",
+     "text": "Check out our curated collection while you wait for our reply.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Shop the Collection →",
+     "group": "row",
+     "href": "https://store.thebridgecannabis.com/"
+    }
+   ]
+  }
+ ]
+}

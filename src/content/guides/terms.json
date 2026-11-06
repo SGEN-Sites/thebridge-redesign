@@ -1,0 +1,25 @@
+{
+  "slug": "terms",
+  "path": "/terms-and-conditions/",
+  "title": "Terms and Conditions | The Bridge",
+  "description": "Draft terms and conditions page for The Bridge Cannabis Experience. Final text comes from The Bridge's counsel before launch.",
+  "h1": "Terms and Conditions",
+  "kicker": "Legal",
+  "lede": "This page holds the place for the final terms. Here is what it will cover.",
+  "image": "g-papers-law",
+  "draftNote": "Draft for this preview. The Bridge's counsel supplies the final text before launch.",
+  "sections": [
+    {
+      "heading": "Who this site is for",
+      "html": "<p>This site is for adults 21 and older.</p>"
+    },
+    {
+      "heading": "What the final terms will cover",
+      "html": "<ul>\n<li>Using this site and what's on it</li>\n<li>How these terms relate to orders placed through the online store</li>\n<li>Who owns the words, photos and marks on this site</li>\n<li>How changes to these terms get posted</li>\n</ul>"
+    },
+    {
+      "heading": "Questions",
+      "html": "<p>Reach out through the <a href=\"/contact/\">contact page</a>.</p>"
+    }
+  ]
+}

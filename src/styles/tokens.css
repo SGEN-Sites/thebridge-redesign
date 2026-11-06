@@ -1,0 +1,79 @@
+/* tokens.css - "Night Piece" (main session; every lane reads this first, only the main session changes it).
+   Brand values are The Bridge's own: --orange #ff6b00, --orange-deep #d95800, --orange-hot #ff9d00, --blue #1b39ff ("blue
+   shadow"), --ink #050505, --bone #f5f1e8, --text #d6d6d6, --muted #8b8b8b. Bebas Neue, Inter, Space Mono. */
+:root {
+  /* brand */
+  --orange: #ff6b00;
+  --orange-deep: #d95800;
+  --orange-hot: #ff9d00;
+  --logo-orange: #fd5305;
+  --blue: #1b39ff;
+  --blue-soft: #5a72ff;            /* the brand blue lifted for small marks on black (5:1 and up) */
+  --ink: #050505;
+  --black: #000;
+  --coal: #0c0b0a;                 /* raised ground */
+  --soot: #151310;                 /* card ground on dark */
+  --bone: #f5f1e8;
+  --text: #d6d6d6;
+  --muted: #a39d94;                /* #8b8b8b lifted to 7:1 on --ink for body sizes */
+  --line: rgba(245, 241, 232, .12);
+  --line-strong: rgba(245, 241, 232, .24);
+
+  /* type */
+  --font-display: 'Bebas Neue', 'Arial Narrow', Impact, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, 'Courier New', monospace;
+  --font-tag: 'Sedgwick Ave Display', 'Segoe Print', cursive;
+  --font-spray: 'Rubik Spray Paint', 'Bebas Neue', Impact, sans-serif;
+  --font-wet: 'Rubik Wet Paint', 'Bebas Neue', Impact, sans-serif;
+  --fs-mega: clamp(4.1rem, 13.2vw, 13.5rem);
+  --fs-h1: clamp(3.25rem, 8vw, 7.75rem);
+  --fs-h2: clamp(2.5rem, 5.4vw, 5.25rem);
+  --fs-h3: clamp(1.6rem, 2.5vw, 2.35rem);
+  --fs-lede: clamp(1.06rem, 1.35vw, 1.32rem);
+  --fs-body: 1rem;
+  --fs-small: .875rem;
+  --fs-mono: .8125rem;             /* the smallest visible text on the site: 13 px */
+  --lh-display: .92;
+  --lh-body: 1.65;
+  --track-mono: .14em;
+
+  /* space */
+  --gutter: clamp(16px, 4vw, 56px);
+  --wrap: 1320px;
+  --wrap-narrow: 860px;
+  --section-y: clamp(72px, 9vw, 150px);
+  --overhang: clamp(40px, 7vw, 120px);
+  --radius: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* tenebrism: one hard warm key light per section. Redeclare --key on the element that sets --lx / --ly. */
+  --lx: 22%;
+  --ly: 18%;
+  --key-o: rgba(255, 107, 0, .34);
+  --key-h: rgba(255, 157, 0, .42);
+  --key: radial-gradient(60vmax 44vmax at var(--lx) var(--ly), var(--key-h), var(--key-o) 12%, rgba(255, 107, 0, .10) 38%, transparent 66%);
+  --vignette: radial-gradient(120% 90% at 50% 40%, transparent 45%, rgba(0, 0, 0, .78) 100%);
+  --beam: linear-gradient(112deg, transparent 28%, rgba(255, 138, 40, .14) 44%, rgba(255, 170, 90, .05) 52%, transparent 66%);
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-paint: cubic-bezier(.62, .02, .22, 1);
+
+  /* glass: smoked pane, edge catches the key light top left */
+  --glass-fill: linear-gradient(145deg, rgba(38, 32, 26, .52), rgba(10, 9, 8, .62));
+  --glass-blur: blur(18px) saturate(150%);
+  --glass-edge: linear-gradient(135deg, rgba(255, 150, 60, .75), rgba(245, 241, 232, .18) 34%, rgba(245, 241, 232, .05) 62%, rgba(27, 57, 255, .35));
+  --glass-shadow: 0 30px 70px -28px rgba(0, 0, 0, .9), inset 0 1px 0 rgba(255, 255, 255, .06);
+
+  /* paint */
+  --spray-shadow: .05em .05em 0 var(--blue);
+
+  /* layers */
+  --z-wall: -1;
+  --z-paint: 1;
+  --z-glass: 2;
+  --z-front: 4;
+  --z-header: 60;
+  --z-drawer: 70;
+  --z-gate: 90;
+}

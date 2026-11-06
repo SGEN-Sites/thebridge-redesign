@@ -1,0 +1,66 @@
+{
+  "flower": {
+    "intro": "Flower is the dried, cured bud of the cannabis plant, sold by weight. Think of it in terms of the cultivar on the label, and the lab results behind it.",
+    "points": [
+      "Sold by weight",
+      "The cultivar name is on the label",
+      "Lab results are a QR code or link away"
+    ]
+  },
+  "pre-rolls": {
+    "intro": "A pre-roll is ground flower rolled in a paper or a wrap before it reaches the shelf. Some come single, some in packs, and some are infused with extract, so read the label before you compare.",
+    "points": [
+      "Joints and blunts",
+      "Singles or packs",
+      "Infused means extract was added"
+    ]
+  },
+  "vapes": {
+    "intro": "A vape heats cannabis oil instead of burning plant material. It comes as a cartridge that needs a battery, or as an all-in-one with the battery built in.",
+    "points": [
+      "Cartridge or all-in-one",
+      "Check that a cartridge fits your battery",
+      "The label names the type of extract"
+    ]
+  },
+  "edibles": {
+    "intro": "Edibles are cannabis products you eat, like gummies, chocolates and baked goods. Your body handles them differently than anything you inhale and they take longer to show up, so the serving size on the label is the first thing to read.",
+    "points": [
+      "Read the serving size first",
+      "Wait before you take more",
+      "Keep them locked up, away from food"
+    ]
+  },
+  "concentrates": {
+    "intro": "Concentrates are extracts made from the plant, in forms like wax, shatter, live resin and rosin. The names tell you about texture and how the extract was made, so ask if you don't know the term.",
+    "points": [
+      "Names describe texture and process",
+      "Ask what gear a format needs",
+      "Start low and go slow applies here too"
+    ]
+  },
+  "beverages": {
+    "intro": "Cannabis beverages are drinks infused with cannabis, like seltzers, tonics and teas. Anything you drink can take a while to show up, so pace it by the serving size on the label, not by how fast it goes down.",
+    "points": [
+      "Check the servings per container",
+      "Sip, then wait",
+      "Store it locked up, away from regular drinks"
+    ]
+  },
+  "wellness": {
+    "intro": "This shelf holds tinctures, topicals and CBD products. A tincture is a liquid extract measured out by the dropper, and a topical is a product you apply to the skin.",
+    "points": [
+      "Tinctures are measured by the dropper",
+      "Topicals go on the skin",
+      "Health questions go to your provider"
+    ]
+  },
+  "lifestyle": {
+    "intro": "Lifestyle is the part of the shop that isn't cannabis: glassware, merch, accessories and culture essentials. Think of it as what stays on your shelf long after the visit.",
+    "points": [
+      "Glassware and accessories",
+      "Merch",
+      "Culture essentials"
+    ]
+  }
+}

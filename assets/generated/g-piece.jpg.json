@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-piece",
+ "file": "assets/generated/g-piece.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. A mural on a black wall under one spotlight from the upper left: one large abstract wildstyle composition of interlocking arrows, blades, ribbons and angular slashes in saturated orange and cobalt blue spray paint, with crisp dark outlines, soft overspray and a few drips. Purely abstract shapes, not letters: nothing that can be read as a letter or a word, no tags, no signature. The edges of the painting fall into pure black shadow., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 2967505030,
+ "requestId": "01a1b237-4b2e-7b53-917e-d7ff7f38cf7a",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "c3bd0c12c26e631e132f191794e7e2da2ba09ea74621f1ace4ca2697726acc1d",
+ "retouch": "Lamp fixture and pavement removed, wall only.",
+ "alt": "Abstract orange and cobalt spray painted shapes on a black wall under one spotlight",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

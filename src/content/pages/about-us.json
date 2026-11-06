@@ -1,0 +1,293 @@
+{
+ "slug": "about-us",
+ "path": "/about-us/",
+ "oldPath": "/about_us.html",
+ "title": "About The Bridge Cannabis Experience | Mobb Deep x NDICA",
+ "description": "The Bridge Cannabis Experience is a premium cannabis dispensary in Astoria Queens NYC offering flower, vapes, edibles, concentrates, delivery, and curated cannabis products powered by culture, community, and social equity.",
+ "h1": "THE BRIDGE",
+ "sections": [
+  {
+   "tag": "section",
+   "cls": "hero-banner",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "about-tag d-flex justify-content-center align-items-center",
+     "text": "ABOUT",
+     "group": "row"
+    },
+    {
+     "tag": "h1",
+     "cls": "",
+     "text": "THE BRIDGE",
+     "group": "row",
+     "type": "h1"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "A Cannabis Experience",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "About Havoc",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "About Havoc",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "As one half of Mobb Deep, Havoc helped define the sound of New York hip-hop, producing classics like The Infamous and Hell on Earth. Growing up in Queensbridge, he developed a gritty, authentic voice that resonated far beyond New York — collaborating with The Notorious B.I.G., Nas, Eminem, Kanye West, Raekwon, and J Dilla, among others. His production credits span film, television, and video games, and his influence on New York hip-hop remains undisputed. Through The Bridge, Havoc is building something that reflects where he's from and what he stands for.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "line-txt",
+     "text": "Havoc helped define the sound of New York hip-hop. Through The Bridge, Havoc is building something that reflects where he's from and what he stands for.",
+     "group": "row"
+    },
+    {
+     "tag": "img",
+     "cls": "img-fluid",
+     "src": "./assets/images/Mobb-Deep.webp",
+     "alt": "Studio Session",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "img",
+     "cls": "img-fluid",
+     "src": "./assets/images/ndica.png",
+     "alt": "Studio Session",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "About NDICA",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "About NDICA",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "NDICA is a nonprofit dedicated to creating a more equitable cannabis industry — one that works for the communities most impacted by the War on Drugs. Their mission is straightforward: lower barriers, open pathways, and help build an industry that's inclusive by design.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "py-5",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h5",
+     "cls": "top-line",
+     "text": "A Different Approach"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Connecting the cannabis industry with underserved communities — championing diversity, social equity, and economic opportunity."
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Learn About NDICA →",
+     "group": "d-flex",
+     "href": "https://www.thendica.org/"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "approach-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "span",
+     "cls": "section-eyebrow",
+     "text": "OUR APPROACH",
+     "group": "row"
+    },
+    {
+     "tag": "h2",
+     "cls": "approach-title",
+     "text": "A DIFFERENT APPROACH",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "approach-desc",
+     "text": "For decades, cannabis policy centered on punishment — with consequences that fell hardest on communities of color and marginalized groups. The Bridge supports a more practical, human-centered approach:",
+     "group": "row"
+    },
+    {
+     "tag": "h4",
+     "cls": "",
+     "text": "REHABILITATION OVER INCARCERATION",
+     "group": "approach-item"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Addiction treatment, mental health care, and job training produce better outcomes than punishment — for individuals and communities alike.",
+     "group": "approach-item"
+    },
+    {
+     "tag": "h4",
+     "cls": "",
+     "text": "REAL ECONOMIC OPPORTUNITY",
+     "group": "approach-item"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Legalization creates jobs and opens doors. The Bridge is committed to making sure those doors are open to everyone.",
+     "group": "approach-item"
+    },
+    {
+     "tag": "h4",
+     "cls": "",
+     "text": "EDUCATION TO REDUCE STIGMA",
+     "group": "approach-item"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Understanding cannabis — its benefits, its history, and its role in public health — helps shift the conversation.",
+     "group": "approach-item"
+    },
+    {
+     "tag": "h4",
+     "cls": "",
+     "text": "COMMUNITY-LED GROWTH",
+     "group": "approach-item"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "When communities lead, trust follows. The Bridge prioritizes local voices and local investment over top-down solutions.",
+     "group": "approach-item"
+    },
+    {
+     "tag": "blockquote",
+     "cls": "approach-quote",
+     "text": "Legalization creates jobs and opens doors. The Bridge is committed to making sure those doors are open to everyone, especially those who were most harmed by the policies that came before.",
+     "group": "row"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/house.webp",
+     "alt": "Bridge history",
+     "group": "row"
+    },
+    {
+     "tag": "span",
+     "cls": "image-caption",
+     "text": "THE DEVELOPMENT OF THE QUEENS BRIDGE PROJECTS, NYC — 1939.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "img",
+     "cls": "img-fluid",
+     "src": "./assets/images/mobb-deep-hell.webp",
+     "alt": "Studio Session",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "The Bigger Picture",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "The Bigger Picture",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text mid-txt",
+     "text": "Cannabis legalization isn't just about access — it's about progress. Clearing past convictions, removing barriers to employment and housing, and redirecting resources from enforcement to support are all part of building something more just. Through The Bridge, Havoc and NDICA are working to create a dispensary rooted in culture, built for the community, and designed to move the industry — and the people in it — forward.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text mid-txt ",
+     "text": "By combining advocacy, education, and entrepreneurship, this partnership is about more than opening doors — it’s about changing who gets to walk through them. The goal is to help shape a cannabis industry that reflects the people it serves: more inclusive, more intentional, and more connected to the neighborhoods and cultures that have carried this movement forward for generations.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "bg-gray py-5",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Be Part of Something Bigger.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "font-mono",
+     "text": "The Bridge is more than a dispensary. Explore the collection, or reach out and get involved.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Browse the Shop →",
+     "group": "d-flex",
+     "href": "https://store.thebridgecannabis.com/"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Get in Touch →",
+     "group": "d-flex",
+     "href": "./contact.html"
+    }
+   ]
+  }
+ ]
+}

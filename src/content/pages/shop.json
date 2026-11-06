@@ -1,0 +1,464 @@
+{
+ "slug": "shop",
+ "path": "/shop/",
+ "oldPath": "/shop.html",
+ "title": "Shop Cannabis Flower, Vapes & Edibles | The Bridge Astoria NYC",
+ "description": "The Bridge Cannabis Experience is a premium cannabis dispensary in Astoria Queens NYC offering flower, vapes, edibles, concentrates, delivery, and curated cannabis products powered by culture, community, and social equity.",
+ "h1": "",
+ "sections": [
+  {
+   "tag": "section",
+   "cls": "shop-category",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h2",
+     "cls": "section-title",
+     "text": "SHOP BY CATEGORY ORDER ONLINE WE DELIVER"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/category-flower.webp",
+     "alt": "Flower",
+     "group": "category-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "FLOWER",
+     "group": "category-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Premium cannabis flower — hand-selected strains for every experience.",
+     "group": "category-card"
+    },
+    {
+     "tag": "a",
+     "cls": "shop-link",
+     "text": "Shop Now 58 →",
+     "group": "category-card",
+     "href": "https://store.thebridgecannabis.com/collection/flower"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/category-prerolls.webp",
+     "alt": "Pre Rolls",
+     "group": "category-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "PRE-ROLLS",
+     "group": "category-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Ready-to-enjoy pre-rolled joints and blunts.",
+     "group": "category-card"
+    },
+    {
+     "tag": "a",
+     "cls": "shop-link",
+     "text": "Shop Now 59 →",
+     "group": "category-card",
+     "href": "https://store.thebridgecannabis.com/collection/preroll"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/category-vapes.webp",
+     "alt": "Vapes",
+     "group": "category-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Vapes",
+     "group": "category-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Cartridges, disposables, and vaporizer accessories.",
+     "group": "category-card"
+    },
+    {
+     "tag": "a",
+     "cls": "shop-link",
+     "text": "Shop Now 59 →",
+     "group": "category-card",
+     "href": "https://store.thebridgecannabis.com/collection/cartridge"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/category-drinks.webp",
+     "alt": "Drinks",
+     "group": "category-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Beverages",
+     "group": "category-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Cannabis-infused drinks — seltzers, tonics, teas, and more.",
+     "group": "category-card"
+    },
+    {
+     "tag": "a",
+     "cls": "shop-link",
+     "text": "Shop Now 59 →",
+     "group": "category-card",
+     "href": "https://store.thebridgecannabis.com/collection/beverage"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/category-wellness.webp",
+     "alt": "Wellness",
+     "group": "category-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Wellness",
+     "group": "category-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Tinctures, topicals, CBD products, and therapeutic options.",
+     "group": "category-card"
+    },
+    {
+     "tag": "a",
+     "cls": "shop-link",
+     "text": "Shop Now 59 →",
+     "group": "category-card",
+     "href": "https://store.thebridgecannabis.com/collection/edible"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/category-lifestyle.webp",
+     "alt": "Lifestyle",
+     "group": "category-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Lifestyle",
+     "group": "category-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Glassware, merch, accessories, and culture essentials.",
+     "group": "category-card"
+    },
+    {
+     "tag": "a",
+     "cls": "shop-link",
+     "text": "Shop Now 59 →",
+     "group": "category-card",
+     "href": "https://store.thebridgecannabis.com/collection/topical"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "featured-products",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h2",
+     "cls": "",
+     "text": "FEATURED PRODUCTS"
+    },
+    {
+     "tag": "a",
+     "cls": "view-all",
+     "text": "VIEW ALL →",
+     "href": "https://store.thebridgecannabis.com/"
+    },
+    {
+     "tag": "button",
+     "cls": "slider-arrow prev",
+     "text": "❮",
+     "group": "slider-arrow"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro1.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag hybrid",
+     "text": "Sativa",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "DOOBIE LABS | Blue Dream | Flower",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$42.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/doobie-bros-doobie-labs-blue-dream-flower-3-5-g-flower-3-5-grams"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro2.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag sativa",
+     "text": "Flower",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "Spacebuds | Strawberry Slushie | Moonrocks | 4g",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$48.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/space-buds-spacebuds-strawberry-slushie-moonrocks-4g-4-g-flower-4-grams"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro3.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag sativa",
+     "text": "Hybrid",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "Jetty | Fat Caddy | AIO Mini Tank",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$70.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/jetty-jetty-fat-caddy-aio-mini-tank-1-g-cartridge-1-grams"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro4.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag indica",
+     "text": "S/I",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "Cannabals - Liquid Diamond Vape - Maui Wowie - 2g",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$64.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/cannabals-cannabals-maui-wowie-liquid-diamond-aio-2-g-cartridge-2-grams"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro5.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag indica",
+     "text": "Preroll",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "Kingsroad - 0.5g Infused Pre-Roll - 2pk - Live Resin - Skywalker Cookie Dog x Lemon Cherry Gelato",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$12.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/kingsroad-kingsroad-0-5g-infused-pre-roll-2pk-live-resin-skywalker-cookie-dog-x-lemon-cherry-gelato-1-g-preroll-1-grams"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro6.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag indica",
+     "text": "Hybrid",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "MFNY | Badder | Strawpaya",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$44.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/mfny-mfny-badder-strawpaya-1-g-extract-1-grams"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro7.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag indica",
+     "text": "Flower",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "Preferred Gardens | RED HOTZ | Flower | 3.5g",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$36.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/preferred-gardens-preferred-gardens-red-hotz-flower-3-5-g-flower-3-5-grams"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/pro8.webp",
+     "alt": "",
+     "group": "product-card"
+    },
+    {
+     "tag": "span",
+     "cls": "product-tag indica",
+     "text": "Cartridge",
+     "group": "product-card"
+    },
+    {
+     "tag": "h3",
+     "cls": "product-title",
+     "text": "Continental Exotics | Lemon Cherry Gelato | AIO",
+     "group": "product-card"
+    },
+    {
+     "tag": "div",
+     "cls": "product-price",
+     "text": "$56.00",
+     "group": "product-card"
+    },
+    {
+     "tag": "a",
+     "cls": "btn-cart",
+     "text": "ADD TO CART",
+     "group": "product-card",
+     "href": "https://store.thebridgecannabis.com/product/continental-exotics-continental-exotics-lemon-cherry-gelato-aio-2-g-cartridge-2-grams"
+    },
+    {
+     "tag": "button",
+     "cls": "slider-arrow next",
+     "text": "❯",
+     "group": "slider-arrow"
+    }
+   ]
+  }
+ ]
+}

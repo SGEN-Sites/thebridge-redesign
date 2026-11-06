@@ -1,0 +1,45 @@
+{
+  "slug": "careers",
+  "path": "/careers/",
+  "title": "Careers | The Bridge",
+  "description": "Careers at The Bridge Cannabis Experience in Astoria, Queens. No openings are listed here. Tell us about yourself through the application form.",
+  "h1": "Careers",
+  "kicker": "Work With Us",
+  "lede": "We don't list openings here. What we've got is a point of view and a way to introduce yourself.",
+  "image": "g-mic",
+  "application": {
+    "heading": "Application",
+    "lede": "Sending this doesn't mean there's a role open, and it doesn't guarantee an interview or a job."
+  },
+  "sections": [
+    {
+      "heading": "Where we stand",
+      "html": "<p>We've said it before: \"Legalization creates jobs and opens doors. The Bridge is committed to making sure those doors are open to everyone, especially those who were most harmed by the policies that came before.\"</p>\n<p>That's how we see the industry. It isn't a job listing, and it isn't an offer of one.</p>"
+    },
+    {
+      "heading": "Tell us about yourself",
+      "html": "<p>Who you are, where you're from, what you've done, what you'd bring to a shop on Broadway. Put it in the <a href=\"#application\">application form</a>.</p>"
+    },
+    {
+      "heading": "What the state requires",
+      "html": "<p>New York sets some ground rules for working in cannabis. <a href=\"https://cannabis.ny.gov/adopted-au-regulations\" target=\"_blank\" rel=\"noopener\">The state's regulations</a> bar licensees from employing anyone under 18, and employees under 21 can't deliver to consumers or deal directly with customers inside a dispensary.</p>\n<p>If you've got a past cannabis conviction, know this: the <a href=\"https://cannabis.ny.gov/adult-use-information\" target=\"_blank\" rel=\"noopener\">Cannabis Law</a> automatically expunges records for people with previous convictions for activities that are no longer criminalized, and you don't have to take any further action. The state says an expunged record will not be viewable by potential employers.</p>",
+      "factIds": [
+        "work-18",
+        "work-age",
+        "expunge",
+        "expunge-no-action",
+        "expunge-means"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Regulations (9 NYCRR 123.10 and 125.4)",
+      "url": "https://cannabis.ny.gov/adopted-au-regulations"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    }
+  ]
+}

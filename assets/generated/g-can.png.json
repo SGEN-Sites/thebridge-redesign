@@ -1,0 +1,29 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-can",
+ "file": "assets/generated/g-can.png",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Studio photograph of one plain matte black aerosol spray paint can, tilted about twenty degrees and floating in mid air, a smooth blank cylinder with a black cap and a black nozzle, bare satin metal with no label, no printing, no markings of any kind. A hard orange rim light from the upper left runs along its edge and shoulder, the rest of the can is dark but still readable. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background. The whole can is in frame with margin on all sides., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:4"
+ },
+ "seed": 3999888945,
+ "requestId": "01a1b236-e120-70d0-9b50-fb622c732908",
+ "cutout": {
+  "model": "fal-ai/birefnet/v2",
+  "requestId": "01a1b237-2437-7931-9b09-8d6901d4d7d7"
+ },
+ "width": 762,
+ "height": 1396,
+ "sha256": "8e866074b26bcd4d3ce6ae61d3e7aca4fe0dd29ea9817fe762bb76b24a978db2",
+ "retouch": "Cut out, trimmed.",
+ "alt": "One unbranded matte black spray can, tilted, with an orange rim light",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

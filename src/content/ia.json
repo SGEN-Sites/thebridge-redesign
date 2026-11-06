@@ -1,0 +1,72 @@
+{
+  "_note": "The adopted architecture (a large multi-state dispensary operator's site, captured 2026-10-23) mapped onto The Bridge as ONE location: utility bar, nav order (Shop, Explore, Rewards slot, Resources, Dispensaries slot), mega-menu groups, footer columns, page types and URL patterns. No state or city chooser. Never name the adopted site anywhere public.",
+  "utility": {
+    "promo": { "text": "ORDER ONLINE WE DELIVER", "cta": "Shop Now", "href": "https://store.thebridgecannabis.com/" },
+    "pickup": { "label": "Pick up at", "value": "The Bridge, Astoria", "href": "/dispensaries/astoria/" },
+    "delivery": { "label": "Want delivery?", "href": "https://store.thebridgecannabis.com/" },
+    "account": { "label": "My account", "href": "https://store.thebridgecannabis.com/" }
+  },
+  "cta": { "label": "Shop Now", "href": "https://store.thebridgecannabis.com/" },
+  "nav": [
+    { "label": "Shop", "href": "/shop/" },
+    {
+      "label": "Explore",
+      "key": "explore",
+      "feature": { "image": "h-mega-explore", "title": "Deals", "href": "/dispensaries/astoria/deals/", "line": "Shop event-day pricing and what's on the menu now" },
+      "mega": [
+        { "group": "Deals", "links": [["/dispensaries/astoria/deals/", "Deals"], ["/events/", "Events"]] },
+        { "group": "Categories", "links": [["/shop/flower/", "Flower"], ["/shop/pre-rolls/", "Pre-Rolls"], ["/shop/vapes/", "Vapes"], ["/shop/edibles/", "Edibles"], ["/shop/concentrates/", "Concentrates"], ["/shop/beverages/", "Beverages"], ["/shop/wellness/", "Wellness"], ["/shop/lifestyle/", "Lifestyle"]] },
+        { "group": "Brands", "links": "brands" },
+        { "group": "Know Your Strain", "links": [["/facts/#sativa", "Sativa"], ["/facts/#indica", "Indica"], ["/facts/#ruderalis", "Ruderalis"]] }
+      ]
+    },
+    { "label": "The List", "href": "/rewards/" },
+    {
+      "label": "Resources",
+      "key": "resources",
+      "feature": { "image": "h-mega-resources", "title": "Know Your Cannabis", "href": "/facts/", "line": "Straight facts. No stigma." },
+      "mega": [
+        { "group": "Guides", "links": [["/facts/", "Know Your Cannabis"], ["/dispensary-guides/", "Dispensary Guide"], ["/getting-a-medical-card/", "Getting a Medical Card"], ["/cannabis-laws-by-state/new-york/", "New York Cannabis Laws"], ["/faq/", "FAQ"]] },
+        { "group": "The Insider", "links": [["/blog/", "Blog"], ["/blog/cannabis-101/", "Cannabis 101"], ["/blog/recipes/", "Recipes"], ["/blog/culture/", "News & Culture"], ["/blog/shopping/", "Shopping"], ["/blog/lifestyle/", "Health & Lifestyle"]] },
+        { "group": "Company", "links": [["/about-us/", "About"], ["/events/", "Events"], ["/media/", "Media"], ["/careers/", "Careers"], ["/contact/", "Contact"]] }
+      ]
+    },
+    {
+      "label": "Astoria",
+      "key": "astoria",
+      "href": "/dispensaries/astoria/",
+      "feature": { "image": "g-elevated", "title": "The Bridge, Astoria", "href": "/dispensaries/astoria/", "line": "25-15 Broadway, Astoria" },
+      "mega": [
+        { "group": "Our shop", "links": [["/dispensaries/astoria/", "The Bridge, Astoria"], ["/dispensaries/astoria/deals/", "Deals"], ["/contact/", "Contact"]] },
+        { "group": "Store hours", "hours": true },
+        { "group": "Find us", "address": true }
+      ]
+    }
+  ],
+  "footer": {
+    "columns": [
+      { "title": "Quick links", "links": [["/", "Home"], ["/shop/", "Shop"], ["/rewards/", "The List"], ["/blog/", "Blog"], ["/dispensaries/astoria/", "Astoria"]] },
+      { "title": "More information", "links": [["/about-us/", "About"], ["/facts/", "Know Your Cannabis"], ["/events/", "Events"], ["/media/", "Media"], ["/contact/", "Contact"], ["/faq/", "FAQ"], ["/getting-a-medical-card/", "Getting a Medical Card"], ["/careers/", "Careers"]] },
+      { "title": "Visit", "contact": true }
+    ],
+    "legal": [["/terms-and-conditions/", "Terms and Conditions"], ["/privacy-policy/", "Privacy Policy"], ["/accessibility-statement/", "Accessibility Statement"], ["/site-map/", "Sitemap"]]
+  },
+  "blogCategories": [
+    { "slug": "cannabis-101", "label": "Cannabis 101" },
+    { "slug": "recipes", "label": "Recipes" },
+    { "slug": "culture", "label": "News & Culture" },
+    { "slug": "shopping", "label": "Shopping" },
+    { "slug": "lifestyle", "label": "Health & Lifestyle" }
+  ],
+  "redirects": {
+    "/home.html": "/",
+    "/about_us.html": "/about-us/",
+    "/facts.html": "/facts/",
+    "/events.html": "/events/",
+    "/media.html": "/media/",
+    "/contact.html": "/contact/",
+    "/shop.html": "/shop/",
+    "/dispensaries/": "/dispensaries/astoria/",
+    "/cannabis-laws-by-state/": "/cannabis-laws-by-state/new-york/"
+  }
+}

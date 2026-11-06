@@ -1,0 +1,443 @@
+{
+ "slug": "events",
+ "path": "/events/",
+ "oldPath": "/events.html",
+ "title": "Events | The Bridge Cannabis Experience — Astoria Queens NYC",
+ "description": "Upcoming events at The Bridge Cannabis Experience in Astoria, Queens — brand pop-ups, meet and greets with Havoc of Mobb Deep, free community classes and more.",
+ "h1": "What's On",
+ "sections": [
+  {
+   "tag": "section",
+   "cls": "hero-events",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "about-tag",
+     "text": "Events · The Bridge",
+     "group": "row"
+    },
+    {
+     "tag": "h1",
+     "cls": "",
+     "text": "What's On",
+     "group": "row",
+     "type": "h1"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Brand pop-ups, meet and greets, and free community sessions. The shop is a space, not just a storefront — come through.",
+     "group": "row"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/the-bridge-logo.png",
+     "alt": "The Bridge - A Cannabis Experience Logo",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "events-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "Upcoming at 25-15 Broadway",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "No events on the calendar right now — but we're always cooking something up."
+    },
+    {
+     "tag": "a",
+     "cls": "event-btn",
+     "text": "Get On The List →",
+     "href": "./contact.html"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/event-havoc-popup-aug-2026-sm.webp",
+     "alt": "Flyer for The Bridge Customer Appreciation Pop-Up with a Meet and Greet with Havoc of Mobb Deep, August 7 and 8 2026",
+     "group": "row",
+     "href": "#"
+    },
+    {
+     "tag": "span",
+     "cls": "event-flyer-zoom",
+     "text": "View Flyer",
+     "group": "row",
+     "href": "#"
+    },
+    {
+     "tag": "div",
+     "cls": "event-tags",
+     "text": "Aug 7 & 8, 2026 Free Entry 21+",
+     "group": "row"
+    },
+    {
+     "tag": "h2",
+     "cls": "event-title",
+     "text": "Customer Appreciation Pop-Up",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "event-standfirst",
+     "text": "Two days, four brands, and a meet and greet with Havoc of Mobb Deep. Meet the people behind the products, ask the questions you actually want answered, and shop event-day pricing.",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-fact",
+     "text": "When Fri 7 Aug & Sat 8 Aug 2026",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-fact",
+     "text": "Where The Bridge · 25-15 Broadway, Astoria",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-day-head",
+     "text": "Day 1 Friday, August 7",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-day-time",
+     "text": "4:00 PM – 9:30 PM",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-day-brands",
+     "text": "Jetty | Kings N Queens",
+     "group": "row"
+    },
+    {
+     "tag": "li",
+     "cls": "",
+     "text": "Meet brand representatives",
+     "group": "row"
+    },
+    {
+     "tag": "li",
+     "cls": "",
+     "text": "Learn about the products you consume",
+     "group": "row"
+    },
+    {
+     "tag": "li",
+     "cls": "",
+     "text": "Exclusive event-day discounts — August 7 only",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-day-head",
+     "text": "Day 2 Saturday, August 8",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-day-time",
+     "text": "12:00 PM – 8:00 PM",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-day-brands",
+     "text": "Ayrloom | Electraleaf",
+     "group": "row"
+    },
+    {
+     "tag": "li",
+     "cls": "",
+     "text": "Meet brand representatives",
+     "group": "row"
+    },
+    {
+     "tag": "li",
+     "cls": "",
+     "text": "Ask questions and connect with the brands",
+     "group": "row"
+    },
+    {
+     "tag": "li",
+     "cls": "",
+     "text": "Giveaways throughout the day",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "event-btn",
+     "text": "Get Directions →",
+     "group": "row",
+     "href": "https://maps.google.com/?q=25-15+Broadway+Astoria+NY+11106"
+    },
+    {
+     "tag": "a",
+     "cls": "event-btn event-btn-ghost",
+     "text": "Shop The Brands →",
+     "group": "row",
+     "href": "https://store.thebridgecannabis.com/"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/event-eaton-pilates-aug-2026-sm.webp",
+     "alt": "Flyer for a free all-levels Mat Pilates class with Nicolette Meunier presented by Eaton Botanicals at The Bridge Dispensary, Sunday August 16 2026",
+     "group": "row",
+     "href": "#"
+    },
+    {
+     "tag": "span",
+     "cls": "event-flyer-zoom",
+     "text": "View Flyer",
+     "group": "row",
+     "href": "#"
+    },
+    {
+     "tag": "div",
+     "cls": "event-tags",
+     "text": "Aug 16, 2026 Free Class All Levels",
+     "group": "row"
+    },
+    {
+     "tag": "h2",
+     "cls": "event-title",
+     "text": "Mat Pilates with Eaton Botanicals",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "event-standfirst",
+     "text": "A free all-levels mat Pilates class led by Nicolette Meunier, hosted inside the shop with Eaton Botanicals. Wellness and cannabis in the same room — bring a mat, bring a friend.",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-fact",
+     "text": "When Sunday, 16 August 2026 · 11:00 AM – 12:00 PM",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-fact",
+     "text": "Where The Bridge · 25-15 Broadway, Astoria",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-fact",
+     "text": "Cost Free — reservation required",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "event-note",
+     "text": "Spaces are limited. Scan the QR code on the flyer to reserve your spot, or get in touch and we'll save you one.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "event-btn",
+     "text": "Reserve Your Spot →",
+     "group": "row",
+     "href": "./contact.html"
+    },
+    {
+     "tag": "a",
+     "cls": "event-btn event-btn-ghost",
+     "text": "Get Directions →",
+     "group": "row",
+     "href": "https://maps.google.com/?q=25-15+Broadway+Astoria+NY+11106"
+    },
+    {
+     "tag": "div",
+     "cls": "section-eyebrow events-past-eyebrow",
+     "text": "Recently At The Bridge",
+     "group": "section-eyebrow"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "press-kit-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "Partner With Us",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "press-kit-title",
+     "text": "Want To Host Something Here?",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "press-kit-text",
+     "text": "We open the floor to brands, artists, wellness practitioners and community groups from the neighbourhood. If you've got an idea that fits, tell us about it.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Get In Touch →",
+     "group": "d-flex",
+     "href": "./contact.html"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "In The Press →",
+     "group": "d-flex",
+     "href": "./media.html"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "bg-gray py-5",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Can't Make It? Shop Anytime.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "font-mono",
+     "text": "Browse our curated collection — flower, edibles, vapes, wellness, and more.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Explore the Shop →",
+     "group": "d-flex",
+     "href": "https://store.thebridgecannabis.com/"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Visit The Shop →",
+     "group": "d-flex",
+     "href": "./contact.html"
+    }
+   ]
+  },
+  {
+   "tag": "div",
+   "cls": "modal fade flyer-modal",
+   "id": "flyerHavoc",
+   "blocks": [
+    {
+     "tag": "h5",
+     "cls": "modal-title",
+     "text": "Customer Appreciation Pop-Up · Aug 7 & 8"
+    },
+    {
+     "tag": "img",
+     "cls": "img-fluid",
+     "src": "./assets/images/event-havoc-popup-aug-2026.webp",
+     "alt": "Full flyer for The Bridge Customer Appreciation Pop-Up with a Meet and Greet with Havoc of Mobb Deep, August 7 and 8 2026"
+    }
+   ]
+  },
+  {
+   "tag": "div",
+   "cls": "modal fade flyer-modal",
+   "id": "flyerPilates",
+   "blocks": [
+    {
+     "tag": "h5",
+     "cls": "modal-title",
+     "text": "Mat Pilates with Eaton Botanicals · Aug 16"
+    },
+    {
+     "tag": "img",
+     "cls": "img-fluid",
+     "src": "./assets/images/event-eaton-pilates-aug-2026.webp",
+     "alt": "Full flyer for a free all-levels Mat Pilates class with Nicolette Meunier presented by Eaton Botanicals at The Bridge Dispensary, Sunday August 16 2026"
+    }
+   ]
+  },
+  {
+   "tag": "div",
+   "cls": "modal fade",
+   "id": "grandOpeningModal",
+   "blocks": [
+    {
+     "tag": "h3",
+     "cls": "modal-title fw-bold text-center w-100",
+     "text": "🎉 GRAND OPENING"
+    },
+    {
+     "tag": "p",
+     "cls": "mb-4 text-center",
+     "text": "Join us for an unforgettable grand opening weekend at THE BRIDGE – A Cannabis Experience"
+    },
+    {
+     "tag": "h5",
+     "cls": "mb-2 fw-bold",
+     "text": "Saturday, June 6 • 11AM – 10PM PT"
+    },
+    {
+     "tag": "p",
+     "cls": "mb-2",
+     "text": "THE BRIDGE – A Cannabis Experience Grand Opening hosted by HAVOC MOBB DEEP"
+    },
+    {
+     "tag": "p",
+     "cls": "small text-secondary",
+     "text": "25-15 Broadway, Astoria, NY 11106"
+    },
+    {
+     "tag": "a",
+     "cls": "btn w-100 fw-bold",
+     "text": "RSVP FOR JUNE 6",
+     "href": "https://partiful.com/e/cPYf9sol9OfywZeZfbWM"
+    },
+    {
+     "tag": "h5",
+     "cls": "mb-2 fw-bold",
+     "text": "Sunday, June 7 • 11:00am – 8:00pm ET"
+    },
+    {
+     "tag": "p",
+     "cls": "mb-2",
+     "text": "Grand Opening of THE BRIDGE Hosted By HAVOC MOBB DEEP"
+    },
+    {
+     "tag": "p",
+     "cls": "small text-secondary",
+     "text": "THE BRIDGE – A Cannabis Experience 25-15 Broadway, Astoria, NY 11106"
+    },
+    {
+     "tag": "a",
+     "cls": "btn w-100 fw-bold",
+     "text": "RSVP FOR JUNE 7",
+     "href": "https://partiful.com/e/jTfphCGuwX976V3DhlpZ"
+    }
+   ],
+   "movedFrom": "home popup"
+  }
+ ]
+}

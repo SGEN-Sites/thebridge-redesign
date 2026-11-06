@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-girders",
+ "file": "assets/generated/g-girders.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Looking straight up from below at the underside of a massive old riveted steel truss: heavy black beams and lattice girders crossing overhead in strong perspective, rows of rivets glinting where the hard orange light catches them from the upper left, a thin haze hanging between the beams, most of the steel lost in black shadow. No stencilled numbers, no signs., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 3509735377,
+ "requestId": "01a1b237-3512-73c3-8469-7018a9248063",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "3a9524b6e60460ee86a1e974b1b87b496187138fd8f45cb8ad6e10698b0da389",
+ "retouch": "Stray flecks that formed a pseudo number painted out, retinted.",
+ "alt": "Riveted steel girders seen from below in one hard orange light and haze",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

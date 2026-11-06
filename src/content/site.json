@@ -1,0 +1,97 @@
+{
+  "_note": "The Bridge's own facts, typed from crawl/bridge/*.html (captured 2026-11-07). Dash punctuation is normalised at load by src/lib/punct.mjs. Category store links marked storeLinkNote were corrected from an obvious source mismatch: see docs/OPEN-DECISIONS.md.",
+  "name": "The Bridge",
+  "fullName": "The Bridge Cannabis Experience",
+  "tagline": "A Cannabis Experience",
+  "origin": "https://www.thebridgecannabis.com",
+  "store": "https://store.thebridgecannabis.com/",
+  "ageKey": "thebridge-age-ok",
+  "address": {
+    "street": "25-15 Broadway Ave",
+    "streetShort": "25-15 Broadway",
+    "city": "Astoria",
+    "borough": "Queens",
+    "state": "NY",
+    "zip": "11106",
+    "oneLine": "25-15 Broadway Ave, Astoria, Queens, NY 11106",
+    "short": "25-15 Broadway, Astoria"
+  },
+  "phone": { "display": "917-832-7420", "tel": "tel:+19178327420" },
+  "geo": { "lat": 40.76325, "lng": -73.92775 },
+  "map": {
+    "embed": "https://www.openstreetmap.org/export/embed.html?bbox=-73.93975,40.75525,-73.91575,40.77125&layer=mapnik&marker=40.76325,-73.92775",
+    "larger": "https://www.openstreetmap.org/?mlat=40.76325&mlon=-73.92775#map=16/40.76325/-73.92775",
+    "directions": "https://maps.google.com/?q=25-15+Broadway+Astoria+NY+11106"
+  },
+  "hours": [
+    { "days": "Mon – Thu", "time": "10 AM – 10 PM" },
+    { "days": "Fri – Sat", "time": "10 AM – 11 PM" },
+    { "days": "Sun", "time": "11 AM – 9 PM" }
+  ],
+  "hoursNote": "Hours may vary on holidays",
+  "social": {
+    "facebook": "https://facebook.com/THEBRIDGECANNABISNY",
+    "tiktok": "https://tiktok.com/THEBRIDGECANNABISNY",
+    "instagram": "https://www.instagram.com/thebridgecannabisny"
+  },
+  "ndica": { "name": "NDICA", "url": "https://www.thendica.org/", "logo": "ndica.png" },
+  "disclaimer": "Products on this site are intended for adults 21 years of age and older. Use responsibly and in accordance with applicable laws in your jurisdiction. These statements have not been evaluated by the FDA.",
+  "marquee": ["CULTURE", "CANNABIS", "CONNECTED", "SOCIAL EQUITY", "PREMIUM EXPERIENCE"],
+  "ageGate": {
+    "title": "Age Verification",
+    "text": "You must be 21 or older to enter this website.",
+    "yes": "I'm 21 or older",
+    "no": "I'm Under 21",
+    "blockedTitle": "Access Restricted",
+    "blockedText": "You're not old enough to visit THE BRIDGE - A Cannabis Experience. Please come back when you're 21.",
+    "blockedHint": "If you've made a mistake reload the page"
+  },
+  "categories": [
+    { "slug": "flower", "label": "Flower", "text": "Premium cannabis flower — hand-selected strains for every experience.", "store": "https://store.thebridgecannabis.com/collection/flower", "photo": "category-flower.webp" },
+    { "slug": "pre-rolls", "label": "Pre-Rolls", "text": "Ready-to-enjoy pre-rolled joints and blunts.", "store": "https://store.thebridgecannabis.com/collection/preroll", "photo": "category-prerolls.webp" },
+    { "slug": "vapes", "label": "Vapes", "text": "Cartridges, disposables, and vaporizer accessories.", "store": "https://store.thebridgecannabis.com/collection/cartridge", "photo": "category-vapes.webp" },
+    { "slug": "edibles", "label": "Edibles", "text": "Gummies, chocolates, baked goods, and other infused treats.", "store": "https://store.thebridgecannabis.com/collection/edible", "gen": "g-cat-edibles" },
+    { "slug": "concentrates", "label": "Concentrates", "text": "Wax, shatter, live resin, rosin, and cannabis concentrates.", "store": "https://store.thebridgecannabis.com/shop", "gen": "g-cat-concentrates" },
+    { "slug": "beverages", "label": "Beverages", "text": "Cannabis-infused drinks — seltzers, tonics, teas, and more.", "store": "https://store.thebridgecannabis.com/collection/beverage", "photo": "category-drinks.webp" },
+    { "slug": "wellness", "label": "Wellness", "text": "Tinctures, topicals, CBD products, and therapeutic options.", "store": "https://store.thebridgecannabis.com/collection/topical", "photo": "category-wellness.webp", "storeLinkNote": "source linked this to the beverage and edible collections" },
+    { "slug": "lifestyle", "label": "Lifestyle", "text": "Glassware, merch, accessories, and culture essentials.", "store": "https://store.thebridgecannabis.com/shop", "photo": "category-lifestyle.webp", "storeLinkNote": "source shop page linked this to the topical collection" }
+  ],
+  "products": [
+    { "id": "pro1", "title": "DOOBIE LABS | Blue Dream | Flower", "brand": "Doobie Labs", "tag": "Sativa", "price": "$42.00", "cat": "flower", "cut": "pro1.webp", "url": "https://store.thebridgecannabis.com/product/doobie-bros-doobie-labs-blue-dream-flower-3-5-g-flower-3-5-grams" },
+    { "id": "pro2", "title": "Spacebuds | Strawberry Slushie | Moonrocks | 4g", "brand": "Spacebuds", "tag": "Flower", "price": "$48.00", "cat": "flower", "cut": "pro2.webp", "url": "https://store.thebridgecannabis.com/product/space-buds-spacebuds-strawberry-slushie-moonrocks-4g-4-g-flower-4-grams" },
+    { "id": "pro3", "title": "Jetty | Fat Caddy | AIO Mini Tank", "brand": "Jetty", "tag": "Hybrid", "price": "$70.00", "cat": "vapes", "cut": "pro3.webp", "url": "https://store.thebridgecannabis.com/product/jetty-jetty-fat-caddy-aio-mini-tank-1-g-cartridge-1-grams" },
+    { "id": "pro4", "title": "Cannabals - Liquid Diamond Vape - Maui Wowie - 2g", "brand": "Cannabals", "tag": "S/I", "price": "$64.00", "cat": "vapes", "cut": "pro4.webp", "url": "https://store.thebridgecannabis.com/product/cannabals-cannabals-maui-wowie-liquid-diamond-aio-2-g-cartridge-2-grams" },
+    { "id": "pro5", "title": "Kingsroad - 0.5g Infused Pre-Roll - 2pk - Live Resin - Skywalker Cookie Dog x Lemon Cherry Gelato", "brand": "Kingsroad", "tag": "Preroll", "price": "$12.00", "cat": "pre-rolls", "cut": "pro5.webp", "url": "https://store.thebridgecannabis.com/product/kingsroad-kingsroad-0-5g-infused-pre-roll-2pk-live-resin-skywalker-cookie-dog-x-lemon-cherry-gelato-1-g-preroll-1-grams" },
+    { "id": "pro6", "title": "MFNY | Badder | Strawpaya", "brand": "MFNY", "tag": "Hybrid", "price": "$44.00", "cat": "concentrates", "cut": "pro6.webp", "url": "https://store.thebridgecannabis.com/product/mfny-mfny-badder-strawpaya-1-g-extract-1-grams" },
+    { "id": "pro7", "title": "Preferred Gardens | RED HOTZ | Flower | 3.5g", "brand": "Preferred Gardens", "tag": "Flower", "price": "$36.00", "cat": "flower", "cut": "pro7.webp", "url": "https://store.thebridgecannabis.com/product/preferred-gardens-preferred-gardens-red-hotz-flower-3-5-g-flower-3-5-grams" },
+    { "id": "pro8", "title": "Continental Exotics | Lemon Cherry Gelato | AIO", "brand": "Continental Exotics", "tag": "Cartridge", "price": "$56.00", "cat": "vapes", "cut": "pro8.webp", "url": "https://store.thebridgecannabis.com/product/continental-exotics-continental-exotics-lemon-cherry-gelato-aio-2-g-cartridge-2-grams" }
+  ],
+  "brands": [
+    { "name": "Doobie Labs", "url": "https://store.thebridgecannabis.com/product/doobie-bros-doobie-labs-blue-dream-flower-3-5-g-flower-3-5-grams" },
+    { "name": "Spacebuds", "url": "https://store.thebridgecannabis.com/product/space-buds-spacebuds-strawberry-slushie-moonrocks-4g-4-g-flower-4-grams" },
+    { "name": "Jetty", "url": "https://store.thebridgecannabis.com/product/jetty-jetty-fat-caddy-aio-mini-tank-1-g-cartridge-1-grams" },
+    { "name": "Cannabals", "url": "https://store.thebridgecannabis.com/product/cannabals-cannabals-maui-wowie-liquid-diamond-aio-2-g-cartridge-2-grams" },
+    { "name": "Kingsroad", "url": "https://store.thebridgecannabis.com/product/kingsroad-kingsroad-0-5g-infused-pre-roll-2pk-live-resin-skywalker-cookie-dog-x-lemon-cherry-gelato-1-g-preroll-1-grams" },
+    { "name": "MFNY", "url": "https://store.thebridgecannabis.com/product/mfny-mfny-badder-strawpaya-1-g-extract-1-grams" },
+    { "name": "Preferred Gardens", "url": "https://store.thebridgecannabis.com/product/preferred-gardens-preferred-gardens-red-hotz-flower-3-5-g-flower-3-5-grams" },
+    { "name": "Continental Exotics", "url": "https://store.thebridgecannabis.com/product/continental-exotics-continental-exotics-lemon-cherry-gelato-aio-2-g-cartridge-2-grams" },
+    { "name": "Kings N Queens", "url": "https://store.thebridgecannabis.com/" },
+    { "name": "Ayrloom", "url": "https://store.thebridgecannabis.com/" },
+    { "name": "Electraleaf", "url": "https://store.thebridgecannabis.com/" },
+    { "name": "Eaton Botanicals", "url": "https://store.thebridgecannabis.com/" }
+  ],
+  "videos": [
+    { "id": "hvM5qzi_-_8", "title": "Nas and Havoc share evolution of their ingenuity + future moves | The Infamous Hour on Shade 45" },
+    { "id": "WBe2eWKEshU", "title": "Alchemist and Havoc talk Mobb ties and family matters | The Infamous Hour on Shade 45" },
+    { "id": "AWuVBdlLMZE", "title": "Mobb Deep Infinite album release party highlights" },
+    { "id": "3Yw8iDJG_xI", "title": "Rome Streetz freestyles, talks Nas meeting & career spark | The Infamous Hour on Shade 45" },
+    { "id": "0XM0N3tussI", "title": "What's a Classic?? Stuck Off the Realness Ep 5" },
+    { "id": "Tk-YlXPKY4M", "title": "Sports & Hip Hop w/ Metta World Peace | Stuck Off the Realness Ep.6" },
+    { "id": "aJte6rCkBs0", "title": "Celebrating Independent Artists | Stuck Off the Realness Ep.3" }
+  ],
+  "strains": [
+    { "slug": "sativa", "label": "Sativa", "line": "Uplifting. Creative. Built for Daylight.", "photo": "sativa-plant.webp" },
+    { "slug": "indica", "label": "Indica", "line": "Calming. Physical. Made for the End of the Day.", "photo": "indica-bud.webp" },
+    { "slug": "ruderalis", "label": "Ruderalis", "line": "The Auto-Flowering Wild Card.", "gen": "g-leaf-cut" }
+  ]
+}

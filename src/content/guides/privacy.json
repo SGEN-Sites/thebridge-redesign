@@ -1,0 +1,21 @@
+{
+  "slug": "privacy",
+  "path": "/privacy-policy/",
+  "title": "Privacy Policy | The Bridge",
+  "description": "Draft privacy policy page for The Bridge Cannabis Experience. Final text comes from The Bridge's counsel before launch.",
+  "h1": "Privacy Policy",
+  "kicker": "Legal",
+  "lede": "This page holds the place for the final policy. Here is what it will cover.",
+  "image": "g-papers-law",
+  "draftNote": "Draft for this preview. The Bridge's counsel supplies the final text before launch.",
+  "sections": [
+    {
+      "heading": "What the final policy will cover",
+      "html": "<ul>\n<li>What information is collected through this site and the online store</li>\n<li>How that information is used, and who it is shared with</li>\n<li>How long it is kept</li>\n<li>The choices you have about your information</li>\n<li>Who to ask about any of it</li>\n</ul>"
+    },
+    {
+      "heading": "Questions",
+      "html": "<p>Reach out through the <a href=\"/contact/\">contact page</a>.</p>"
+    }
+  ]
+}

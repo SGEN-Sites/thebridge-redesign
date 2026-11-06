@@ -1,0 +1,770 @@
+{
+ "slug": "facts",
+ "path": "/facts/",
+ "oldPath": "/facts.html",
+ "title": "Facts: The Bridge - A Cannabis Experience",
+ "description": "The Bridge Cannabis Experience is a premium cannabis dispensary in Astoria Queens NYC offering flower, vapes, edibles, concentrates, delivery, and curated cannabis products powered by culture, community, and social equity.",
+ "h1": "Know Your Cannabis",
+ "sections": [
+  {
+   "tag": "section",
+   "cls": "hero-facts",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "about-tag",
+     "text": "Education · The Bridge",
+     "group": "row"
+    },
+    {
+     "tag": "h1",
+     "cls": "",
+     "text": "Know Your Cannabis",
+     "group": "row",
+     "type": "h1"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Straight facts. No stigma. Everything you should know about the plant before you shop.",
+     "group": "row"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/the-bridge-logo.png",
+     "alt": "The Bridge - A Cannabis Experience Logo",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "The Word Matters",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "It Was Never \"Marijuana.\"",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "The term \"marijuana\" was a political invention. When Mexican immigration increased after the 1910 Revolution, prohibitionists weaponized the foreign-sounding word to stoke fear — despite the fact that the plant was identical to the cannabis already listed in the United States Pharmacopeia and used in American medicine for decades.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "The science didn't change. The language did. We use cannabis. That's what it is.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "line-txt",
+     "text": "The \"marihuana\" used by immigrants was the same plant already listed in the U.S. Pharmacopeia for its medicinal properties.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h5",
+     "cls": "top-line",
+     "text": "The Science Is Clear"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "Less harmful than alcohol. Less harmful than tobacco. The evidence has been there for decades."
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "myth-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h2",
+     "cls": "myth-title",
+     "text": "MYTH VS. FACT",
+     "group": "myth-section"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Myth: Cannabis is a dangerous drug.",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "Research consistently shows cannabis is less harmful than alcohol and tobacco — and significantly less harmful than cocaine or heroin. The danger narrative was built on prohibition-era propaganda, not science.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Myth: Cannabis is a gateway drug.",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "The data says the opposite. A Columbia Care clinical trial found 82% of participants using opioids either stabilized, reduced, or stopped their use entirely when using cannabis. The NIH has funded further research at Columbia University and the New York Psychiatric Institute.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Myth: Cannabis users are unproductive.",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "Paul McCartney. John Lennon. George Harrison. Ringo Starr. Willie Nelson. Snoop Dogg. Martha Stewart. Bob Marley. Richard Branson. Carl Sagan. Sanjay Gupta, M.D. The list speaks for itself.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Myth: Cannabis causes addiction.",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "An NIH study found 91% of cannabis users remain non-dependent. For context: 85% of cocaine users are non-dependent, and 70% for heroin. Cannabis dependency exists — but it is far less common than for most legal and illegal substances.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Myth: Edibles hit harder on an empty stomach.",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "Counterintuitively, an empty stomach can mean minimal effects or GI discomfort. Eat something first — a small meal or snack promotes steady, consistent absorption.",
+     "group": "accordion-body"
+    },
+    {
+     "tag": "button",
+     "cls": "accordion-button collapsed",
+     "text": "Myth: Only humans have an endocannabinoid system.",
+     "group": "accordion-button"
+    },
+    {
+     "tag": "div",
+     "cls": "accordion-body",
+     "text": "Endocannabinoid systems have been found in mammals, birds, reptiles, and fish. Cannabis has been part of veterinary medicine for a long time — ancient Greeks used it to treat horses for colic, inflammation, and battle wounds.",
+     "group": "accordion-body"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "Know Your Strain",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "The Three Types of Cannabis",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "All cannabis originates in Asia — Indica evolved on the Indian subcontinent, Sativa developed closer to the equator. Today, most commercial strains are hybrids. But understanding the three base types helps you shop with intention.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "approach-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "span",
+     "cls": "section-eyebrow",
+     "text": "Sativa",
+     "group": "row"
+    },
+    {
+     "tag": "h2",
+     "cls": "approach-title",
+     "text": "Uplifting. Creative. Built for Daylight.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Sativa strains originated closer to the equator — tall plants (up to 18ft), narrow leaves, bright green, with fewer but more spread-out flowers. On the outside, they look airy. Inside, they hit different.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Effects: Uplifting, energising, cerebral. Increased creativity, focus, and sociability. Most users feel alert and motivated.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Best For: Daytime use, creative work, social events, combating fatigue or low mood.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Medical Use: Mood disorders including depression, energy support, certain types of chronic pain.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "line-txt",
+     "text": "Sativa is the strain for the productive hours — the creative session, the social night, the morning hike.",
+     "group": "row"
+    },
+    {
+     "tag": "img",
+     "cls": "img-fluid",
+     "src": "./assets/images/sativa-plant.webp",
+     "alt": "Bridge history",
+     "group": "row"
+    },
+    {
+     "tag": "span",
+     "cls": "image-caption text-center",
+     "text": "Premium sativa flower with a bright, uplifting profile.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "img",
+     "cls": "img-fluid",
+     "src": "./assets/images/indica-bud.webp",
+     "alt": "Studio Session",
+     "group": "row"
+    },
+    {
+     "tag": "span",
+     "cls": "image-caption text-center",
+     "text": "Premium sativa flower with a bright, uplifting profile.",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "Indica",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "Calming. Physical. Made for the End of the Day.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text mid-txt",
+     "text": "Indica evolved on the Indian subcontinent — shorter (2–4ft), bushier, with broad overlapping leaves and a deep green colour. Indica plants produce dense flowers and flower faster than Sativa.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Effects: Relaxing, sedative, body-focused. Promotes calm. Often used to help with sleep or physical discomfort.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Best For: Evening or nighttime use, unwinding, pain relief, insomnia.",
+     "group": "row"
+    },
+    {
+     "tag": "b",
+     "cls": "",
+     "text": "Medical Use:",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Anxiety, insomnia, muscle spasms, chronic pain.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "line-txt",
+     "text": "Indica is the strain for the end of a long day — the recovery, the rest, the reset.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "Ruderalis",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "The Auto-Flowering Wild Card.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Ruderalis is the wild card of the cannabis family. Low in THC, rarely used for recreational or medicinal purposes on its own — but breeders love it. Its unique ability to flower based on age rather than light cycle (called \"auto-flowering\") makes it a crucial breeding partner for hybrid strains that are easier to grow and faster to harvest.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "On its own: minimal psychoactive effect, limited medicinal use. Crossed with Sativa or Indica: the foundation of many modern auto-flowering hybrids with targeted therapeutic profiles.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "pb-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "pb-eyebrow",
+     "text": "What It May Help With",
+     "group": "pb-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "pb-title",
+     "text": "POTENTIAL BENEFITS"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-subtitle",
+     "text": "Research is ongoing. The following conditions have shown positive outcomes in studies involving cannabis — this is not medical advice."
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "👁️",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Glaucoma",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "May decrease intraocular pressure, providing relief for glaucoma sufferers.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🧠",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Anxiety",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "A Harvard study found cannabis use can decrease anxiety levels in many patients.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🛡️",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "PTSD",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "Preliminary research suggests cannabis may reduce flashbacks, improve sleep, and ease agitation in PTSD patients.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🔧",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Arthritis",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "Patients reported reduced pain and improved sleep using cannabis-based medicines.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🫁",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Asthma",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "A 20-year study found moderate cannabis use improved pulmonary function in asthma sufferers.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "💊",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Chronic Pain",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "A 2020 European Journal of Pain study found 3–4 daily inhalations of up to 500mcg THC provided measurable pain relief.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "⚡",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Neurological",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "Cannabis binds with CB1 receptors and may offer protective effects on the nervous system and against cardiac damage.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🤲",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Parkinson's",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "An Israeli study found patients experienced reduced tremor and pain, and improved sleep quality.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🍺",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Addiction Support",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "May reduce tobacco use, alcohol consumption, and the reward-phase intensity of opioid dependence, while easing withdrawal.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "This content is for educational purposes only. Cannabis is not approved by the FDA to treat, cure, or prevent any disease. Consult a healthcare provider before using cannabis for medical purposes."
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Know the Risks",
+     "href": "#"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "pb-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h2",
+     "cls": "pb-title",
+     "text": "Potential Side Effects"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-subtitle",
+     "text": "Most adverse effects are dose-related and temporary. CBD may lessen the duration and intensity of THC-related side effects."
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "⚠",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Paranoia",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "Typically dose-related. Small doses carry minimal risk; risk increases significantly with higher doses.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🧠",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Anxiety",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "Triggered by CB1 receptor interaction. Small doses can relax; higher doses may increase anxiety. Strain choice and dosage both matter.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "💧",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Dry Mouth",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "Certain endocannabinoids and terpenes temporarily halt saliva production. Staying hydrated helps.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🍽",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Increased Appetite",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "THC and related compounds including 11-hydroxy-THC can trigger hunger. Not always unwanted — plan accordingly.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "span",
+     "cls": "pb-card-icon",
+     "text": "🫁",
+     "group": "pb-card-top"
+    },
+    {
+     "tag": "div",
+     "cls": "pb-card-title",
+     "text": "Respiratory",
+     "group": "pb-card-title"
+    },
+    {
+     "tag": "p",
+     "cls": "pb-card-text",
+     "text": "Long-term chronic smoking is linked to increased phlegm production. Effects typically reverse with cessation. Vaping or edibles are alternatives.",
+     "group": "pb-card"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "This content is for educational purposes only. Cannabis is not approved by the FDA to treat, cure, or prevent any disease. Consult a healthcare provider before using cannabis for medical purposes."
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Know the Risks",
+     "href": "#"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "How It Works",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "story-title",
+     "text": "Your Body Already Has a Cannabis System.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "The endocannabinoid system (ECS) is a naturally occurring neural network that helps your body maintain homeostasis — the internal balance that keeps everything running properly. Discovered in the 1990s, it's fundamental to how the body regulates mood, appetite, sleep, pain, and immune response.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Receptors. CB1 receptors are concentrated in the brain and nervous system — they're responsible for cannabis's psychoactive effects. CB2 receptors are expressed in immune cells and help regulate inflammation and immune function. Both serve as docking points for endocannabinoids.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Endocannabinoids. Your body produces its own: anandamide (influencing pleasure, motivation, and sleep) and 2-AG (abundant in the brain). Cannabis introduces plant-based cannabinoids that interact with these same receptors.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Enzymes. These regulate how long endocannabinoids stay active. CBD can modulate cytochrome P450 enzyme activity — which is why it's important to disclose cannabis use to your doctor if you take other medications.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "story-text",
+     "text": "Beyond CB1 and CB2, researchers have identified additional receptors: TRPV1 (pain transmission), GPR55 (energy and metabolic regulation), GPR18 (intraocular pressure), GPR30 (estrogen response), and GPR119 (appetite regulation).",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "line-txt",
+     "text": "The ECS exists in mammals, birds, reptiles, and fish. You're not introducing a foreign substance — you're activating a system your body already has.",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "bg-gray py-5",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Now You Know. Let's Shop.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "font-mono",
+     "text": "Browse our curated collection — flower, edibles, vapes, wellness, and more.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Explore the Shop →",
+     "group": "d-flex",
+     "href": "https://store.thebridgecannabis.com/"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "About The Bridge →",
+     "group": "d-flex",
+     "href": "./about_us.html"
+    }
+   ]
+  }
+ ]
+}

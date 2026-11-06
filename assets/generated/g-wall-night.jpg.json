@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-wall-night",
+ "file": "assets/generated/g-wall-night.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. An extreme close view of a raw board-formed black concrete wall filling the entire frame, seen straight on. A narrow pool of hard orange light grazes across the surface from the upper left at a very low angle, so every pit, crack and rough grain throws a long tiny shadow, and beyond the pool the wall falls off into pure black. The concrete keeps barely visible worn ghost layers of very old spray paint, thin faded dull orange and dark cobalt fog worn into the pores, shapeless and illegible, no big painted shapes, no letterforms, no tags., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 2525730684,
+ "requestId": "01a1b23a-78fb-7b33-a2f9-6966a16fc54c",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "5d0748e2bde61baefda2fcd328ed9bac044821950300156c610ea454f96e140d",
+ "retouch": "Blacks crushed, pavement faded to black, retinted, faded ghost layers from the paint kit added where the light falls.",
+ "alt": "Dark wall with faded spray paint in one hard shaft of orange light",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

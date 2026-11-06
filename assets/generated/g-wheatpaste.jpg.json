@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-wheatpaste",
+ "file": "assets/generated/g-wheatpaste.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. An extreme close view of an old brick wall completely covered in a thick crust of torn wheat-pasted paper, decades of bill posting ripped back again and again: ragged strips, curling peeled layers and pale torn paper fibres. All of the paper is bare and blank, dirty off white and grey, with no print, no image and no ink on any layer. Patches of dark brick show through. The hard orange light rakes across the torn edges from the upper left, and the right and lower parts of the wall drop into black shadow. No lamp, no pipe, no cloth, no string., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 2179994866,
+ "requestId": "01a1b23a-78f1-76b1-b304-15ddfdc1579b",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "45c505a256bf644324218fe5e9b1fdb2cc0ba39c5ef7ac2617b688776640669d",
+ "retouch": "Retinted, one light pool from the upper left.",
+ "alt": "Torn blank wheat-pasted posters on a dark brick wall in one hard light",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

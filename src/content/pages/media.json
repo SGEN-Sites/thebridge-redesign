@@ -1,0 +1,379 @@
+{
+ "slug": "media",
+ "path": "/media/",
+ "oldPath": "/media.html",
+ "title": "Press & Media | The Bridge Cannabis Experience — Astoria Queens NYC",
+ "description": "Press coverage of The Bridge Cannabis Experience in Astoria, Queens. Featured in High Times, QNS, Bushwick Daily, Honeysuckle, Hoodline and stupidDOPE.",
+ "h1": "In The Press",
+ "sections": [
+  {
+   "tag": "section",
+   "cls": "hero-media",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "about-tag",
+     "text": "Press · The Bridge",
+     "group": "row"
+    },
+    {
+     "tag": "h1",
+     "cls": "",
+     "text": "In The Press",
+     "group": "row",
+     "type": "h1"
+    },
+    {
+     "tag": "p",
+     "cls": "",
+     "text": "From Queensbridge to Broadway. Here's how the story has been told — by the outlets that cover cannabis, culture and Queens.",
+     "group": "row"
+    },
+    {
+     "tag": "img",
+     "cls": "",
+     "src": "./assets/images/the-bridge-logo.png",
+     "alt": "The Bridge - A Cannabis Experience Logo",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "press-strip",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "press-stat-num",
+     "text": "06",
+     "group": "press-stat-num"
+    },
+    {
+     "tag": "div",
+     "cls": "press-stat-label",
+     "text": "Features",
+     "group": "press-stat-label"
+    },
+    {
+     "tag": "div",
+     "cls": "press-stat-num",
+     "text": "06",
+     "group": "press-stat-num"
+    },
+    {
+     "tag": "div",
+     "cls": "press-stat-label",
+     "text": "Outlets",
+     "group": "press-stat-label"
+    },
+    {
+     "tag": "div",
+     "cls": "press-stat-num",
+     "text": "NY",
+     "group": "press-stat-num"
+    },
+    {
+     "tag": "div",
+     "cls": "press-stat-label",
+     "text": "National & Local",
+     "group": "press-stat-label"
+    },
+    {
+     "tag": "div",
+     "cls": "press-stat-num",
+     "text": "2026",
+     "group": "press-stat-num"
+    },
+    {
+     "tag": "div",
+     "cls": "press-stat-label",
+     "text": "Since Launch",
+     "group": "press-stat-label"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "story-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "Featured Coverage",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "div",
+     "cls": "press-meta",
+     "text": "QNS • June 8, 2026",
+     "href": "https://qns.com/2026/06/havoc-cannabis-dispensary-astoria/",
+     "group": "row"
+    },
+    {
+     "tag": "h2",
+     "cls": "press-featured-title",
+     "text": "Queensbridge rapper Havoc opens new cannabis dispensary in Astoria",
+     "href": "https://qns.com/2026/06/havoc-cannabis-dispensary-astoria/",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "press-featured-text",
+     "text": "QNS covers the grand opening of The Bridge at 25-15 Broadway in Astoria, including Havoc's journey to opening day and the role of community, ownership and the NDICA partnership behind the new dispensary.",
+     "href": "https://qns.com/2026/06/havoc-cannabis-dispensary-astoria/",
+     "group": "row"
+    },
+    {
+     "tag": "div",
+     "cls": "col-lg-4 text-lg-end",
+     "text": "Read the story →",
+     "href": "https://qns.com/2026/06/havoc-cannabis-dispensary-astoria/",
+     "group": "row"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "press-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "All Coverage",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "div",
+     "cls": "press-index",
+     "text": "02",
+     "href": "https://hightimes.com/dispensaries/mobb-deep-havoc-the-bridge-dispensary-queens/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-meta",
+     "text": "High Times • June 5, 2026",
+     "href": "https://hightimes.com/dispensaries/mobb-deep-havoc-the-bridge-dispensary-queens/"
+    },
+    {
+     "tag": "h3",
+     "cls": "press-title",
+     "text": "Mobb Deep's Havoc Is Opening A Dispensary In Queens. The Alchemist, Funk Flex And Kid Capri Are Coming Through.",
+     "href": "https://hightimes.com/dispensaries/mobb-deep-havoc-the-bridge-dispensary-queens/"
+    },
+    {
+     "tag": "p",
+     "cls": "press-text",
+     "text": "High Times covers the launch of The Bridge at 25-15 Broadway and draws the distinction that matters: Havoc isn't lending his name to a strain, he's an owner investing in the borough that raised him.",
+     "href": "https://hightimes.com/dispensaries/mobb-deep-havoc-the-bridge-dispensary-queens/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-arrow",
+     "text": "→",
+     "href": "https://hightimes.com/dispensaries/mobb-deep-havoc-the-bridge-dispensary-queens/",
+     "group": "press-arrow"
+    },
+    {
+     "tag": "div",
+     "cls": "press-index",
+     "text": "03",
+     "href": "https://bushwickdaily.com/news/mobb-deeps-havoc-used-to-run-from-cops-over-weed-now-he-legally-sells-it-in-astoria/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-meta",
+     "text": "Bushwick Daily • June 8, 2026",
+     "href": "https://bushwickdaily.com/news/mobb-deeps-havoc-used-to-run-from-cops-over-weed-now-he-legally-sells-it-in-astoria/"
+    },
+    {
+     "tag": "h3",
+     "cls": "press-title",
+     "text": "Mobb Deep's Havoc used to run from cops over weed, now he legally sells it in Astoria",
+     "href": "https://bushwickdaily.com/news/mobb-deeps-havoc-used-to-run-from-cops-over-weed-now-he-legally-sells-it-in-astoria/"
+    },
+    {
+     "tag": "p",
+     "cls": "press-text",
+     "text": "A look at the full-circle moment, set against New York's equity-led market and the convictions the 2021 law was written to unwind.",
+     "href": "https://bushwickdaily.com/news/mobb-deeps-havoc-used-to-run-from-cops-over-weed-now-he-legally-sells-it-in-astoria/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-arrow",
+     "text": "→",
+     "href": "https://bushwickdaily.com/news/mobb-deeps-havoc-used-to-run-from-cops-over-weed-now-he-legally-sells-it-in-astoria/",
+     "group": "press-arrow"
+    },
+    {
+     "tag": "div",
+     "cls": "press-index",
+     "text": "04",
+     "href": "https://honeysucklemag.com/havoc-opens-the-bridge-dispensary-in-queens-with-the-alchemist-funk-flex-and-kid-capri/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-meta",
+     "text": "Honeysuckle Magazine • June 5, 2026",
+     "href": "https://honeysucklemag.com/havoc-opens-the-bridge-dispensary-in-queens-with-the-alchemist-funk-flex-and-kid-capri/"
+    },
+    {
+     "tag": "h3",
+     "cls": "press-title",
+     "text": "Havoc Opens The Bridge Dispensary in Queens With The Alchemist, Funk Flex, and Kid Capri",
+     "href": "https://honeysucklemag.com/havoc-opens-the-bridge-dispensary-in-queens-with-the-alchemist-funk-flex-and-kid-capri/"
+    },
+    {
+     "tag": "p",
+     "cls": "press-text",
+     "text": "Thirty years of New York hip-hop credited as the foundation for a new chapter — cultural influence turned into ownership, community investment and a curated retail experience.",
+     "href": "https://honeysucklemag.com/havoc-opens-the-bridge-dispensary-in-queens-with-the-alchemist-funk-flex-and-kid-capri/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-arrow",
+     "text": "→",
+     "href": "https://honeysucklemag.com/havoc-opens-the-bridge-dispensary-in-queens-with-the-alchemist-funk-flex-and-kid-capri/",
+     "group": "press-arrow"
+    },
+    {
+     "tag": "div",
+     "cls": "press-index",
+     "text": "05",
+     "href": "https://hoodline.com/2026/06/queensbridge-legend-havoc-lights-up-astoria-with-new-weed-shop/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-meta",
+     "text": "Hoodline • June 2026",
+     "href": "https://hoodline.com/2026/06/queensbridge-legend-havoc-lights-up-astoria-with-new-weed-shop/"
+    },
+    {
+     "tag": "h3",
+     "cls": "press-title",
+     "text": "Havoc Opens The Bridge Dispensary In Astoria",
+     "href": "https://hoodline.com/2026/06/queensbridge-legend-havoc-lights-up-astoria-with-new-weed-shop/"
+    },
+    {
+     "tag": "p",
+     "cls": "press-text",
+     "text": "A neighbourhood-level read on the launch weekend — the music-driven opening on Broadway, the NDICA partnership, and what it means for longtime Astoria locals.",
+     "href": "https://hoodline.com/2026/06/queensbridge-legend-havoc-lights-up-astoria-with-new-weed-shop/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-arrow",
+     "text": "→",
+     "href": "https://hoodline.com/2026/06/queensbridge-legend-havoc-lights-up-astoria-with-new-weed-shop/",
+     "group": "press-arrow"
+    },
+    {
+     "tag": "div",
+     "cls": "press-index",
+     "text": "06",
+     "href": "https://stupiddope.com/2026/06/havoc-brings-hip-hop-cannabis-and-community-together-at-the-bridge-dispensary-grand-opening-in-queens/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-meta",
+     "text": "stupidDOPE • June 6, 2026",
+     "href": "https://stupiddope.com/2026/06/havoc-brings-hip-hop-cannabis-and-community-together-at-the-bridge-dispensary-grand-opening-in-queens/"
+    },
+    {
+     "tag": "h3",
+     "cls": "press-title",
+     "text": "Havoc Brings Hip-Hop, Cannabis, and Community Together at The Bridge Dispensary Grand Opening in Queens",
+     "href": "https://stupiddope.com/2026/06/havoc-brings-hip-hop-cannabis-and-community-together-at-the-bridge-dispensary-grand-opening-in-queens/"
+    },
+    {
+     "tag": "p",
+     "cls": "press-text",
+     "text": "Coverage of opening weekend itself — the DJ sets, the activations, and why Astoria's Broadway corridor was the right corner for the shop.",
+     "href": "https://stupiddope.com/2026/06/havoc-brings-hip-hop-cannabis-and-community-together-at-the-bridge-dispensary-grand-opening-in-queens/"
+    },
+    {
+     "tag": "div",
+     "cls": "press-arrow",
+     "text": "→",
+     "href": "https://stupiddope.com/2026/06/havoc-brings-hip-hop-cannabis-and-community-together-at-the-bridge-dispensary-grand-opening-in-queens/",
+     "group": "press-arrow"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "press-kit-section",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "div",
+     "cls": "section-eyebrow",
+     "text": "Press Enquiries",
+     "group": "section-eyebrow"
+    },
+    {
+     "tag": "h2",
+     "cls": "press-kit-title",
+     "text": "Writing About The Bridge?",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "press-kit-text",
+     "text": "We're glad to help with interviews, imagery, store visits and background on our work with NDICA and the Astoria community. Reach out and we'll get back to you.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Contact Us →",
+     "group": "d-flex",
+     "href": "./contact.html"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Our Story →",
+     "group": "d-flex",
+     "href": "./about_us.html"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "cls": "bg-gray py-5",
+   "id": "",
+   "blocks": [
+    {
+     "tag": "h3",
+     "cls": "",
+     "text": "Read About Us. Now Visit Us.",
+     "group": "row"
+    },
+    {
+     "tag": "p",
+     "cls": "font-mono",
+     "text": "Browse our curated collection — flower, edibles, vapes, wellness, and more.",
+     "group": "row"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Explore the Shop →",
+     "group": "d-flex",
+     "href": "https://store.thebridgecannabis.com/"
+    },
+    {
+     "tag": "a",
+     "cls": "",
+     "text": "Know Your Cannabis →",
+     "group": "d-flex",
+     "href": "./facts.html"
+    }
+   ]
+  }
+ ]
+}

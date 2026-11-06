@@ -1,0 +1,378 @@
+{
+ "about": "The Bridge redesign pitch, NIGHT PIECE design. Every image is AI-generated illustrative imagery: never The Bridge's store, staff, customers, products or brands, never a real place, never a real person. Ids are file names in assets/generated/ (jpg = backdrop, png = transparent cut-out). 'aspect' is the delivered aspect, 'gen' the aspect it was generated at (the model has no 4:5 or 2:1, so those are cropped). Each prompt is sent with the style line in defaults appended.",
+ "defaults": {
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "input": {
+   "output_format": "jpeg",
+   "safety_tolerance": "5"
+  },
+  "cutoutModel": "fal-ai/birefnet/v2",
+  "cutoutInput": {
+   "model": "General Use (Heavy)",
+   "operating_resolution": "2048x2048",
+   "output_format": "png",
+   "refine_foreground": true
+  },
+  "style": "Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals."
+ },
+ "images": [
+  {
+   "id": "g-truss",
+   "file": "assets/generated/g-truss.png",
+   "role": "cutout",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "front plane"
+   ],
+   "alt": "Section of black riveted steel bridge truss with an orange rim light",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Close studio photograph of one massive section of old riveted steel bridge truss, seen at a slight three quarter angle and filling the whole width of the frame: two thick heavy riveted box chords running left to right, joined by big diagonal lattice members and heavy gusset plates with rows of large rivets, clear open gaps between the members, black weathered steel with rust texture. The beams are as thick as a person is tall, this is one huge industrial fragment, not a model and not a whole bridge. A hard orange rim light from the upper left traces every upper edge. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background. The cut ends of the beams are inside the frame. No stencils, no numbers.",
+   "cutout": true
+  },
+  {
+   "id": "g-cans",
+   "file": "assets/generated/g-cans.png",
+   "role": "cutout",
+   "aspect": "1:1",
+   "gen": "1:1",
+   "usedFor": [
+    "front plane"
+   ],
+   "alt": "Three unbranded matte black spray cans with an orange rim light",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "prompt": "Studio photograph of three identical plain matte black aerosol spray paint cans grouped together, one slightly in front of the other two, each a smooth blank cylinder with a black cap and a black nozzle, bare satin metal with no label, no printing, no stripes, no markings of any kind. A hard orange rim light from the upper left runs along the left edge and shoulder of each can, the rest of each can is dark but still readable. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background. All three cans whole in frame with margin on all sides.",
+   "cutout": true
+  },
+  {
+   "id": "g-can",
+   "file": "assets/generated/g-can.png",
+   "role": "cutout",
+   "aspect": "4:5",
+   "gen": "3:4",
+   "usedFor": [
+    "front plane"
+   ],
+   "alt": "One unbranded matte black spray can, tilted, with an orange rim light",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "prompt": "Studio photograph of one plain matte black aerosol spray paint can, tilted about twenty degrees and floating in mid air, a smooth blank cylinder with a black cap and a black nozzle, bare satin metal with no label, no printing, no markings of any kind. A hard orange rim light from the upper left runs along its edge and shoulder, the rest of the can is dark but still readable. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background. The whole can is in frame with margin on all sides.",
+   "cutout": true
+  },
+  {
+   "id": "g-leaf-cut",
+   "file": "assets/generated/g-leaf-cut.png",
+   "role": "cutout",
+   "aspect": "4:5",
+   "gen": "3:4",
+   "usedFor": [
+    "front plane",
+    "ruderalis"
+   ],
+   "alt": "One cannabis fan leaf with an orange rim light",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "prompt": "Low key botanical studio photograph of one single cannabis fan leaf with seven slender serrated leaflets spreading from one stem. The leaf is almost a silhouette in very deep shadowed green, and a hard bright orange sodium rim light from the upper left outlines every serrated edge and the midribs of the leaflets in glowing orange. The whole leaf and its stem are in frame with margin on all sides. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background.",
+   "cutout": true
+  },
+  {
+   "id": "g-jar",
+   "file": "assets/generated/g-jar.png",
+   "role": "cutout",
+   "aspect": "4:5",
+   "gen": "3:4",
+   "usedFor": [
+    "protrusion"
+   ],
+   "alt": "Plain glass jar of cured cannabis flower with an orange rim light",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "prompt": "Studio photograph of one clear round glass jar with a plain black screw lid, filled with cured cannabis flower buds, no label, nothing printed, nothing engraved. A hard orange rim light from the upper left catches the glass edge and shoulder of the jar, its right side falls into shadow but stays readable. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background. The whole jar is in frame with margin on all sides.",
+   "cutout": true,
+   "cutoutNote": "Matte run at operating_resolution 1024x1024: at 2048x2048 the model dropped the lower half of the glass."
+  },
+  {
+   "id": "g-burst",
+   "file": "assets/generated/g-burst.jpg",
+   "role": "screen",
+   "aspect": "1:1",
+   "gen": "1:1",
+   "usedFor": [
+    "front plane, screen blended"
+   ],
+   "alt": "",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "prompt": "A soft cloud of ultra fine orange aerosol spray paint hanging in still air, photographed like fog: a dense glowing centre thinning outward into a haze of microscopic droplets, very soft edges with no clumps, no beads, no powder lumps, on an absolutely pure black background, hard light from the upper left. The mist dissolves completely before it reaches the frame, all four edges of the frame are pure black. No can, no nozzle, nothing else in frame."
+  },
+  {
+   "id": "g-wall-night",
+   "file": "assets/generated/g-wall-night.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "gen": "16:9",
+   "usedFor": [
+    "wall ground"
+   ],
+   "alt": "Dark wall with faded spray paint in one hard shaft of orange light",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. An extreme close view of a raw board-formed black concrete wall filling the entire frame, seen straight on. A narrow pool of hard orange light grazes across the surface from the upper left at a very low angle, so every pit, crack and rough grain throws a long tiny shadow, and beyond the pool the wall falls off into pure black. The concrete keeps barely visible worn ghost layers of very old spray paint, thin faded dull orange and dark cobalt fog worn into the pores, shapeless and illegible, no big painted shapes, no letterforms, no tags."
+  },
+  {
+   "id": "g-girders",
+   "file": "assets/generated/g-girders.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "gen": "16:9",
+   "usedFor": [
+    "hub heroes",
+    "astoria"
+   ],
+   "alt": "Riveted steel girders seen from below in one hard orange light and haze",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Looking straight up from below at the underside of a massive old riveted steel truss: heavy black beams and lattice girders crossing overhead in strong perspective, rows of rivets glinting where the hard orange light catches them from the upper left, a thin haze hanging between the beams, most of the steel lost in black shadow. No stencilled numbers, no signs."
+  },
+  {
+   "id": "g-rain-glass",
+   "file": "assets/generated/g-rain-glass.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "gen": "16:9",
+   "usedFor": [
+    "behind glass"
+   ],
+   "alt": "Rain on a dark window with orange and cobalt lights out of focus behind it",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. A wet window pane at night seen close up, beads and running rivulets of rain on dark glass in sharp focus, behind it out of focus lights dissolve into large soft bokeh discs of warm orange and a few of deep cobalt blue, the upper left lit, most of the pane near black. No buildings, no signs, nothing readable."
+  },
+  {
+   "id": "g-wheatpaste",
+   "file": "assets/generated/g-wheatpaste.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "gen": "16:9",
+   "usedFor": [
+    "media",
+    "events"
+   ],
+   "alt": "Torn blank wheat-pasted posters on a dark brick wall in one hard light",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. An extreme close view of an old brick wall completely covered in a thick crust of torn wheat-pasted paper, decades of bill posting ripped back again and again: ragged strips, curling peeled layers and pale torn paper fibres. All of the paper is bare and blank, dirty off white and grey, with no print, no image and no ink on any layer. Patches of dark brick show through. The hard orange light rakes across the torn edges from the upper left, and the right and lower parts of the wall drop into black shadow. No lamp, no pipe, no cloth, no string."
+  },
+  {
+   "id": "g-elevated",
+   "file": "assets/generated/g-elevated.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "gen": "16:9",
+   "usedFor": [
+    "astoria mega and page, never captioned as a place"
+   ],
+   "alt": "Generic elevated rail steel over a wet empty road at night under orange lamps",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Low angle from the middle of an empty wet road at night, looking along a line of heavy black riveted steel columns that carry an elevated rail viaduct overhead. Only steel, wet asphalt and three or four orange sodium lamps hanging from the steel, their light reflecting in long streaks on the wet road. Beyond the columns on both sides there is only pure black darkness: no buildings, no shops, no windows, no signs, no lettering, no cars, no traffic lights, no people."
+  },
+  {
+   "id": "g-piece",
+   "file": "assets/generated/g-piece.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "gen": "16:9",
+   "usedFor": [
+    "torch wall"
+   ],
+   "alt": "Abstract orange and cobalt spray painted shapes on a black wall under one spotlight",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. A mural on a black wall under one spotlight from the upper left: one large abstract wildstyle composition of interlocking arrows, blades, ribbons and angular slashes in saturated orange and cobalt blue spray paint, with crisp dark outlines, soft overspray and a few drips. Purely abstract shapes, not letters: nothing that can be read as a letter or a word, no tags, no signature. The edges of the painting fall into pure black shadow."
+  },
+  {
+   "id": "g-bud-key",
+   "file": "assets/generated/g-bud-key.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "shop",
+    "blog"
+   ],
+   "alt": "Macro of a cured cannabis flower with an orange rim light on black",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Extreme macro close-up of one single cured cannabis flower bud on a pure black ground, dense frosty trichomes and curled amber pistils in razor sharp focus, the hard orange light rims its upper left edge and the rest of the bud falls into deep shadow."
+  },
+  {
+   "id": "g-papers",
+   "file": "assets/generated/g-papers.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "blog"
+   ],
+   "alt": "Plain metal grinder and loose blank rolling papers on slate in a raking light",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Still life on a dark slate surface: a plain round brushed steel herb grinder with a smooth unmarked lid, beside it a few loose thin blank translucent sheets of rolling paper slightly fanned. No packet, no booklet, no printing, no engraving, nothing rolled, no cigarette. Hard raking orange light from the upper left across the slate texture, the rest of the frame in deep shadow."
+  },
+  {
+   "id": "g-butter",
+   "file": "assets/generated/g-butter.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "recipes"
+   ],
+   "alt": "Block of herb butter on dark slate in a hard side light",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Still life on dark slate: a rough block of pale butter flecked with finely chopped green herbs, a plain steel knife lying beside it with a curl of butter on the blade. Hard orange side light from the upper left, the rest of the frame in deep shadow. No packaging, no wrapper."
+  },
+  {
+   "id": "g-honey",
+   "file": "assets/generated/g-honey.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "recipes"
+   ],
+   "alt": "Wooden honey dipper resting on a plain glass jar of honey in a hard side light",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Still life on a dark wooden table: a turned wooden honey dipper resting across the rim of a plain round unlabelled glass jar of dark honey, one thick amber strand of honey running from the dipper into the jar. Hard orange side light from the upper left making the honey glow, the rest of the frame in deep shadow. No label, nothing printed."
+  },
+  {
+   "id": "g-vinyl",
+   "file": "assets/generated/g-vinyl.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "culture"
+   ],
+   "alt": "Black vinyl record and unmarked mixer knobs in an orange light",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Close still life: a black vinyl record with glinting grooves and a completely blank plain dark centre label lying on a turntable platter, next to it a row of unmarked black rotary knobs on a dark mixer panel with no printed scale, no numbers, no markings. The hard orange light glances along the grooves from the upper left, the rest of the frame in deep shadow."
+  },
+  {
+   "id": "g-mic",
+   "file": "assets/generated/g-mic.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "culture",
+    "careers"
+   ],
+   "alt": "Vintage studio microphone in a shaft of orange light with smoke",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. A vintage chrome studio microphone on a black stand, unbadged with no emblem, standing in one hard shaft of orange sodium light from the upper left with thin smoke drifting through the beam, pure black behind it, most of the frame in deep shadow."
+  },
+  {
+   "id": "g-bag",
+   "file": "assets/generated/g-bag.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "guides"
+   ],
+   "alt": "Plain paper bag with a rolled top on a dark glass counter in one light",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. A plain unprinted brown kraft paper bag with its top rolled down, standing alone on a dark glass counter with a faint reflection below it, completely blank paper, no stamp, no sticker. One hard orange light from the upper left, the right side of the bag and the whole background in deep shadow."
+  },
+  {
+   "id": "g-papers-law",
+   "file": "assets/generated/g-papers-law.jpg",
+   "role": "card",
+   "aspect": "3:2",
+   "gen": "3:2",
+   "usedFor": [
+    "laws",
+    "legal"
+   ],
+   "alt": "Stack of blank papers on a dark desk under one lamp",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. A neat stack of blank white paper sheets on a dark wooden desk, all pages completely empty with nothing printed or written on them, the top sheet slightly askew. One small warm lamp out of frame at the upper left throws a hard orange pool of light over the stack, the rest of the desk falls into deep shadow. No pen marks, no seal, no stamp."
+  },
+  {
+   "id": "g-cat-edibles",
+   "file": "assets/generated/g-cat-edibles.jpg",
+   "role": "card",
+   "aspect": "2:1",
+   "gen": "16:9",
+   "usedFor": [
+    "category"
+   ],
+   "alt": "Squares of plain dark chocolate on a slate slab, dark gold still life",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Dark gold still life photograph in a sepia gold monochrome palette, low key, near-black background, warm gold side light raking from the left, faint wisps of haze, a dark glossy surface with a soft reflection. The subject sits in the right half of the frame and the left half of the frame is empty pure black. A few squares of plain dark artisan chocolate stacked and snapped on a rough dark slate slab, matte cocoa surface, clean broken edges, smooth unstamped squares with no emboss, no wrapper, no candy coating, no sprinkles, no leaves."
+  },
+  {
+   "id": "g-cat-concentrates",
+   "file": "assets/generated/g-cat-concentrates.jpg",
+   "role": "card",
+   "aspect": "2:1",
+   "gen": "16:9",
+   "usedFor": [
+    "category"
+   ],
+   "alt": "Glassy amber resin on a clear glass dish with steel tools, dark gold still life",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Dark gold still life photograph in a sepia gold monochrome palette, low key, near-black background, warm gold side light raking from the left, faint wisps of haze, a dark glossy surface with a soft reflection. The subject sits in the right half of the frame and the left half of the frame is empty pure black. A shallow clear laboratory glass dish holding a few translucent shards and one small pool of glassy amber resin, like polished amber glass with sharp fractured edges, lit from behind so the amber glows from within. One thin straight polished steel needle tool, like a dentist's pick with a tiny flat tip, lies across the rim of the dish. A clean clinical still life, nothing edible in the frame."
+  },
+  {
+   "id": "s-mist",
+   "file": "tmp/img/stills/s-mist.jpg",
+   "role": "loop-source",
+   "aspect": "16:9",
+   "gen": "16:9",
+   "usedFor": [
+    "source still of the hero mist loop"
+   ],
+   "alt": "",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Fine orange spray paint mist hanging and drifting through one hard straight shaft of sodium light on an absolutely pure black background. The shaft slants down from the upper left corner toward the lower right, and inside it countless tiny atomized paint droplets glitter like fine dust within a thin even orange haze. Grainy, speckled, granular aerosol texture, no curling wisps, no swirls, no flames. Outside the shaft nothing is visible, all four edges of the frame fall to pure black. Nothing else in frame: no can, no nozzle, no wall, no floor, no lamp.",
+   "optional": true
+  }
+ ]
+}

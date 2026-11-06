@@ -1,0 +1,429 @@
+{
+  "slug": "ny-laws",
+  "path": "/cannabis-laws-by-state/new-york/",
+  "title": "New York Cannabis Laws | The Bridge",
+  "description": "New York's adult-use cannabis rules in plain language, each linked to its official state source: age, possession, where you can consume, driving, home growing, medical and social equity.",
+  "h1": "New York Cannabis Laws",
+  "kicker": "Know the Law",
+  "lede": "What's legal, what isn't and where each rule comes from. Every line links to the state page behind it. We're a dispensary, not your lawyer, so read the source when it matters.",
+  "image": "g-papers-law",
+  "sections": [
+    {
+      "heading": "Age and buying",
+      "html": "<p>Twenty-one is the line.</p>",
+      "items": [
+        {
+          "text": "You have to be 21 to buy, consume or possess cannabis in New York State.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "age-21"
+        },
+        {
+          "text": "A business needs an adult-use license to legally sell cannabis in New York.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "license-required"
+        },
+        {
+          "text": "Selling or distributing cannabis without a license is illegal.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "no-unlicensed-sale"
+        },
+        {
+          "text": "Dispensary staff must inspect your ID and confirm you are 21 or older.",
+          "sourceUrl": "https://cannabis.ny.gov/adopted-au-regulations",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Cannabis Regulations (9 NYCRR 123.10 and 125.4)",
+          "factId": "id-inspect"
+        },
+        {
+          "text": "Adults can face criminal penalties for selling or giving cannabis products to someone under 21.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "under-21-penalty"
+        },
+        {
+          "text": "For delivery, you can buy up to three ounces of flower and up to 24 grams of concentrated cannabis in a single day.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-delivery-FAQ",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Cannabis Delivery FAQ",
+          "factId": "purchase-limit"
+        },
+        {
+          "text": "A dispensary may set a lower limit based on its inventory.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-delivery-FAQ",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Cannabis Delivery FAQ",
+          "factId": "purchase-limit-inventory"
+        }
+      ]
+    },
+    {
+      "heading": "What you can have and share",
+      "html": "<p>Possession limits, and the difference between sharing and selling.</p>",
+      "items": [
+        {
+          "text": "Adults 21 and older can possess 3 ounces of cannabis and 24 grams of cannabis concentrate.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "possession-limit"
+        },
+        {
+          "text": "At home, the limit is up to 5 pounds of cannabis flower, or the equivalent weight of concentrate, which the state puts at up to 22.5 ounces.",
+          "sourceUrl": "https://cannabis.ny.gov/home-cultivation-faqs",
+          "sourceLabel": "NY Office of Cannabis Management: Home Cultivation FAQ",
+          "factId": "possession-home"
+        },
+        {
+          "text": "You can share cannabis within the possession limits with someone 21 or older.",
+          "sourceUrl": "https://cannabis.ny.gov/know-your-rights-cannabis",
+          "sourceLabel": "NY Office of Cannabis Management: Know Your Rights with Cannabis",
+          "factId": "share"
+        },
+        {
+          "text": "It is illegal to trade, barter or \"gift\" cannabis in exchange for something else.",
+          "sourceUrl": "https://cannabis.ny.gov/know-your-rights-cannabis",
+          "sourceLabel": "NY Office of Cannabis Management: Know Your Rights with Cannabis",
+          "factId": "gifting"
+        },
+        {
+          "text": "That includes \"gifting\" cannabis while selling something else, like a t-shirt or a sticker.",
+          "sourceUrl": "https://cannabis.ny.gov/know-your-rights-cannabis",
+          "sourceLabel": "NY Office of Cannabis Management: Know Your Rights with Cannabis",
+          "factId": "gifting-merch"
+        }
+      ]
+    },
+    {
+      "heading": "Where you can consume",
+      "html": "<p>The state words its park rules two different ways, so both are here. When in doubt, check before you consume.</p>",
+      "items": [
+        {
+          "text": "Adults 21 and older can consume in a private home or in most places tobacco can be consumed. The exceptions are a motor vehicle, a private business such as a restaurant patio, a hookah or cigar bar, and federal property.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "consume-where"
+        },
+        {
+          "text": "The state's Know Your Rights flyer lists motor vehicles, hookah and cigar bars, businesses, restaurants including patios, federal property including public housing, and most public and state parks as well as beaches as places cannabis cannot be consumed.",
+          "sourceUrl": "https://cannabis.ny.gov/know-your-rights-cannabis",
+          "sourceLabel": "NY Office of Cannabis Management: Know Your Rights with Cannabis",
+          "factId": "consume-not-list"
+        },
+        {
+          "text": "A state law effective October 13, 2022 prohibits smoking cannabis and tobacco in all New York State Parks and other public outdoor spaces.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "parks-2022"
+        },
+        {
+          "text": "Municipalities can impose a civil penalty of up to $50 for violating that law.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "parks-penalty"
+        },
+        {
+          "text": "Cannabis is still illegal under federal law, so you cannot consume it on federal land, including national parks and national forests.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "federal-land"
+        },
+        {
+          "text": "A landlord cannot refuse to rent to a tenant who consumes cannabis, but landlords, property owners and rental companies can still ban smoking or vaporizing on their premises.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "landlord"
+        },
+        {
+          "text": "Hotel owners can ban smoking or vaporizing on their properties, so you may not be able to consume in a hotel room.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "hotel"
+        },
+        {
+          "text": "A dispensary cannot allow consumption, smoking or vaping included, in any area of its licensed premises except a consumption facility.",
+          "sourceUrl": "https://cannabis.ny.gov/adopted-au-regulations",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Cannabis Regulations (9 NYCRR 123.10 and 125.4)",
+          "factId": "no-consumption-premises"
+        },
+        {
+          "text": "Employers can still enforce policies that prohibit impairment.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "work"
+        }
+      ]
+    },
+    {
+      "heading": "Driving and travel",
+      "html": "<p>If you feel different, you drive different. That's the state's line, and it's a good one.</p>",
+      "factIds": [
+        "feel-different"
+      ],
+      "items": [
+        {
+          "text": "It is illegal to drive under the influence of cannabis.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "drive-illegal"
+        },
+        {
+          "text": "Impaired driving under the influence of cannabis is a misdemeanor under the Vehicle and Traffic Law.",
+          "sourceUrl": "https://trafficsafety.ny.gov/cannabis",
+          "sourceLabel": "NY Governor's Traffic Safety Committee: Cannabis and Driving",
+          "factId": "drive-misdemeanor"
+        },
+        {
+          "text": "Adults 21 and older can possess cannabis in a vehicle.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "vehicle-possess"
+        },
+        {
+          "text": "It should always be securely stored and in a closed container.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "vehicle-closed"
+        },
+        {
+          "text": "Neither drivers nor passengers can open any cannabis packaging while in a vehicle.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "vehicle-open"
+        },
+        {
+          "text": "It is illegal for the driver or any passenger to smoke cannabis in a vehicle, moving or parked.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "vehicle-smoke"
+        },
+        {
+          "text": "It is illegal to cross state lines with cannabis, including medical cannabis.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "state-lines"
+        },
+        {
+          "text": "Leaving or coming into the state or country with any cannabis product is against the law.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "leave-state"
+        }
+      ]
+    },
+    {
+      "heading": "Growing at home",
+      "html": "<p>Allowed for adults 21 and older, with rules.</p>",
+      "items": [
+        {
+          "text": "Adults 21 and older can grow up to six plants for personal use (3 mature and 3 immature) and a maximum of twelve per household (6 mature and 6 immature), even with three or more adults in the home.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "grow-adult"
+        },
+        {
+          "text": "Plants must be kept in a secure place, not accessible to anyone under 21.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "grow-secure"
+        },
+        {
+          "text": "Growers must take reasonable measures to keep odor from becoming a nuisance to neighbors.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "grow-odor"
+        },
+        {
+          "text": "It is illegal to sell, trade or barter homegrown cannabis.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "grow-no-sale"
+        }
+      ]
+    },
+    {
+      "heading": "Medical cannabis",
+      "html": "<p>A separate program. The full walk-through is on the <a href=\"/getting-a-medical-card/\">medical card page</a>.</p>",
+      "items": [
+        {
+          "text": "You may be eligible for any condition your health care provider deems clinically appropriate.",
+          "sourceUrl": "https://cannabis.ny.gov/medical-cannabis-program-faqs",
+          "sourceLabel": "NY Office of Cannabis Management: Medical Cannabis Program FAQs",
+          "factId": "med-eligible"
+        },
+        {
+          "text": "Registered patients buy medical products from dispensing facilities operated by registered organizations.",
+          "sourceUrl": "https://cannabis.ny.gov/dispensing-facilities",
+          "sourceLabel": "NY Office of Cannabis Management: Dispensing Facilities",
+          "factId": "med-where"
+        },
+        {
+          "text": "Patients and their caregivers can buy up to a 60-day supply, or 3 ounces of cannabis and 24 grams of concentrate, whichever is greater.",
+          "sourceUrl": "https://cannabis.ny.gov/patients",
+          "sourceLabel": "NY Office of Cannabis Management: Patients",
+          "factId": "med-limit"
+        },
+        {
+          "text": "A patient can designate up to five caregivers.",
+          "sourceUrl": "https://cannabis.ny.gov/patients",
+          "sourceLabel": "NY Office of Cannabis Management: Patients",
+          "factId": "med-caregivers"
+        }
+      ]
+    },
+    {
+      "heading": "How to check a shop",
+      "html": "<p>More on this in the <a href=\"/dispensary-guides/\">Dispensary Guide</a>.</p>",
+      "items": [
+        {
+          "text": "Licensed dispensaries must post the Dispensary Verification Tool near their main entrance.",
+          "sourceUrl": "https://cannabis.ny.gov/dispensary-location-verification",
+          "sourceLabel": "NY Office of Cannabis Management: Dispensary Location Verification",
+          "factId": "dvt-entrance"
+        },
+        {
+          "text": "The Office of Cannabis Management publishes a listing of all legal dispensaries it has licensed.",
+          "sourceUrl": "https://cannabis.ny.gov/consumers",
+          "sourceLabel": "NY Office of Cannabis Management: Consumers",
+          "factId": "ocm-list"
+        },
+        {
+          "text": "Every regulated adult-use product carries New York's universal symbol.",
+          "sourceUrl": "https://cannabis.ny.gov/consumers",
+          "sourceLabel": "NY Office of Cannabis Management: Consumers",
+          "factId": "universal-symbol"
+        },
+        {
+          "text": "All cannabis products must pass lab testing before being sold at licensed adult-use or medical dispensaries.",
+          "sourceUrl": "https://cannabis.ny.gov/consumers",
+          "sourceLabel": "NY Office of Cannabis Management: Consumers",
+          "factId": "lab-tested"
+        }
+      ]
+    },
+    {
+      "heading": "The law behind it",
+      "html": "<p>Legalization in New York was written with repair in mind. Here is what the law set out to do.</p>",
+      "items": [
+        {
+          "text": "The Marihuana Regulation and Taxation Act (MRTA) was signed into law on March 31, 2021, legalizing adult-use cannabis in New York State.",
+          "sourceUrl": "https://cannabis.ny.gov/marihuana-regulation-and-taxation-act-mrta-public-comment-process",
+          "sourceLabel": "NY Office of Cannabis Management: Marihuana Regulation and Taxation Act",
+          "factId": "mrta-signed"
+        },
+        {
+          "text": "It created the Office of Cannabis Management, governed by a Cannabis Control Board.",
+          "sourceUrl": "https://cannabis.ny.gov/marihuana-regulation-and-taxation-act-mrta-public-comment-process",
+          "sourceLabel": "NY Office of Cannabis Management: Marihuana Regulation and Taxation Act",
+          "factId": "mrta-ocm"
+        },
+        {
+          "text": "Social equity is central to the Cannabis Law, which seeks to begin repairing decades of disproportionate enforcement and over criminalization, especially in Black and Brown communities.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "equity-central"
+        },
+        {
+          "text": "The law sets a goal of awarding 50 percent of all adult-use licenses to social and economic equity groups.",
+          "sourceUrl": "https://cannabis.ny.gov/social-and-economic-equity",
+          "sourceLabel": "NY Office of Cannabis Management: Social and Economic Equity",
+          "factId": "equity-50"
+        },
+        {
+          "text": "The equity program also includes minority and women-owned businesses, service-disabled veterans and distressed farmers.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "equity-who"
+        },
+        {
+          "text": "After covering the cost of the program, 40 percent of tax revenue goes to programs supporting the communities most impacted by disproportionate enforcement.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "equity-40-net"
+        },
+        {
+          "text": "The law automatically expunges records for people with previous convictions for activities that are no longer criminalized.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "expunge"
+        },
+        {
+          "text": "People who qualify do not have to take any further action.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "expunge-no-action"
+        },
+        {
+          "text": "People on probation or parole cannot be penalized for lawful consumption, unless the terms of their supervision explicitly prohibit it.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "parole"
+        },
+        {
+          "text": "Retail sales carry a 9 percent state excise tax.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "tax-retail"
+        },
+        {
+          "text": "They also carry a 4 percent local excise tax.",
+          "sourceUrl": "https://cannabis.ny.gov/adult-use-information",
+          "sourceLabel": "NY Office of Cannabis Management: Adult-Use Information",
+          "factId": "tax-local"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Regulations (9 NYCRR 123.10 and 125.4)",
+      "url": "https://cannabis.ny.gov/adopted-au-regulations"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Delivery FAQ",
+      "url": "https://cannabis.ny.gov/adult-use-delivery-FAQ"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Consumers",
+      "url": "https://cannabis.ny.gov/consumers"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Dispensary Location Verification",
+      "url": "https://cannabis.ny.gov/dispensary-location-verification"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Dispensing Facilities",
+      "url": "https://cannabis.ny.gov/dispensing-facilities"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Home Cultivation FAQ",
+      "url": "https://cannabis.ny.gov/home-cultivation-faqs"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Know Your Rights with Cannabis",
+      "url": "https://cannabis.ny.gov/know-your-rights-cannabis"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Marihuana Regulation and Taxation Act",
+      "url": "https://cannabis.ny.gov/marihuana-regulation-and-taxation-act-mrta-public-comment-process"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Medical Cannabis Program FAQs",
+      "url": "https://cannabis.ny.gov/medical-cannabis-program-faqs"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Patients",
+      "url": "https://cannabis.ny.gov/patients"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Social and Economic Equity",
+      "url": "https://cannabis.ny.gov/social-and-economic-equity"
+    },
+    {
+      "label": "NY Governor's Traffic Safety Committee: Cannabis and Driving",
+      "url": "https://trafficsafety.ny.gov/cannabis"
+    }
+  ]
+}

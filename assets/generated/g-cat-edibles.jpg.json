@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-cat-edibles",
+ "file": "assets/generated/g-cat-edibles.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Dark gold still life photograph in a sepia gold monochrome palette, low key, near-black background, warm gold side light raking from the left, faint wisps of haze, a dark glossy surface with a soft reflection. The subject sits in the right half of the frame and the left half of the frame is empty pure black. A few squares of plain dark artisan chocolate stacked and snapped on a rough dark slate slab, matte cocoa surface, clean broken edges, smooth unstamped squares with no emboss, no wrapper, no candy coating, no sprinkles, no leaves., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 3343830971,
+ "requestId": "01a1b237-9792-7b30-a75c-c4127e50835c",
+ "cutout": null,
+ "width": 2752,
+ "height": 1376,
+ "sha256": "0e370c5331f6d0ca23eb61286952f28f9a0d16780d82b77c37dbe38ed7a6c003",
+ "retouch": "Cropped to 2:1, dark gold grade, left half taken to black.",
+ "alt": "Squares of plain dark chocolate on a slate slab, dark gold still life",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

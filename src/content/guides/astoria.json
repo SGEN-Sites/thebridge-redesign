@@ -1,0 +1,91 @@
+{
+  "slug": "astoria",
+  "path": "/dispensaries/astoria/",
+  "title": "Astoria Dispensary | The Bridge",
+  "description": "The Bridge Cannabis Experience at 25-15 Broadway in Astoria, Queens: a partnership between Havoc of Mobb Deep and NDICA. Hours, directions, online ordering and what is inside.",
+  "h1": "The Bridge, Astoria",
+  "kicker": "Astoria, Queens",
+  "lede": "One shop, one address: 25-15 Broadway. A partnership between Havoc of Mobb Deep and NDICA, and a space as much as a storefront.",
+  "image": "g-elevated",
+  "amenities": [
+    "Order online",
+    "We deliver",
+    "Events and pop-ups",
+    "Free community classes",
+    "21+ with valid ID"
+  ],
+  "sections": [
+    {
+      "heading": "Who we are",
+      "html": "<p>The Bridge is a partnership between Havoc of Mobb Deep and NDICA. Havoc grew up in Queensbridge and helped define the sound of New York hip-hop. NDICA is a nonprofit working for a cannabis industry that serves the communities hit hardest by the War on Drugs. Put those together and you get a dispensary rooted in culture and built for the community.</p>\n<p><a href=\"/about-us/\">Read the whole story</a>.</p>"
+    },
+    {
+      "heading": "What's inside",
+      "html": "<p>The shelves cover <a href=\"/shop/flower/\">flower</a>, <a href=\"/shop/pre-rolls/\">pre-rolls</a>, <a href=\"/shop/vapes/\">vapes</a>, <a href=\"/shop/edibles/\">edibles</a>, <a href=\"/shop/concentrates/\">concentrates</a>, <a href=\"/shop/beverages/\">beverages</a>, <a href=\"/shop/wellness/\">wellness</a> and <a href=\"/shop/lifestyle/\">lifestyle</a>, from glassware to merch. What's on the menu changes, so the <a href=\"https://store.thebridgecannabis.com/\" target=\"_blank\" rel=\"noopener\">online store</a> is the place to see it.</p>"
+    },
+    {
+      "heading": "More than a counter",
+      "html": "<p>We open the floor. Recently at The Bridge: brand pop-ups, a meet and greet with Havoc and a free all-levels mat Pilates class. Brands, artists, wellness practitioners and community groups from the neighborhood can bring us an idea too.</p>\n<p>See what's on at <a href=\"/events/\">Events</a>, or <a href=\"/rewards/\">get on The List</a>.</p>"
+    },
+    {
+      "heading": "Order online",
+      "html": "<p>Not coming through today? Order online at <a href=\"https://store.thebridgecannabis.com/\" target=\"_blank\" rel=\"noopener\">store.thebridgecannabis.com</a>. We deliver. Have your ID ready when it arrives: <a href=\"https://cannabis.ny.gov/adult-use-delivery-FAQ\" target=\"_blank\" rel=\"noopener\">New York requires a check</a> at delivery.</p>",
+      "factIds": [
+        "delivery-id"
+      ]
+    },
+    {
+      "heading": "Before you come through",
+      "html": "<p>It's <a href=\"https://cannabis.ny.gov/adult-use-information\" target=\"_blank\" rel=\"noopener\">21 and over</a>, with a <a href=\"https://cannabis.ny.gov/consumers\" target=\"_blank\" rel=\"noopener\">valid ID</a>. First time? The <a href=\"/dispensary-guides/\">Dispensary Guide</a> covers the whole visit, including how to check any shop on <a href=\"https://cannabis.ny.gov/dispensary-location-verification\" target=\"_blank\" rel=\"noopener\">the state's list</a>, ours included. Questions? <a href=\"/contact/\">Get in touch</a> or call <a href=\"tel:+19178327420\">917-832-7420</a>.</p>",
+      "factIds": [
+        "age-21",
+        "id-gov",
+        "ocm-list",
+        "dvt-entrance"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Where is the shop?",
+      "a": "25-15 Broadway Ave, Astoria, Queens, NY 11106."
+    },
+    {
+      "q": "What do I need to bring?",
+      "a": "A valid ID showing you're 21 or older. Our Dispensary Guide lists what the state accepts.",
+      "factIds": [
+        "id-gov"
+      ]
+    },
+    {
+      "q": "What are your hours?",
+      "a": "They're on this page. Hours may vary on holidays."
+    },
+    {
+      "q": "Can I order online?",
+      "a": "Yes. The online store is at store.thebridgecannabis.com. Order online, we deliver."
+    },
+    {
+      "q": "What's happening at the shop?",
+      "a": "The Events page has it, and The List is how you hear about pop-ups, meet and greets and free community sessions."
+    }
+  ],
+  "sources": [
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Delivery FAQ",
+      "url": "https://cannabis.ny.gov/adult-use-delivery-FAQ"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Consumers",
+      "url": "https://cannabis.ny.gov/consumers"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Dispensary Location Verification",
+      "url": "https://cannabis.ny.gov/dispensary-location-verification"
+    }
+  ]
+}

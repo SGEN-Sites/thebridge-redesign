@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-rain-glass",
+ "file": "assets/generated/g-rain-glass.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. A wet window pane at night seen close up, beads and running rivulets of rain on dark glass in sharp focus, behind it out of focus lights dissolve into large soft bokeh discs of warm orange and a few of deep cobalt blue, the upper left lit, most of the pane near black. No buildings, no signs, nothing readable., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 1777291493,
+ "requestId": "01a1b237-35b9-7693-afe5-3b154ba2cf1f",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "6d28f604dec9fbd275a291e3aa451adce59f321e1bfe806548b3b53267b1bd49",
+ "retouch": "Bokeh hues moved to brand orange and cobalt, darkened.",
+ "alt": "Rain on a dark window with orange and cobalt lights out of focus behind it",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

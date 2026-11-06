@@ -1,0 +1,24 @@
+{
+  "slug": "deals",
+  "path": "/dispensaries/astoria/deals/",
+  "title": "Deals | The Bridge",
+  "description": "The Bridge in Astoria does not publish a standing deal list. What's on the store menu changes, and the shop has run its discounts on event days. Here's how to hear about the next one.",
+  "h1": "Deals",
+  "kicker": "The Bridge, Astoria",
+  "lede": "We don't keep a standing deal list. Here's how it actually works at 25-15 Broadway.",
+  "image": "g-bud-key",
+  "sections": [
+    {
+      "heading": "The menu moves",
+      "html": "<p>What's on the store menu changes, so a page like this can't keep up with it. The <a href=\"https://store.thebridgecannabis.com/\" target=\"_blank\" rel=\"noopener\">online store</a> is where to see what's on the menu now.</p>"
+    },
+    {
+      "heading": "Event days are when the pricing moves",
+      "html": "<p>The shop has run its discounts around events. Our Customer Appreciation Pop-Up on August 7 and 8, 2026 came with event-day pricing, and exclusive event-day discounts on August 7 only. The <a href=\"/events/\">Events page</a> is where the next one shows up.</p>"
+    },
+    {
+      "heading": "Get on The List",
+      "html": "<p>Want to hear when something's coming? <a href=\"/rewards/\">Get on The List</a>.</p>"
+    }
+  ]
+}

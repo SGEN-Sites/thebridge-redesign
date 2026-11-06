@@ -1,0 +1,29 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-truss",
+ "file": "assets/generated/g-truss.png",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Close studio photograph of one massive section of old riveted steel bridge truss, seen at a slight three quarter angle and filling the whole width of the frame: two thick heavy riveted box chords running left to right, joined by big diagonal lattice members and heavy gusset plates with rows of large rivets, clear open gaps between the members, black weathered steel with rust texture. The beams are as thick as a person is tall, this is one huge industrial fragment, not a model and not a whole bridge. A hard orange rim light from the upper left traces every upper edge. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background. The cut ends of the beams are inside the frame. No stencils, no numbers., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 2243158840,
+ "requestId": "01a1b23a-78fe-7702-a394-8f0e606cac56",
+ "cutout": {
+  "model": "fal-ai/birefnet/v2",
+  "requestId": "01a1b23a-9ffa-71e1-b7fd-455835fdb89f"
+ },
+ "width": 2335,
+ "height": 1356,
+ "sha256": "ae688d19f28880d2e43911656eb304e939551a16d072df23b0dc82520c236834",
+ "retouch": "Cut out, trimmed.",
+ "alt": "Section of black riveted steel bridge truss with an orange rim light",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

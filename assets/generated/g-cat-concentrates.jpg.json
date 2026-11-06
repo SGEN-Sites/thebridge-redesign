@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-cat-concentrates",
+ "file": "assets/generated/g-cat-concentrates.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Dark gold still life photograph in a sepia gold monochrome palette, low key, near-black background, warm gold side light raking from the left, faint wisps of haze, a dark glossy surface with a soft reflection. The subject sits in the right half of the frame and the left half of the frame is empty pure black. A shallow clear laboratory glass dish holding a few translucent shards and one small pool of glassy amber resin, like polished amber glass with sharp fractured edges, lit from behind so the amber glows from within. One thin straight polished steel needle tool, like a dentist's pick with a tiny flat tip, lies across the rim of the dish. A clean clinical still life, nothing edible in the frame., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9"
+ },
+ "seed": 359657963,
+ "requestId": "01a1b23d-98bf-7700-b4b9-fa401d3539fd",
+ "cutout": null,
+ "width": 2752,
+ "height": 1376,
+ "sha256": "3ad389c99c4b0362233b8f59389353bf9dd6883adf28a64844fa6f257883feb0",
+ "retouch": "Grey ground taken to black, moved right on a 2:1 canvas, dark gold grade.",
+ "alt": "Glassy amber resin on a clear glass dish with steel tools, dark gold still life",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

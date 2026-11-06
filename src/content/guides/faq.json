@@ -1,0 +1,202 @@
+{
+  "slug": "faq",
+  "path": "/faq/",
+  "title": "FAQ | The Bridge",
+  "description": "Common questions about The Bridge in Astoria, Queens, then the basics for a first visit to a New York dispensary: start low, what ID to bring, and where you can consume.",
+  "h1": "FAQ",
+  "kicker": "Straight Answers",
+  "lede": "Common questions about the shop first, then the basics for your first time at a New York dispensary.",
+  "image": "g-rain-glass",
+  "sections": [
+    {
+      "heading": "Need to reach us?",
+      "html": "<p>Our form is on the <a href=\"/contact/\">contact page</a>, or call us at <a href=\"tel:+19178327420\">917-832-7420</a>. For anything about the law, the state's own pages are linked at the bottom of this page.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "group": "The shop",
+      "q": "How quickly will I hear back?",
+      "a": "We aim to respond to all inquiries within 24 to 48 business hours. Wholesale and partnership inquiries may take slightly longer as they are handled by a dedicated team."
+    },
+    {
+      "group": "The shop",
+      "q": "Do you have a physical storefront?",
+      "a": "Yes, we have a store located at 25-15 Broadway Ave, Astoria, Queens, NY 11106."
+    },
+    {
+      "group": "The shop",
+      "q": "How can I check on my order status?",
+      "a": "You can track your order from your account dashboard under \"Orders.\" If you checked out as a guest, use the tracking link sent to your email. For further help, reach out using the form above."
+    },
+    {
+      "group": "The shop",
+      "q": "Can I return or exchange a product?",
+      "a": "Due to the nature of our products, returns and exchanges are handled on a case-by-case basis. Please contact us within 7 days of delivery with your order number and reason for the request."
+    },
+    {
+      "group": "Your first time",
+      "q": "It's my first time. Where do I start?",
+      "a": "Bring a valid ID, come through during store hours and tell us it's your first time. Our Dispensary Guide walks through the whole visit.",
+      "factIds": [
+        "age-21"
+      ]
+    },
+    {
+      "group": "Your first time",
+      "q": "What does start low and go slow mean?",
+      "a": "It's the state's advice. Start low with the amount you consume, and go slow when you increase it over time. If you're new to cannabis and trying an edible, the state says a low serving may mean 2.5 to 5 milligrams. Cannabis doesn't affect everyone the same.",
+      "factIds": [
+        "start-low",
+        "start-edible-size",
+        "effects-vary"
+      ]
+    },
+    {
+      "group": "Your first time",
+      "q": "How long should I wait before taking more?",
+      "a": "Longer than you think. After 1 to 2 puffs, the state says to wait 5 to 10 minutes. With edibles, the state's Get the Facts flier says it may take up to two hours to feel the effect, and its information page says up to 4 hours before you feel the peak effects. You can always take more, but you can't take less.",
+      "factIds": [
+        "start-puffs",
+        "edibles-2h",
+        "edibles-4h",
+        "start-more"
+      ]
+    },
+    {
+      "group": "Your first time",
+      "q": "What ID do I need?",
+      "a": "A valid government ID that proves you're 21 or older. The state's consumer page lists a driver's license or non-driver ID, a federal, state or local government ID with your age and photo (IDNYC counts), a passport from any country, or a US armed forces ID. The regulation also lists a consular ID card.",
+      "factIds": [
+        "id-no-sale",
+        "id-license",
+        "id-gov",
+        "id-passport",
+        "id-military",
+        "id-consular"
+      ]
+    },
+    {
+      "group": "Your first time",
+      "q": "How do I know a shop is legal?",
+      "a": "Look for the Dispensary Verification Tool near the main entrance and scan its QR code, check the state's list of licensed dispensaries, and look for New York's universal symbol on the product. Our Dispensary Guide has the links.",
+      "factIds": [
+        "dvt-entrance",
+        "dvt-qr",
+        "ocm-list",
+        "universal-symbol"
+      ]
+    },
+    {
+      "group": "The law",
+      "q": "Where can I consume?",
+      "a": "In a private home or most places tobacco can be consumed. Not in a motor vehicle, a private business such as a restaurant patio, a hookah or cigar bar, or on federal property, which the state says includes public housing. Smoking is also prohibited in New York State Parks and other public outdoor spaces, and landlords and hotels can ban smoking or vaporizing on their property.",
+      "factIds": [
+        "consume-where",
+        "consume-not-list",
+        "parks-2022",
+        "landlord",
+        "hotel"
+      ]
+    },
+    {
+      "group": "The law",
+      "q": "Can I consume at the shop?",
+      "a": "State rules bar consumption, smoking and vaping included, anywhere on a dispensary's licensed premises except a licensed consumption facility.",
+      "factIds": [
+        "no-consumption-premises"
+      ]
+    },
+    {
+      "group": "The law",
+      "q": "How much can I buy and carry?",
+      "a": "Adults 21 and older can possess 3 ounces of cannabis and 24 grams of concentrate. Delivery purchases have the same caps for a single day, and a shop can set a lower limit based on inventory. At home, the limit is up to 5 pounds of flower.",
+      "factIds": [
+        "possession-limit",
+        "purchase-limit",
+        "purchase-limit-inventory",
+        "possession-home"
+      ]
+    },
+    {
+      "group": "The law",
+      "q": "Can I drive after I consume?",
+      "a": "Not under the influence. It's illegal, and it's a misdemeanor. Edibles can take up to 4 hours to peak, so make a plan before you consume.",
+      "factIds": [
+        "drive-illegal",
+        "drive-misdemeanor",
+        "edibles-4h",
+        "drive-plan"
+      ]
+    },
+    {
+      "group": "The law",
+      "q": "Can I take it with me on a trip?",
+      "a": "Not across state lines. Leaving or coming into the state or country with any cannabis product is against the law, medical cannabis included.",
+      "factIds": [
+        "leave-state",
+        "state-lines"
+      ]
+    },
+    {
+      "group": "Taking care",
+      "q": "Do you serve medical patients?",
+      "a": "Ask the shop: send us a message through the contact page. Our Getting a Medical Card page explains how New York's medical program works."
+    },
+    {
+      "group": "Taking care",
+      "q": "What if someone has too much?",
+      "a": "Call the New York Poison Control Center at (800) 222-1222. If it's an emergency, call 911.",
+      "factIds": [
+        "too-much"
+      ]
+    },
+    {
+      "group": "Taking care",
+      "q": "Where can I get help if my use becomes a problem?",
+      "a": "Talk with a health care provider or substance use counselor, or reach the state's 24/7 HOPE Line at 1-877-8-HOPENY (467369), or text HOPENY to 467369.",
+      "factIds": [
+        "cud-talk",
+        "hopeline"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Regulations (9 NYCRR 123.10 and 125.4)",
+      "url": "https://cannabis.ny.gov/adopted-au-regulations"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Delivery FAQ",
+      "url": "https://cannabis.ny.gov/adult-use-delivery-FAQ"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Consumers",
+      "url": "https://cannabis.ny.gov/consumers"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Dispensary Location Verification",
+      "url": "https://cannabis.ny.gov/dispensary-location-verification"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Get the Facts",
+      "url": "https://cannabis.ny.gov/get-facts-flier"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Home Cultivation FAQ",
+      "url": "https://cannabis.ny.gov/home-cultivation-faqs"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Know Your Rights with Cannabis",
+      "url": "https://cannabis.ny.gov/know-your-rights-cannabis"
+    },
+    {
+      "label": "NY Governor's Traffic Safety Committee: Cannabis and Driving",
+      "url": "https://trafficsafety.ny.gov/cannabis"
+    }
+  ]
+}

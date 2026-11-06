@@ -1,0 +1,25 @@
+{
+  "slug": "accessibility",
+  "path": "/accessibility-statement/",
+  "title": "Accessibility Statement | The Bridge",
+  "description": "Draft accessibility statement for The Bridge Cannabis Experience. Final text comes from The Bridge's counsel before launch.",
+  "h1": "Accessibility Statement",
+  "kicker": "Legal",
+  "lede": "We want this site to work for every adult who wants to use it.",
+  "image": "g-papers-law",
+  "draftNote": "Draft for this preview. The Bridge's counsel supplies the final text before launch.",
+  "sections": [
+    {
+      "heading": "What we're aiming for",
+      "html": "<p>Our intent is a site people can use however they get around the web: with a keyboard, with a screen reader, on a phone, zoomed in.</p>"
+    },
+    {
+      "heading": "Tell us what's not working",
+      "html": "<p>If something here gets in your way, tell us the page and what happened. Use the <a href=\"/contact/\">contact page</a> or call <a href=\"tel:+19178327420\">917-832-7420</a>.</p>"
+    },
+    {
+      "heading": "What the final statement will cover",
+      "html": "<ul>\n<li>How the site is reviewed</li>\n<li>How to ask for help with something on the site</li>\n</ul>"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-leaf-cut",
+ "file": "assets/generated/g-leaf-cut.png",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Low key botanical studio photograph of one single cannabis fan leaf with seven slender serrated leaflets spreading from one stem. The leaf is almost a silhouette in very deep shadowed green, and a hard bright orange sodium rim light from the upper left outlines every serrated edge and the midribs of the leaflets in glowing orange. The whole leaf and its stem are in frame with margin on all sides. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:4"
+ },
+ "seed": 3593215481,
+ "requestId": "01a1b23a-78f8-7dd3-b78a-7fcd507e09ce",
+ "cutout": {
+  "model": "fal-ai/birefnet/v2",
+  "requestId": "01a1b23a-a2b6-7863-a005-07ad0c3897fe"
+ },
+ "width": 1551,
+ "height": 1899,
+ "sha256": "a9efc5d9fffb9dbba41867be27bc3a3abcfb89c21ba70d6cbd94bf26ea614966",
+ "retouch": "Cut out, trimmed, greens darkened.",
+ "alt": "One cannabis fan leaf with an orange rim light",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

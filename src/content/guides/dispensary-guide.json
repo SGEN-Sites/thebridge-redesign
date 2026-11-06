@@ -1,0 +1,135 @@
+{
+  "slug": "dispensary-guide",
+  "path": "/dispensary-guides/",
+  "title": "Dispensary Guide | The Bridge",
+  "description": "What to expect at a first visit to a New York dispensary: what ID to bring, how to order online or in store, how to check that a shop is licensed, and what not to do.",
+  "h1": "Your First Time at a Dispensary",
+  "kicker": "Dispensary Guide",
+  "lede": "Nobody's born knowing how this works. Here's the whole visit, start to finish: what to bring, how to order, what to ask and what to leave outside.",
+  "image": "g-bag",
+  "sections": [
+    {
+      "heading": "Bring your ID",
+      "html": "<p>First thing, every time. You have to be 21 to buy in New York, and dispensary staff are required to check your ID and confirm your age. They may scan it too. No valid ID, no sale, and that goes for glassware and merch as well as cannabis.</p>\n<p><a href=\"https://cannabis.ny.gov/consumers\" target=\"_blank\" rel=\"noopener\">What the state accepts</a>:</p>\n<ul>\n<li>A valid driver's license or non-driver ID from a motor vehicles department, the federal government, a US state or territory, DC or a Canadian province</li>\n<li>A valid federal, state or local government ID that shows your age and your photo, IDNYC included</li>\n<li>A valid passport from the United States or any other country</li>\n<li>A US armed forces ID card</li>\n</ul>\n<p>The state's <a href=\"https://cannabis.ny.gov/adopted-au-regulations\" target=\"_blank\" rel=\"noopener\">regulation</a> also lists a consular ID card, though its consumer page leaves that one out. If that's what you carry, call us at <a href=\"tel:+19178327420\">917-832-7420</a> before you come through.</p>",
+      "factIds": [
+        "age-21",
+        "id-inspect",
+        "id-scan",
+        "id-no-sale",
+        "id-license",
+        "id-gov",
+        "id-passport",
+        "id-military",
+        "id-consular"
+      ]
+    },
+    {
+      "heading": "Make sure the shop is licensed",
+      "html": "<p>In New York, a business needs an adult-use license to legally sell cannabis. Selling without one is illegal, whatever the sign out front says. Here's how the state tells you to check, and you can hold us to the same test:</p>\n<ol>\n<li><strong>Look at the door.</strong> Licensed dispensaries have to post the Dispensary Verification Tool near their main entrance. Scan its QR code and it takes you to the state's list of licensed shops.</li>\n<li><strong>Look up the shop.</strong> The Office of Cannabis Management keeps <a href=\"https://cannabis.ny.gov/dispensary-location-verification\" target=\"_blank\" rel=\"noopener\">a listing of every licensed dispensary</a>.</li>\n<li><strong>Look at the package.</strong> Every regulated adult-use product carries New York's universal symbol, plus a QR code or link to its lab results, called a Certificate of Analysis. The state says to check both the storefront and the label.</li>\n</ol>\n<p>Once you're inside, the shop's license and the possession and purchase limits have to be posted where you can see them.</p>",
+      "factIds": [
+        "license-required",
+        "no-unlicensed-sale",
+        "dvt-entrance",
+        "dvt-qr",
+        "ocm-list",
+        "universal-symbol",
+        "coa",
+        "check-both",
+        "license-posted"
+      ]
+    },
+    {
+      "heading": "Order online or in store",
+      "html": "<p>New York lets a licensed dispensary sell in person or over the internet. So there are two ways to do this. Come through during <a href=\"/dispensaries/astoria/\">store hours</a> and shop in person, or start at <a href=\"https://store.thebridgecannabis.com/\" target=\"_blank\" rel=\"noopener\">store.thebridgecannabis.com</a> and order online.</p>\n<p>Online, you confirm you're 21 or older when you order. If an order is coming by delivery, the state adds a few rules:</p>\n<ul>\n<li>The person making the delivery checks your ID again, and you sign for it.</li>\n<li>Delivery orders are paid when you place them, online or over the phone. No cash to the driver.</li>\n<li>It has to go to a physical residential or private business address in New York State. Not a public space, not a car.</li>\n</ul>\n<p>In store or online, a shop can set a lower limit on what you buy based on inventory. At the counter you should be offered a receipt, and a dispensary can't collect your personal information without your consent beyond what normally comes with a sale, which can include your age.</p>",
+      "factIds": [
+        "sale-channels",
+        "online-attest",
+        "delivery-id",
+        "delivery-signature",
+        "delivery-prepaid",
+        "delivery-no-cash",
+        "delivery-address",
+        "delivery-where",
+        "purchase-limit-inventory",
+        "receipt",
+        "personal-info"
+      ]
+    },
+    {
+      "heading": "Ask your questions",
+      "html": "<p>This is the part people skip, and they shouldn't. Say it's your first time. Say what you've tried before, if anything, and what you're not looking for. No stigma, no dumb questions.</p>\n<p>A few good ones to start with:</p>\n<ul>\n<li>What format is this, and how do I use it?</li>\n<li>What's the serving size, and how long can it take before I feel anything?</li>\n<li>What's the cultivar, and what kind of extract is in it?</li>\n<li>Where do I find the lab results?</li>\n<li>How should I store this at home?</li>\n</ul>\n<p>Medical questions go to your health care provider. If you're pregnant or breast or chest feeding, have a history of respiratory or cardiovascular illness, have been diagnosed with or are predisposed to a serious mental illness, or take prescription medication, the state says to talk with your provider before you consume.</p>",
+      "factIds": [
+        "label-cultivar",
+        "label-extract",
+        "coa",
+        "talk-provider"
+      ]
+    },
+    {
+      "heading": "Start low, go slow",
+      "html": "<p>That's the state's advice. If you're new, or it's been a while, start small and let it settle before you take more. Edibles and drinks can take hours to be fully felt. You can always take more, but you can't take less. The details are in the <a href=\"/faq/\">FAQ</a>.</p>",
+      "factIds": [
+        "start-new",
+        "edibles-beverages-delay",
+        "start-more"
+      ]
+    },
+    {
+      "heading": "What not to do",
+      "html": "<ul>\n<li><strong>Don't come through without ID.</strong> No valid ID, no sale.</li>\n<li><strong>Don't buy for anyone under 21.</strong> Adults can face criminal penalties for selling or giving cannabis products to someone under 21.</li>\n<li><strong>Don't show up visibly intoxicated.</strong> A dispensary can't sell to you if you are.</li>\n<li><strong>Don't consume in the shop.</strong> State rules bar it, smoking and vaping included, anywhere on a dispensary's licensed premises except a licensed consumption facility.</li>\n<li><strong>Don't ask for samples.</strong> Dispensaries aren't allowed to hand out cannabis samples. The one exception is letting you inspect a product before you buy.</li>\n<li><strong>Don't open it in the car.</strong> Neither drivers nor passengers can open cannabis packaging in a vehicle, and smoking in one is illegal, moving or parked. Keep it securely stored in a closed container.</li>\n<li><strong>Don't drive high.</strong> It's illegal. Make a plan before you consume.</li>\n<li><strong>Don't take it out of state.</strong> Crossing state lines with cannabis is illegal, medical cannabis included.</li>\n<li><strong>Don't resell it, or \"gift\" it for something in return.</strong> Selling without a license is illegal. You can share within the possession limits with someone 21 or older, but trading, bartering or \"gifting\" cannabis in exchange for something else is illegal.</li>\n</ul>",
+      "factIds": [
+        "id-no-sale",
+        "under-21-penalty",
+        "visibly-intoxicated",
+        "no-consumption-premises",
+        "no-samples",
+        "vehicle-open",
+        "vehicle-smoke",
+        "vehicle-closed",
+        "drive-illegal",
+        "drive-plan",
+        "state-lines",
+        "no-unlicensed-sale",
+        "share",
+        "gifting"
+      ]
+    },
+    {
+      "heading": "When you get home",
+      "html": "<p>Keep it locked and out of reach of children and pets. Dispensaries have to sell or provide storage containers that lock and are child resistant, so ask. Edibles especially can be confused with food.</p>\n<p>If you think someone has consumed too much, or a child or pet got into it, call the New York Poison Control Center at <a href=\"tel:+18002221222\">(800) 222-1222</a>. If it's an emergency, call 911.</p>",
+      "factIds": [
+        "storage",
+        "storage-containers",
+        "food-confusion",
+        "too-much",
+        "child-pet"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Regulations (9 NYCRR 123.10 and 125.4)",
+      "url": "https://cannabis.ny.gov/adopted-au-regulations"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Delivery FAQ",
+      "url": "https://cannabis.ny.gov/adult-use-delivery-FAQ"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Consumers",
+      "url": "https://cannabis.ny.gov/consumers"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Dispensary Location Verification",
+      "url": "https://cannabis.ny.gov/dispensary-location-verification"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Know Your Rights with Cannabis",
+      "url": "https://cannabis.ny.gov/know-your-rights-cannabis"
+    }
+  ]
+}

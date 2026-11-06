@@ -1,0 +1,26 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-vinyl",
+ "file": "assets/generated/g-vinyl.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Caravaggio tenebrism photograph: near-black ground, one single hard warm orange sodium key light from the upper left, deep shadow swallowing most of the frame, high-end fine art photographic finish. Close still life: a black vinyl record with glinting grooves and a completely blank plain dark centre label lying on a turntable platter, next to it a row of unmarked black rotary knobs on a dark mixer panel with no printed scale, no numbers, no markings. The hard orange light glances along the grooves from the upper left, the rest of the frame in deep shadow., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 1871809530,
+ "requestId": "01a1b237-7413-70a3-8647-ca4f34e26bdc",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "9df635631ee9d13ace523e98b5a7215680ba3ad91435d838b4a6be34c29a1231",
+ "retouch": "Printed marks on the mixer panel removed, retinted.",
+ "alt": "Black vinyl record and unmarked mixer knobs in an orange light",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

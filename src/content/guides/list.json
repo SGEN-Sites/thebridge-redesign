@@ -1,0 +1,24 @@
+{
+  "slug": "list",
+  "path": "/rewards/",
+  "title": "The List | The Bridge",
+  "description": "The List from The Bridge in Astoria, Queens: how to hear about pop-ups, meet and greets and free community sessions at 25-15 Broadway.",
+  "h1": "The List",
+  "kicker": "Get On The List",
+  "lede": "Pop-ups, meet and greets, free community sessions. Get on The List and hear about them.",
+  "image": "g-wall-night",
+  "sections": [
+    {
+      "heading": "What you'll hear about",
+      "html": "<ul>\n<li>Brand pop-ups at 25-15 Broadway</li>\n<li>Meet and greets</li>\n<li>Free community sessions</li>\n</ul>\n<p>That's what it's for. It isn't a points program and it doesn't come with perks. It's word on what's happening at the shop.</p>"
+    },
+    {
+      "heading": "What that's looked like",
+      "html": "<p>Recently: a Customer Appreciation Pop-Up with a meet and greet with Havoc of Mobb Deep, and a free all-levels mat Pilates class with Eaton Botanicals. See <a href=\"/events/\">Events</a> for more.</p>"
+    },
+    {
+      "heading": "How to get on it",
+      "html": "<p>Put your name and email in the form on this page, or send us a message through the <a href=\"/contact/\">contact page</a> and say you want on The List. Same as everything here, it's for adults 21 and older.</p>"
+    }
+  ]
+}

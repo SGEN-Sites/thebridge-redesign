@@ -1,0 +1,10 @@
+/* fonts.css - self-hosted OFL faces (main session). Bebas Neue, Inter and Space Mono are The Bridge's own site fonts.
+   Sedgwick Ave Display is the hand-tag voice of the graffiti plane; Rubik Spray Paint and Rubik Wet Paint are for one big
+   paint word at a time, never for reading text. */
+@font-face { font-family: 'Bebas Neue'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/BebasNeue-400.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('/assets/fonts/Inter-var.woff2') format('woff2'); }
+@font-face { font-family: 'Space Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/SpaceMono-400.woff2') format('woff2'); }
+@font-face { font-family: 'Space Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url('/assets/fonts/SpaceMono-700.woff2') format('woff2'); }
+@font-face { font-family: 'Sedgwick Ave Display'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/SedgwickAveDisplay-400.woff2') format('woff2'); }
+@font-face { font-family: 'Rubik Spray Paint'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/RubikSprayPaint-400.woff2') format('woff2'); }
+@font-face { font-family: 'Rubik Wet Paint'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/RubikWetPaint-400.woff2') format('woff2'); }

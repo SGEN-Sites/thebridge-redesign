@@ -1,0 +1,29 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-cans",
+ "file": "assets/generated/g-cans.png",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of The Bridge, its store, staff, customers, products or brands, never a real place.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Studio photograph of three identical plain matte black aerosol spray paint cans grouped together, one slightly in front of the other two, each a smooth blank cylinder with a black cap and a black nozzle, bare satin metal with no label, no printing, no stripes, no markings of any kind. A hard orange rim light from the upper left runs along the left edge and shoulder of each can, the rest of each can is dark but still readable. Plain seamless dark charcoal grey background, evenly lit, no floor line, no cast shadow on the background. All three cans whole in frame with margin on all sides., Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no signage anywhere in the image. No people, no faces, no hands, no bodies, no animals.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "1:1"
+ },
+ "seed": 4026574425,
+ "requestId": "01a1b236-e123-7be0-a58b-76f095824c3c",
+ "cutout": {
+  "model": "fal-ai/birefnet/v2",
+  "requestId": "01a1b237-0a78-7a40-a7e1-96e617cf195d"
+ },
+ "width": 1155,
+ "height": 1350,
+ "sha256": "4867b125fe8a0cbc17cd631bef1adc8541348cf85212aa5bfdbbe163aa43dfdc",
+ "retouch": "Cut out, trimmed.",
+ "alt": "Three unbranded matte black spray cans with an orange rim light",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "Looked at after grade: no people, no words, no brand marks."
+ }
+}

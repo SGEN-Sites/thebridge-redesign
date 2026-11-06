@@ -1,0 +1,181 @@
+{
+  "slug": "medical-card",
+  "path": "/getting-a-medical-card/",
+  "title": "Getting a Medical Card | The Bridge",
+  "description": "How New York's Medical Cannabis Program works: getting certified by a health care provider, what it costs, where certified patients buy, and how long a certification lasts.",
+  "h1": "Getting a Medical Card",
+  "kicker": "New York Medical Cannabis Program",
+  "lede": "First thing to know: New York doesn't hand out a card anymore. What you get is a certification from a health care provider. Here's how the state says it works.",
+  "image": "g-papers-law",
+  "sections": [
+    {
+      "heading": "It's a certification now",
+      "html": "<p>People still say \"medical card,\" but <a href=\"https://cannabis.ny.gov/medical-cannabis-program-faqs\" target=\"_blank\" rel=\"noopener\">registry ID cards are no longer being issued</a>. Your certification carries a registry ID number, and you use it together with a government photo ID. You don't register separately, either: you're auto-registered when your provider certifies you.</p>",
+      "factIds": [
+        "med-no-card",
+        "med-registry-id",
+        "med-auto-register"
+      ]
+    },
+    {
+      "heading": "Whether it's right for you is your provider's call",
+      "html": "<p>We don't decide that, and neither does a website. Under the program, you may be eligible for any condition your health care provider deems clinically appropriate. So the conversation starts with them: ask whether medical cannabis may help you. The state's patient brochure also notes that medical cannabis has not been analyzed by the U.S. Food and Drug Administration.</p>",
+      "factIds": [
+        "med-eligible",
+        "med-ask-provider",
+        "med-fda"
+      ]
+    },
+    {
+      "heading": "How to get certified",
+      "html": "<ol>\n<li><strong>Talk to your provider.</strong> The state's first step is speaking with your treating health care provider. Certifying providers are New York licensed practitioners who can prescribe controlled substances, are qualified to treat your condition and have completed an approved course.</li>\n<li><strong>Find a participating provider if you need one.</strong> A provider who isn't in the program can't certify you. The state's <a href=\"https://data.ny.gov/Human-Services/OCM-Medical-Cannabis-Healthcare-Providers/gegk-4ghy/data_preview\" target=\"_blank\" rel=\"noopener\">public database</a> can be filtered by county, and you can consult in person or by telehealth.</li>\n<li><strong>Get certified.</strong> If the provider deems your condition appropriate, they certify you.</li>\n<li><strong>Go to a medical dispensary.</strong> Once you have your certification, you can go right away. Bring a government photo ID and your signed certification, on paper or on your phone.</li>\n</ol>",
+      "factIds": [
+        "med-first-step",
+        "med-who-certifies",
+        "med-participating",
+        "med-database",
+        "med-telehealth",
+        "med-deems",
+        "med-immediate",
+        "med-bring"
+      ]
+    },
+    {
+      "heading": "What it costs",
+      "html": "<p>There's no fee to become a patient. Office visits tied to your evaluation and certification may be covered by insurance, and the state says insurers can't deny coverage for a visit that results in a certification, as long as the certification wasn't the only reason for the visit. Some providers may charge a fee to evaluate you, so ask first.</p>\n<p>The products are a different story. Medical cannabis products aren't covered by New York State Medicaid, though registered organizations may offer discounts or reduced prices to certified patients.</p>",
+      "factIds": [
+        "med-no-fee",
+        "med-insurers",
+        "med-provider-fee",
+        "med-products-not-covered"
+      ]
+    },
+    {
+      "heading": "Where certified patients buy",
+      "html": "<p>Registered patients buy medical products from <a href=\"https://cannabis.ny.gov/dispensing-facilities\" target=\"_blank\" rel=\"noopener\">dispensing facilities</a> run by registered organizations, and every medical dispensary has a pharmacist on site. Patients and their caregivers can buy up to a 60-day supply, or 3 ounces of cannabis and 24 grams of concentrate, whichever is greater.</p>\n<p>Adult-use dispensaries have their own rules here. If you show a valid medical certification at an adult-use shop, the state requires the shop to give you a list of the nearest medical dispensaries. And if your dosing recommendation reads \"Per Pharmacist Consultation,\" staff have to tell you they aren't a pharmacist before making recommendations.</p>\n<p>Got a question about your certification and The Bridge? <a href=\"/contact/\">Ask the shop</a>.</p>",
+      "factIds": [
+        "med-where",
+        "med-pharmacist",
+        "med-limit",
+        "med-adult-use-list",
+        "med-adult-use-disclose"
+      ]
+    },
+    {
+      "heading": "How long a certification lasts",
+      "html": "<p>The state's own documents don't all say the same thing here. Its <a href=\"https://cannabis.ny.gov/system/files/documents/2026/03/summary-of-medical-bill-amendments-pdf.pdf\" target=\"_blank\" rel=\"noopener\">summary of the 2025 law</a> says a certification expires two years after your provider signs it, unless your provider sets a shorter date, and lists that change as effective February 19, 2026. Before that, the limit was one year. Its <a href=\"https://cannabis.ny.gov/patient-and-caregiver-certification-guidelines\" target=\"_blank\" rel=\"noopener\">patient guidelines</a> still say certifications may expire within one year, unless your provider indicates you are terminally ill.</p>\n<p>So go by the date on your own certification, and talk to your provider before it runs out.</p>",
+      "factIds": [
+        "med-bill-2025",
+        "med-cert-2yr",
+        "med-cert-2yr-summary",
+        "med-cert-old",
+        "med-cert-1yr",
+        "med-recert"
+      ]
+    },
+    {
+      "heading": "Caregivers",
+      "html": "<p>A patient can designate up to five caregivers to help buy or administer medical cannabis products. Under the 2025 changes, a caregiver can be 18 or older.</p>",
+      "factIds": [
+        "med-bill-2025",
+        "med-caregivers",
+        "med-caregiver-18"
+      ]
+    },
+    {
+      "heading": "Your privacy",
+      "html": "<p>Your status as a patient is yours. You don't have to disclose it, even to an employer, law enforcement or a court. The state's <a href=\"https://cannabis.ny.gov/patient-rights-and-protections\" target=\"_blank\" rel=\"noopener\">patient rights sheet</a> lays out the rest. One thing doesn't change: it's still illegal for anyone to drive while consuming or impaired by cannabis.</p>",
+      "factIds": [
+        "med-privacy",
+        "med-no-drive"
+      ]
+    },
+    {
+      "heading": "If you're certified in another state",
+      "html": "<p>The state's program FAQ says yes: you can buy from a New York medical dispensary with proof of your certification or registration and a valid government photo ID, and it tells you to contact a registered organization to see what's required. Its summary of the 2025 law lists this change as needing regulations. So check with the medical dispensary before you go. And it's illegal to cross state lines with cannabis, medical cannabis included.</p>",
+      "factIds": [
+        "med-bill-2025",
+        "med-reciprocity-faq",
+        "med-reciprocity-contact",
+        "med-reciprocity-summary",
+        "med-reciprocity-regs",
+        "state-lines"
+      ]
+    },
+    {
+      "heading": "Growing your own",
+      "html": "<p>Certified patients can grow at home, but the state's pages differ on the age. Its summary of the 2025 law and its patient page say 18 or older. Its program FAQ and patient rights sheet still say 21. Read the state's <a href=\"https://cannabis.ny.gov/medical-cannabis-home-cultivation-guide\" target=\"_blank\" rel=\"noopener\">medical home cultivation guide</a> before you plant anything.</p>",
+      "factIds": [
+        "med-bill-2025",
+        "med-home-18",
+        "med-home-18-page",
+        "med-home-21-faq",
+        "med-home-21-rights"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does The Bridge take medical certifications?",
+      "a": "Ask the shop. Send us a message through the contact page, or call 917-832-7420."
+    },
+    {
+      "q": "Do I need a medical certification to buy adult-use cannabis?",
+      "a": "Adult-use is New York's term for non-medical cannabis, and you have to be 21 to buy it. The medical program is a separate path through a health care provider.",
+      "factIds": [
+        "adult-use-term",
+        "age-21",
+        "med-first-step"
+      ]
+    },
+    {
+      "q": "What do I bring to a medical dispensary?",
+      "a": "A government photo ID and your signed certification, on paper or on a smart device.",
+      "factIds": [
+        "med-bring"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Cannabis Regulations (9 NYCRR 123.10 and 125.4)",
+      "url": "https://cannabis.ny.gov/adopted-au-regulations"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Adult-Use Information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Dispensing Facilities",
+      "url": "https://cannabis.ny.gov/dispensing-facilities"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Medical Cannabis Program",
+      "url": "https://cannabis.ny.gov/medical-cannabis"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Medical Cannabis Program FAQs",
+      "url": "https://cannabis.ny.gov/medical-cannabis-program-faqs"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Medical Cannabis Program Patient Brochure",
+      "url": "https://cannabis.ny.gov/nys-medical-cannabis-program-patient-brochure"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Patient and Caregiver Certification Guidelines",
+      "url": "https://cannabis.ny.gov/patient-and-caregiver-certification-guidelines"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Patient Rights and Protections",
+      "url": "https://cannabis.ny.gov/patient-rights-and-protections"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Patients",
+      "url": "https://cannabis.ny.gov/patients"
+    },
+    {
+      "label": "NY Office of Cannabis Management: Summary of Amendments from Senate Bill 3294-A",
+      "url": "https://cannabis.ny.gov/system/files/documents/2026/03/summary-of-medical-bill-amendments-pdf.pdf"
+    }
+  ]
+}
