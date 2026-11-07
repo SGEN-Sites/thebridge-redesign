@@ -51,7 +51,8 @@
   .mega__panel.glass::before, .mega__panel.glass::after { content: none; }
   .mega__feature { display: none; }
   .mega__groups { display: grid; gap: 16px; }
-  .mega__group--brands .mega__links, .mega__group--categories .mega__links, .mega__group--the-insider .mega__links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 14px; }
+  .mega__group--brands .mega__links, .mega__group--categories .mega__links, .mega__group--the-insider .mega__links,
+  .mega__group--deals .mega__links, .mega__group--know-your-strain .mega__links, .mega__group--company .mega__links, .mega__group--our-shop .mega__links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 14px; }
   .mega__h { margin-bottom: 2px; }
   .mega__link { display: flex; align-items: center; min-height: 44px; padding-block: 6px; font-size: 1rem; background: none; }
   .mega__addr a { align-items: center; min-height: 44px; }
@@ -103,7 +104,9 @@
   .link-arrow { min-height: 44px; }
   .chip { min-height: 32px; }
   a.chip, button.chip { min-height: 44px; }
-  .crumbs a { min-height: 44px; }
+  /* 44 px hit boxes with the words and slashes where they were: side padding taken back by a negative margin, the
+     underline kept to the word */
+  .crumbs a { min-height: 44px; padding-inline: 5px; margin-inline: -5px; background-origin: content-box; background-clip: content-box; }
   .crumbs li { min-height: 44px; }
   .crumbs-bar { height: auto; min-height: var(--crumbs-h); }
   .has-crumbbar { --crumbs-h: 44px; }
@@ -116,7 +119,7 @@
   .pcard__add { min-height: 44px; }
   .pcard__name { font-size: 1.35rem; }
   .pcard__body { padding-inline: 14px; padding-bottom: 14px; }
-  .pcard__name a { display: inline; }
+  .pcard__name a { display: inline; padding-block: 8px; background-position: 0 calc(100% - 8px); }
   .faq summary { min-height: 56px; font-size: 1.35rem; padding-inline: 16px; }
   .faq details > :not(summary) { padding-inline: 16px; }
   .hours dt, .hours dd { font-size: .875rem; }
@@ -124,22 +127,34 @@
   [data-rail]:not(.rail), .rail__track { --rail-card: min(72vw, 280px); }
 
   .cta-band__burst { right: -18%; top: -10%; width: 110vw; }
-  .cta-band__tag { left: 8px; top: 6%; font-size: clamp(4.4rem, 22vw, 7rem); }
+  /* the pane is opaque here, so the tag sits whole above it */
+  .cta-band { padding-top: 112px; }
+  .cta-band__tag { left: 12px; top: 16px; font-size: 18vw; transform: rotate(-2.5deg); }
+  .cta-band__pane .btn-row > .btn { font-size: min(1.25rem, 4.8vw); }
 
   .site-footer { --lx: 20%; --ly: 3%; }
   .footer__drip--a { left: 4%; width: 54vw; }
   .footer__drip--b { right: 6%; width: 30vw; }
   .footer__mark { padding-top: 56px; padding-bottom: 10px; }
   .footer__links a, .footer__legal a { min-height: 44px; }
+  .footer__links a { padding-inline: 8px; margin-inline: -8px; background-origin: content-box; background-clip: content-box; }
   .footer__addr a { min-height: 44px; align-items: center; }
   .footer__addr .ico { margin-top: 0; }
-  .footer__col:nth-child(2) .footer__links { grid-template-columns: minmax(0, 1fr); }
+  /* one column, the links run on in rows */
+  .footer__cols { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .footer__links, .footer__col:nth-child(2) .footer__links { display: flex; flex-wrap: wrap; gap: 0 20px; }
   .footer__legal { gap: 0 18px; }
   .age-gate__logo .logo__img { height: 78px; }
   .age-gate__btns { width: 100%; }
+  /* the drawer leaves a strip of page to tap closed */
+  .nav { width: calc(100% - 48px); }
+  html.nav-open .mainbar__logo { visibility: hidden; }
+  /* a fold (details[data-fold]) ships open; site.js closes it on phones. Until then its body is held back, and shows
+     again at 2.5 s if site.js never runs */
+  html.js details[data-fold]:not(.fold-ready) > :not(summary) { max-height: 0; overflow: hidden; visibility: hidden; animation: fold-safe .01s linear 2.5s forwards; }
 }
+@keyframes fold-safe { to { max-height: none; visibility: visible; } }
 @media (max-width: 400px) {
   .header-cta { padding-inline: .62em; font-size: 1.05rem; }
   .logo__img { height: 46px; }
-  .footer__cols { gap: 22px 16px; }
 }

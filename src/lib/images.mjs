@@ -100,9 +100,14 @@ function scanPhotos() {
     if (id.length > 64) id = 'p-' + id.slice(2, 20) + '-' + crypto.createHash('sha1').update(f).digest('hex').slice(0, 10);
     // two files that differ only by extension (uf/Picture3.png + uf/Picture3.webp) must not share an id
     if (registry.has(id)) id += '-' + f.split('.').pop().toLowerCase();
-    const widths = [...new Set(PHOTO_WIDTHS.map((w) => Math.min(w, size.w)))];
-    const key = st.size.toString(36) + Math.floor(st.mtimeMs).toString(36);
-    const entry = { id, file, ...size, cut: false, ai: false, photo: true, alt: '', variants: widths.map((w) => ({ w, url: `/assets/img/${id}-${w}.webp`, cache: path.join(CACHE, `${id}-${w}-${key}.webp`) })) };
+    // The overspray textures (paint/spray-orange-*, spray-blue-*) are speckle in the alpha channel: with lossless alpha
+    // their resized variants came out larger than the 1400 px original (1200 px: 720 KB). They get lossy alpha instead;
+    // the profile is part of the cache key, so a change of profile re-encodes. No 1200 step for them: resizing adds
+    // alpha detail, so even lossy the 1200 file outweighed the 1400 one (323 KB against 240 KB).
+    const enc = /^paint\/spray-(orange|blue)-/.test(f) ? 'paint' : '';
+    const widths = [...new Set((enc ? [480, 800, 1800] : PHOTO_WIDTHS).map((w) => Math.min(w, size.w)))];
+    const key = st.size.toString(36) + Math.floor(st.mtimeMs).toString(36) + (enc ? '-' + enc + '1' : '');
+    const entry = { id, file, ...size, cut: false, ai: false, photo: true, enc, alt: '', variants: widths.map((w) => ({ w, url: `/assets/img/${id}-${w}.webp`, cache: path.join(CACHE, `${id}-${w}-${key}.webp`) })) };
     registry.set(id, entry);
     photos.set('/assets/photos/' + f, entry);
   }
@@ -132,9 +137,11 @@ export async function writeVariants(outDir, { log = console.log } = {}) {
       const { im, v } = jobs[next++];
       const tmp = v.cache + '.' + process.pid + '.tmp.webp';
       const resize = v.w < im.w ? ['-resize', String(v.w), '0'] : [];
-      const q = im.cut ? ['-q', '82', '-alpha_q', '90', '-exact'] : ['-q', '78'];
+      const q = im.cut ? ['-q', '82', '-alpha_q', '90', '-exact'] : im.enc === 'paint' ? ['-q', '60', '-alpha_q', '40', '-alpha_filter', 'best'] : ['-q', '78'];
       const r = await run('cwebp', ['-quiet', '-m', '5', '-metadata', 'none', ...q, ...resize, im.file, '-o', tmp]);
       if (r.code !== 0) { errors.push(`cwebp failed for ${im.id}@${v.w}: ${r.err.trim().slice(0, 200)}`); continue; }
+      // a photo at its own width: never ship a re-encode that is larger than the WebP it came from
+      if (!resize.length && im.photo && /\.webp$/i.test(im.file) && fs.statSync(im.file).size < fs.statSync(tmp).size) fs.copyFileSync(im.file, tmp);
       if (hasMux && im.ai) {
         const m = await run('webpmux', ['-set', 'xmp', xmp, tmp, '-o', v.cache]);
         if (m.code === 0) { fs.rmSync(tmp, { force: true }); continue; }
@@ -183,7 +190,8 @@ export function generated(id) {
  *       sizes (CSS sizes, default "100vw"), cls, eager (true = loading eager + fetchpriority high), attrs {}.
  */
 export function img(ref, opts = {}) {
-  const { sizes = '100vw', cls, eager = false, attrs = {} } = opts;
+  const { cls, eager = false, attrs = {} } = opts;
+  const sizes = opts.crisp ? opts.sizes || '100vw' : capSizes(opts.sizes || '100vw');
   const lazy = eager ? { loading: 'eager', fetchpriority: 'high' } : { loading: 'lazy' };
   if (typeof ref === 'string' && !ref.startsWith('/')) {
     const im = generated(ref);
@@ -204,6 +212,24 @@ export function img(ref, opts = {}) {
   if (!w || !h) { const s = imageSize(fs.readFileSync(file)); if (s) ({ w, h } = s); }
   const alt = opts.alt != null ? opts.alt : p.alt || '';
   return `<img${attrStr({ class: cls, src: p.src, width: w, height: h, alt, decoding: 'async', ...lazy, ...attrs })}>`;
+}
+
+/**
+ * sizes for a 3x phone as if it were 2x: before each entry, the same entry for screens of 2.5 dppx and up at two thirds
+ * of the width, so the first matching condition still decides and every other screen picks exactly as before. A third
+ * less width is about 55% fewer pixels, with no loss a phone shows in a photo. Entries whose condition uses "or" or "not"
+ * stay as they are. opts.crisp on img() skips this (line art, text in images).
+ */
+export function capSizes(sizes) {
+  const parts = String(sizes).split(/,(?![^(]*\))/).map((s) => s.trim()).filter(Boolean);
+  const out = [];
+  for (const p of parts) {
+    const m = p.match(/^(\(.*\))\s+([^()\s][^]*|calc\(.*\))$/);
+    if (m && /\b(or|not)\b/.test(m[1])) { out.push(p); continue; }
+    if (m) out.push(`${m[1]} and (min-resolution: 2.5dppx) calc(${m[2]} * .67)`, p);
+    else out.push(`(min-resolution: 2.5dppx) calc(${p} * .67)`, p);
+  }
+  return out.join(', ');
 }
 
 /** <picture class="..."> wrapper around img() (same args; opts.pictureCls for the wrapper) */

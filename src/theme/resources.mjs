@@ -109,8 +109,11 @@ function body(html) {
     return `<h2${own ? at : `${at} id="${escA(id)}"`}>${inner}</h2>`;
   });
   out = out.replace(/<blockquote\b[^>]*>([\s\S]*?)<\/blockquote>/gi, (m, inner) => `<blockquote class="r-q${plain(inner).length > 150 ? ' r-q--long' : ''}">${markLastWord(inner)}</blockquote>`);
-  return { html: rewriteLinks(out), toc };
+  return { html: rewriteLinks(telify(out)), toc };
 }
+// The Poison Center number, wherever a writer typed it as text, becomes a tap-to-call link (a number that is already
+// link text is left alone).
+const telify = (h) => String(h).replace(/(1-800-222-1222|\(800\) 222-1222)(?![^<]*<\/a>)/g, '<a href="tel:+18002221222">$1</a>');
 
 const tocNav = (items) => (items.length < 2 ? '' : `<nav class="r-toc" aria-label="On this page">
 <p class="r-toc__h">On this page</p>
@@ -451,7 +454,7 @@ function normItem(it) {
 }
 
 function faqList(items) {
-  return `<div class="faq r-faq">${items.map((f) => `<details data-reveal><summary>${esc(plain(f.q))}</summary><div class="faq__a">${asBlock(f.a || f.html || f.text || '')}</div></details>`).join('\n')}</div>`;
+  return `<div class="faq r-faq">${items.map((f) => `<details data-reveal><summary>${esc(plain(f.q))}</summary><div class="faq__a">${telify(asBlock(f.a || f.html || f.text || ''))}</div></details>`).join('\n')}</div>`;
 }
 // { group, q, a } in source order -> [{ name, id, items }]; items with no group share one nameless group.
 function faqGroups(items) {
@@ -509,7 +512,11 @@ function sectionsHtml(guide, mode) {
     const { html } = body(s.html);
     let itemsHtml = '';
     if (asked.length) itemsHtml += faqList(asked);
-    if (rest.length) itemsHtml += mode === 'law' || rest.some((n) => n.source && !n.title) ? factList(rest, counter) : itemList(rest);
+    if (rest.length) {
+      const list = mode === 'law' || rest.some((n) => n.source && !n.title) ? factList(rest, counter) : itemList(rest);
+      // law sections fold on phones (site.js closes data-fold there); shipped open for every other case
+      itemsHtml += mode === 'law' ? `<details class="r-fold" open data-fold><summary class="r-fold__sum"><span>${rest.length} ${rest.length === 1 ? 'fact' : 'facts'}, with sources</span></summary>${list}</details>` : list;
+    }
     const numbered = mode === 'walk' && heading;
     if (numbered) stepN += 1;
     return `<section class="r-gsec r-gsec--${mode}"${id ? ` id="${escA(id)}"` : ''}>
@@ -529,10 +536,11 @@ function nextGuides(ctx, def) {
   const others = GUIDES.filter((g) => g.mode !== 'legal' && g.slug !== def.slug && ctx.guides[g.slug]);
   const list = others.slice(0, 3);
   if (!list.length) return '';
+  const seen = new Map();
   return `<section class="band band--void r-related" aria-labelledby="r-next-h">
 <div class="wrap wrap--wide">
 <h2 class="display r-related__h" id="r-next-h" data-reveal>Keep <span class="accent">going</span></h2>
-<div class="r-grid r-grid--3">${list.map((g, i) => card(ctx, { h1: ctx.guides[g.slug].h1 || ctx.guides[g.slug].title || g.label, image: ctx.guides[g.slug].image || g.image }, { size: 's', h: 3, i, link: g.path, label: 'Guide', text: '' })).join('\n')}</div>
+<div class="r-grid r-grid--3">${list.map((g, i) => card(ctx, { h1: ctx.guides[g.slug].h1 || ctx.guides[g.slug].title || g.label, image: ctx.guides[g.slug].image || g.image }, { size: 's', h: 3, i, link: g.path, label: 'Guide', text: '', seen })).join('\n')}</div>
 </div>
 </section>`;
 }

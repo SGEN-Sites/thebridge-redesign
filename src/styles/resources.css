@@ -85,6 +85,8 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
 .r-lead__text { margin: 0 0 16px; max-width: 52ch; font-size: var(--fs-body); line-height: 1.55; color: var(--text); }
 .r-lead .btn { position: relative; z-index: 1; }
 @media (min-width: 640px) { .r-lead { margin-top: 34vw; } }
+/* phones: the lead story's pane and its button come up into the first screen, the art moves up with it */
+@media (max-width: 639.98px) { .r-lead { margin-top: 30vw; } .r-hub__art { inset: 150px 0 0; } }
 @media (min-width: 1024px) {
   .r-hub { min-height: 560px; padding-bottom: clamp(96px, 10vw, 170px); }
   .r-hub__art { inset: calc(var(--bleed, 0px) + 18%) 0 0; -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 26%, #000 82%, transparent 100%); mask-image: linear-gradient(180deg, transparent 0, #000 26%, #000 82%, transparent 100%); }
@@ -135,6 +137,13 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
 }
 .r-tab:hover, .r-tab:focus-visible, .r-tab.is-on { color: #000; border-color: var(--orange); }
 .r-tab:hover::before, .r-tab:focus-visible::before, .r-tab.is-on::before { transform: scaleX(1); }
+/* phones: one swipeable row of tabs, the current one in view (site.js where scroll-initial-target is missing) */
+@media (max-width: 639.98px) {
+  .r-tabs .r-tabs__list { flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); }
+  .r-tabs .r-tabs__list::-webkit-scrollbar { display: none; }
+  .r-tabs__list > li { flex: none; scroll-snap-align: start; }
+  .r-tab.is-on { scroll-initial-target: nearest; }
+}
 
 .r-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 26px; }
 .r-card { position: relative; min-width: 0; }
@@ -169,6 +178,8 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
 .r-vary-1 .r-card__img { --r-fx: -1; }
 .r-vary-2 .r-card__img { --r-base: 1.28; object-position: 82% 40%; }
 .r-vary-3 .r-card__img { --r-fx: -1; --r-base: 1.34; object-position: 24% 62%; }
+/* phones: a repeated image in a three-card rail also zooms past the lamp, so the pair never reads as a duplicate */
+@media (max-width: 767px) { .r-grid--3 .r-vary-1 .r-card__img { --r-base: 1.28; object-position: 82% 40%; } }
 .r-card__body { padding-top: 14px; }
 .r-card__title {
   margin: 6px 0 0;
@@ -303,6 +314,7 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
 @media (max-width: 767.98px) {
   .r-hub__tag, .r-cat__tag, .r-phero__tag, .r-smhero__tag { color: var(--blue); text-shadow: none; opacity: .5; }
   .r-cat__tag { left: 44%; top: calc(var(--bleed, 0px) + 2px); }
+  .r-sm__group:not(.r-sm__group--long) .r-sm__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; }
 }
 @media (min-width: 1024px) {
   .r-cat__scrim { background: linear-gradient(90deg, rgba(0, 0, 0, .94) 0%, rgba(0, 0, 0, .8) 30%, rgba(0, 0, 0, .18) 62%, transparent 82%), linear-gradient(0deg, #000 0, transparent 26%); }
@@ -379,6 +391,16 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
   transition: color .25s var(--ease-out), background-size .45s var(--ease-paint);
 }
 .r-toc__a:hover, .r-toc__a:focus-visible { color: var(--bone); background-size: 100% 1px; }
+/* below the desktop layout the outline is a swipeable row of chips above the text */
+@media (max-width: 1023px) {
+  .r-toc { display: block; margin: 0 0 clamp(26px, 4vw, 40px); }
+  .r-toc__h { margin-bottom: 8px; }
+  .r-toc .r-toc__list { display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); }
+  .r-toc .r-toc__list::-webkit-scrollbar { display: none; }
+  .r-toc__list > li { flex: none; scroll-snap-align: start; }
+  .r-toc__a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 15px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); background: none; color: var(--bone); white-space: nowrap; }
+  .r-toc__a:hover, .r-toc__a:focus-visible { border-color: var(--orange); }
+}
 
 .r-read { font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.72; color: var(--text); }
 .r-read > * { max-width: 68ch; }
@@ -401,6 +423,9 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
 .r-read strong { font-weight: 700; color: var(--bone); }
 .r-read a { color: var(--orange-hot); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; transition: text-decoration-thickness .2s; }
 .r-read a:hover, .r-read a:focus-visible { text-decoration-thickness: 2px; color: var(--bone); }
+/* touch sizes: inline links get a 44 px hit band without moving the text; phone numbers and the store address hold together */
+@media (max-width: 1023px) { .r-read a { padding-block: 12px; } }
+@media (max-width: 767px) { .r-read a[href^="tel:"], .faq__a a[href^="tel:"], .r-nowrap { white-space: nowrap; } }
 .r-read ul, .r-read ol, ul.r-bullets { margin: 0 0 1.25em; padding: 0 0 0 1.35em; }
 .r-read li, ul.r-bullets li { margin: .42em 0; }
 .r-read ul, ul.r-bullets { list-style: none; }
@@ -448,11 +473,23 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
 .r-gsec__h { margin: 0 0 .42em; font-family: var(--font-display); font-size: clamp(2.05rem, 3.3vw, 3.1rem); font-weight: 400; line-height: 1; letter-spacing: .01em; text-transform: uppercase; color: var(--bone); }
 .r-gsec__n { font-family: var(--font-display); font-size: clamp(3.6rem, 8vw, 7rem); line-height: .86; color: transparent; -webkit-text-stroke: 1.5px var(--orange); }
 .r-gsec__b { min-width: 0; }
+/* html's scroll-padding already clears the phone header: a jump lands the heading right under it */
+@media (max-width: 1023px) { .r-gsec, .r-read h2, .r-sources { scroll-margin-top: 12px; } }
 @media (min-width: 1200px) {
   .r-gsec--walk { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 28px; align-items: start; }
 }
+/* phones: the step number sits beside its heading (.r-gsec__b is a plain div, so display: contents drops nothing) */
+@media (max-width: 767px) {
+  .r-gsec--walk { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 12px; }
+  .r-gsec--walk > .r-gsec__b { display: contents; }
+  .r-gsec--walk > .r-gsec__b > * { grid-column: 1 / -1; }
+  .r-gsec--walk > .r-gsec__n { grid-column: 1; grid-row: 1; align-self: center; font-size: 2.9rem; }
+  .r-gsec--walk > .r-gsec__b > .r-gsec__h { grid-column: 2; grid-row: 1; align-self: center; margin: 0; }
+  .r-gsec--walk > .r-gsec__b > .r-gsec__h + * { margin-top: .5em; }
+}
 .r-items { position: relative; isolation: isolate; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; margin: 20px 0 0; padding: 0; list-style: none; }
 .r-items::before { content: ''; position: absolute; inset: -14% -8%; z-index: -1; background: url(/assets/photos/paint/spray-blue-1.webp) 80% 50% / contain no-repeat; opacity: .55; pointer-events: none; }
+@media (max-width: 767px) { .r-items::before { background-image: url(/assets/img/p-paint-spray-blue-1-800.webp); } }
 .r-item__in { position: relative; padding: clamp(16px, 1.9vw, 24px); }
 .r-item__h { margin: 0 0 6px; font-family: var(--font-display); font-size: clamp(1.45rem, 1.9vw, 1.75rem); font-weight: 400; line-height: 1.02; text-transform: uppercase; color: var(--bone); }
 .r-item__b { font-size: .9375rem; line-height: 1.55; color: var(--text); }
@@ -481,6 +518,25 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
   .r-fact { grid-template-columns: 92px minmax(0, 1fr) minmax(240px, 320px); column-gap: 32px; padding: 26px 0; align-items: start; }
   .r-fact__s { grid-column: 3; padding-left: 22px; border-left: 1px solid var(--line-strong); }
 }
+/* phones: the source runs on after its label in smaller type, so each fact spends its height on the rule */
+@media (max-width: 767px) {
+  .r-fact { grid-template-columns: 34px minmax(0, 1fr); gap: 6px 10px; padding: 14px 0; }
+  .r-fact__n { font-size: 2rem; line-height: 1; padding-top: 2px; }
+  .r-fact__s { font-size: .875rem; line-height: 1.45; }
+  .r-fact__s .r-label { display: inline; margin-right: .5em; }
+  .r-fact__a { display: inline; min-height: 0; padding-block: 12px; font-size: inherit; line-height: inherit; }
+  .r-fact__a .r-sources__ico { display: inline-block; width: 13px; height: 13px; margin-left: 5px; vertical-align: -1px; }
+}
+/* each law section's facts fold behind one summary on phones (site.js closes the folds there; the markup ships open, so
+   wider screens and no-JS see every fact, and the summary hides while a fold is open from 768 px) */
+.r-fold { margin-top: 14px; }
+.r-fold > .r-fold__sum { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; padding: 0 18px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); font-family: var(--font-mono); font-size: var(--fs-mono); font-weight: 700; letter-spacing: var(--track-mono); text-transform: uppercase; color: var(--orange-hot); list-style: none; cursor: pointer; }
+.r-fold > .r-fold__sum::-webkit-details-marker { display: none; }
+.r-fold > .r-fold__sum::after { content: ''; flex: none; width: 14px; height: 14px; background: linear-gradient(currentColor, currentColor) center / 100% 2px no-repeat, linear-gradient(currentColor, currentColor) center / 2px 100% no-repeat; transition: transform .4s var(--ease-out); }
+.r-fold[open] > .r-fold__sum { border-color: rgba(255, 107, 0, .5); }
+.r-fold[open] > .r-fold__sum::after { transform: rotate(45deg); }
+.r-fold > .r-facts { margin-top: 6px; }
+@media (min-width: 768px) { .r-fold { margin-top: 0; } .r-fold[open] > .r-fold__sum { display: none; } .r-fold > .r-facts { margin-top: 14px; } }
 
 /* FAQ: a pasted print on the side, the accordion on a calm ground */
 .r-faqs { position: relative; padding-block: clamp(44px, 6vw, 96px); }
@@ -490,6 +546,13 @@ h1.r-h1--xl { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
 .r-faqs__print { display: none; }
 .r-faqs__side .link-arrow { display: inline-flex; align-items: center; min-height: 44px; }
 .r-faq { margin-top: 10px; }
+/* below the desktop layout the topic links are pills, two by two on phones */
+@media (max-width: 1023px) {
+  .r-faqs__side { gap: 8px; }
+  .r-faqs__side .link-arrow { justify-content: center; padding: .1em 14px 0; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); background: none; font-size: 1.15rem; }
+  .r-faqs__side .link-arrow:hover, .r-faqs__side .link-arrow:focus-visible { border-color: var(--orange); }
+}
+@media (max-width: 639.98px) { .r-faqs__side { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1024px) {
   .r-faqs__grid { grid-template-columns: minmax(220px, 300px) minmax(0, 1fr); gap: clamp(40px, 6vw, 96px); align-items: start; }
   .r-faqs__side { position: sticky; top: calc(var(--mainbar-h, 68px) + 24px); display: grid; gap: 4px; justify-items: start; }
@@ -538,5 +601,7 @@ h1.r-legalhero__h1 { margin: .06em 0 .2em; font-size: var(--fs-h2); line-height:
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .r-tab, .r-tab::before, .r-card__media::before, .r-card__frame, .r-card__img, .r-card__title, .r-toc__a, .r-sm__a, .r-inkbtn, .r-cat__link { transition: none; }
+  .r-tab, .r-tab::before, .r-card__media::before, .r-card__frame, .r-card__img, .r-card__title, .r-toc__a, .r-sm__a, .r-inkbtn, .r-cat__link, .r-fold > .r-fold__sum::after { transition: none; }
 }
+/* touch screens have no hover: the card's overspray bloom stays unfetched */
+@media (hover: none) { .r-card__media::before { background: none; } }

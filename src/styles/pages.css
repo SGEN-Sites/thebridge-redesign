@@ -513,9 +513,10 @@ a:hover .p-draw__ink, a:focus-visible .p-draw__ink { stroke-dashoffset: 0; }
   .p-bcard:nth-child(n) { padding-inline: 0; border-right: 0; }
   .p-srow { grid-template-columns: 22px minmax(0, 1fr); }
   .p-srow p { grid-column: 2; }
-  .p-press__row { grid-template-columns: 44px minmax(0, 1fr); }
-  .p-press__go { grid-column: 2; justify-self: start; }
-  .p-press__index { font-size: 2.1rem; }
+  .p-press__row { grid-template-columns: minmax(0, 1fr); row-gap: 8px; }
+  .p-press__index { position: absolute; right: 6px; top: 12px; font-size: 1.9rem; }
+  .p-press__row .p-press__meta { padding-right: 48px; }
+  .p-press__go { grid-column: 1; justify-self: start; }
 }
 
 /* first-screen fits at 1280x585: the location H1 and the 404 H1 are two lines, so both stay smaller than the one-line heroes */
@@ -523,3 +524,46 @@ h1.p-store__h1 { font-size: clamp(3.2rem, min(8.4vw, 17vh), 8.4rem); }
 .p-404 { padding-block: clamp(24px, 4vw, 56px); }
 .p-404 h1.p-h1 { font-size: clamp(3.4rem, min(10vw, 19vh), 10rem); }
 @media (max-width: 900px) { .p-jobs__tag { display: none; } }
+
+/* ---------- phones (after the first-screen rules above: the 404 rule must follow them) ---------- */
+@media (max-width: 767px) {
+  /* Myth vs Fact: a swipe rail of full-width cards instead of two narrow columns */
+  .p-myth__grid { display: flex; gap: 14px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); }
+  .p-myth__grid::-webkit-scrollbar { display: none; }
+  .p-mythcard { flex: 0 0 min(84vw, 340px); scroll-snap-align: start; }
+  /* the sticky jump bar is solid, so text never shows through its links */
+  .p-fnav { background: #080706; }
+  /* benefits: the dot beside the heading, like the side-effect rows */
+  .p-bcard { display: grid; grid-template-columns: 22px minmax(0, 1fr); column-gap: 10px; align-items: start; }
+  .p-bcard > .p-dot { margin-top: 3px; }
+  .p-bcard__h { margin-top: 0; }
+  .p-bcard > p { grid-column: 2; }
+  /* the panes are opaque here, so each spray tag moves above its pane and reads whole (mobile.css .tag loads later,
+     hence two classes); the head stays above the stage wall */
+  .p-approach__head, .p-how__head { position: relative; z-index: 1; }
+  .p-approach__stage, .p-how .p-how__stage { padding-top: 100px; }
+  .p-approach__stage > .band__clip, .p-how .p-how__stage > .band__clip { -webkit-mask-image: linear-gradient(to bottom, transparent, #000 56px, #000 calc(100% - 56px), transparent); mask-image: linear-gradient(to bottom, transparent, #000 56px, #000 calc(100% - 56px), transparent); }
+  .p-approach .p-approach__tag, .p-how .p-how__tag { top: 70px; left: 12px; transform: rotate(-2.5deg); }
+  .p-approach .p-approach__tag { font-size: 19vw; }
+  .p-how .p-how__tag { font-size: 16.5vw; }
+  .p-kit { padding-top: 120px; }
+  .p-kit .p-kit__tag { top: 14px; left: 12px; transform: rotate(-2.5deg); }
+  .p-msg__tag { display: none; }
+  .p-hero__lede + .btn-row { margin-top: 22px; }
+  /* 404: the copy on clean black at the top, the torch-lit piece below it */
+  .p-404 { align-items: flex-start; padding-top: 48px; }
+  .p-404__wall { top: 300px; }
+  .p-havoc__quote { text-wrap: pretty; }
+  .p-stats { row-gap: 20px; }
+  /* contact cards: the icon beside the heading */
+  .p-ccard { display: grid; grid-template-columns: 28px minmax(0, 1fr); column-gap: 12px; align-items: center; }
+  .p-ccard > :not(.p-ccard__ico, .p-ccard__h) { grid-column: 1 / -1; }
+  .p-ccard__h { margin: 0; }
+  .p-ccard__h + * { margin-top: 10px; }
+  .p-flyer { width: min(64vw, 250px); }
+  /* store page: the story first, so View Larger Map sits right above the map; the pane's paragraphs get their gap; the
+     story link a 44 px hit band */
+  .p-storemap__side { order: -1; }
+  .p-pane .prose > * + * { margin-top: .8em; }
+  .p-storemap__side .prose a { padding-block: 12px; }
+}

@@ -22,7 +22,7 @@
     {
       "group": "The shop",
       "q": "Do you have a physical storefront?",
-      "a": "Yes, we have a store located at 25-15 Broadway Ave, Astoria, Queens, NY 11106."
+      "a": "Yes, we have a store located at <span class=\"r-nowrap\">25-15 Broadway</span> Ave, Astoria, Queens, NY 11106."
     },
     {
       "group": "The shop",

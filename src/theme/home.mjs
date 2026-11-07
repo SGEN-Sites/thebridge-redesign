@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT } from '../lib/paths.mjs';
 import * as shell from './shell.mjs';
-import { esc, escA, linkAttrs, gimg, img, photo, store, sec, byCls, absUrl, hasGenerated } from './util.mjs';
+import { esc, escA, linkAttrs, gimg, img, photo, store, sec, byCls, absUrl, hasGenerated, capSizes } from './util.mjs';
 
 const { icon, hoursHtml, tag, spray, drip, ytCard, pcard, loopVideo } = shell;
 const hasFile = (rel) => fs.existsSync(path.join(ROOT, rel));
@@ -25,13 +25,15 @@ function logoImg(set, alt, { sizes = '40vw', cls = '', eager = false } = {}) {
 
 const HERO_LG = [1280, 1920, 2560, 3840].map((w) => [w, `/assets/media/bridge-hero-${w}.webp`]);
 const HERO_SM = [800, 1200, 1600].map((w) => [w, `/assets/media/bridge-hero-sm-${w}.webp`]);
+// the phone photo covers the hero by height (140vw wide); a 3x phone takes it as 2x, the same rule img() applies
+const HERO_SM_SIZES = capSizes('140vw');
 
 // ---------- 1 hero ----------
 function hero(ctx, s) {
   const lines = byCls(s, 'hero-title').text.split(/\s+/);
   const logoAlt = (s.blocks.find((b) => b.tag === 'img') || {}).alt || ctx.site.fullName;
   // the client's own bridge photo, upscaled (docs/MEDIA.md); a tall crop on phones, up to 3840 px on desktop
-  const steel = `<picture><source media="(max-width: 759px)" srcset="${HERO_SM.map(([w, u]) => `${u} ${w}w`).join(', ')}" sizes="140vw"><source srcset="${HERO_LG.map(([w, u]) => `${u} ${w}w`).join(', ')}" sizes="(max-width: 1023px) 190vw, 100vw"><img class="h-hero__photo" src="${HERO_LG[1][1]}" width="3840" height="2817" alt="" decoding="async" fetchpriority="high"></picture>`;
+  const steel = `<picture><source media="(max-width: 759px)" srcset="${HERO_SM.map(([w, u]) => `${u} ${w}w`).join(', ')}" sizes="${HERO_SM_SIZES}"><source srcset="${HERO_LG.map(([w, u]) => `${u} ${w}w`).join(', ')}" sizes="(max-width: 1023px) 190vw, 100vw"><img class="h-hero__photo" src="${HERO_LG[1][1]}" width="3840" height="2817" alt="" decoding="async" fetchpriority="high"></picture>`;
   const h1 = lines.map((w, i) => `<span class="h-hero__line${/^CULTURE$/i.test(w) ? ' outline' : ''}" style="--i:${i}">${esc(w)}</span>`).join(' ');
   return `<section class="h-hero" aria-labelledby="h-hero-h1" data-video-host>
 <div class="band__clip h-hero__wall">
@@ -42,7 +44,7 @@ ${steel}
 ${tag('QUEENS', { color: 'blue', cls: 'h-hero__tag' })}
 <div class="h-spray" data-spray-tag aria-hidden="true"><canvas class="h-spray__paint"></canvas><canvas class="h-spray__fx"></canvas></div>
 <button class="loop-toggle" type="button" data-spray-toggle aria-pressed="false" aria-label="Pause motion">${icon('pause', 'loop-toggle__pause')}${icon('play', 'loop-toggle__play')}</button>
-<div class="h-hero__logo" data-depth="-0.07">${logoImg(LOGO_BONE, logoAlt, { sizes: '(max-width: 1023px) 60vw, 42vw', eager: true })}</div>
+<div class="h-hero__logo" data-depth="-0.07">${logoImg(LOGO_BONE, logoAlt, { sizes: '(max-width: 720px) 50vw, (max-width: 1023px) 360px, 42vw', eager: true })}</div>
 <div class="wrap wrap--wide h-hero__copy">
 <p class="kicker h-hero__eyebrow">${esc(byCls(s, 'eyebrow').text)}</p>
 <h1 class="h-hero__h1" id="h-hero-h1">${h1}</h1>
@@ -79,7 +81,9 @@ function categories(ctx, s) {
   const large = new Set(['flower', 'lifestyle']);
   const cards = ctx.site.categories.map((c, i) => {
     const big = large.has(c.slug);
-    const sizes = big ? '(max-width: 720px) 100vw, 50vw' : '(max-width: 720px) 60vw, 26vw';
+    // a small card's art is cover-cropped into a tall box on phones, so it paints about 110vw wide
+    // phones: all eight art boxes are about 140 px tall and cover-cropped, so about 280 px of image covers any of them
+    const sizes = big ? '(max-width: 767px) 280px, 50vw' : '(max-width: 767px) 280px, 26vw';
     const art = c.gen ? gimg(c.gen, { alt: '', cls: 'h-cat__img', sizes }) : photo(ctx, c.photo, { alt: '', cls: 'h-cat__img', sizes });
     return `<a class="h-cat h-cat--${esc(c.slug)}${big ? ' h-cat--lg' : ''}"${linkAttrs(c.store)} data-reveal style="--i:${i % 4}">
 <span class="h-cat__art">${art}</span>
@@ -123,7 +127,7 @@ function story(ctx, s) {
   const pic = s.blocks.find((b) => b.tag === 'img') || {};
   return `<section class="band band--void h-story" aria-labelledby="h-story-h">
 <div class="band__clip">
-${photo(ctx, 'havoc-mixing.webp', { alt: pic.alt || 'Studio Session', cls: 'band__bg h-story__photo', sizes: '100vw' })}
+${photo(ctx, 'havoc-mixing.webp', { alt: pic.alt || 'Studio Session', cls: 'band__bg h-story__photo', sizes: '(max-width: 767px) 131vw, 100vw' })}
 <span class="h-story__shade"></span>
 <span class="grain"></span>
 </div>
@@ -152,7 +156,7 @@ ${drip({ w: 520, h: 150, color: 'var(--orange)', cls: 'h-state__drip' })}
 function strains(ctx) {
   const cards = ctx.site.strains.map((st, i) => {
     const sizes = '(max-width: 720px) 80vw, 30vw';
-    const art = st.gen ? gimg(st.gen, { alt: '', cls: 'h-strain__img h-strain__img--cut', sizes }) : photo(ctx, st.photo, { alt: '', cls: 'h-strain__img', sizes });
+    const art = st.gen ? gimg(st.gen, { alt: '', cls: 'h-strain__img h-strain__img--cut', sizes: '(max-width: 767px) 44vw, 30vw' }) : photo(ctx, st.photo, { alt: '', cls: 'h-strain__img', sizes });
     return `<a class="h-strain h-strain--${esc(st.slug)}"${linkAttrs('/facts/#' + st.slug)} data-tilt="5" data-reveal style="--i:${i}">
 <span class="h-strain__art">${art}</span>
 <div class="h-strain__pane glass glass--lift">
@@ -313,7 +317,7 @@ function insider(ctx) {
   if (!posts.length) return '';
   const cards = posts.map((p, i) => {
     const pth = p.path || `/blog/${p.slug}/`;
-    const art = p.image && hasGenerated(p.image) ? gimg(p.image, { alt: '', cls: 'h-post__img', sizes: '(max-width: 720px) 92vw, 30vw' }) : '';
+    const art = p.image && hasGenerated(p.image) ? gimg(p.image, { alt: '', cls: 'h-post__img', sizes: '(max-width: 767px) 62vw, 30vw' }) : '';
     return `<a class="h-post"${linkAttrs(pth)} data-reveal style="--i:${i}">
 <span class="h-post__art${art ? '' : ' h-post__art--none'}">${art}</span>
 <h3 class="h-post__title">${esc(p.h1 || p.title)}</h3>
@@ -391,7 +395,7 @@ export async function render(ctx) {
     scripts: ['spray-tag.js'],
     preload: [
       { href: HERO_LG[1][1], as: 'image', type: 'image/webp', media: '(min-width: 760px)', imagesrcset: HERO_LG.map(([w, u]) => `${u} ${w}w`).join(', '), imagesizes: '(max-width: 1023px) 190vw, 100vw', fetchpriority: 'high' },
-      { href: HERO_SM[1][1], as: 'image', type: 'image/webp', media: '(max-width: 759px)', imagesrcset: HERO_SM.map(([w, u]) => `${u} ${w}w`).join(', '), imagesizes: '140vw', fetchpriority: 'high' },
+      { href: HERO_SM[1][1], as: 'image', type: 'image/webp', media: '(max-width: 759px)', imagesrcset: HERO_SM.map(([w, u]) => `${u} ${w}w`).join(', '), imagesizes: HERO_SM_SIZES, fetchpriority: 'high' },
     ],
   });
   return [{ path: '/', html }];

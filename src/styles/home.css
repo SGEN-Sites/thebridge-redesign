@@ -327,50 +327,67 @@
 
 /* ---------- phones ---------- */
 @media (max-width: 767px) {
-  .h-hero { --h1: min(24vw, 13.6svh + 4vw, 110px); padding-bottom: 76px; padding-top: calc(58vw * .6 + 6px); }
+  /* the eyebrow sits about 49 px under the logo (the logo is min(50vw, 360px) wide, so min(33vw, 238px) tall, from 11 px) at
+     every phone height, so the sprayed word always shows below the logo. On tall screens the min-height decides anyway */
+  .h-hero { --h1: min(24vw, 13.6svh + 4vw, 110px); padding-bottom: 76px; padding-top: calc(min(33vw, 238px) + 60px); }
   .h-hero__btns .btn { flex: 1 1 auto; justify-content: center; }
   .h-hero__text { font-size: 1rem; }
   .h-marq__shadow { translate: 0 5px; }
   .h-front__truss { --tw: 72vw; bottom: -84px; }
   .h-cats { padding-top: 118px; }
-  .h-cats__grid { gap: 26px 10px; }
-  .h-cat { min-height: 262px; }
-  .h-cat__pane { padding: 11px 11px 9px; }
-  .h-cat__name { font-size: 1.75rem; }
-  .h-cat__text { font-size: .8125rem; line-height: 1.38; }
-  .h-cat--flower, .h-cat--lifestyle { min-height: 300px; }
-  .h-cat__go { min-height: 30px; }
+  /* one even grid of eight, Flower first: each card's art bleeds over its top edge, panes match per row, links align */
+  .h-cats__grid { gap: 14px 10px; }
+  .h-cat, .h-cat--flower, .h-cat--lifestyle { grid-column: auto; min-height: 0; justify-content: flex-start; padding-top: 86px; }
+  .h-cat--lg { --bleed: 18px; }
+  .h-cat__art { bottom: auto; height: calc(var(--bleed) + 120px); }
+  .h-cat__pane { flex: 1 1 auto; display: flex; flex-direction: column; align-items: flex-start; padding: 11px 11px 9px; }
+  .h-cat__name, .h-cat--lg .h-cat__name { font-size: min(1.75rem, 6.6vw); }
+  .h-cat__text, .h-cat--lg .h-cat__text { font-size: .8125rem; line-height: 1.38; }
+  .h-cat__go { min-height: 30px; margin-top: auto; }
   .h-torch { padding: 64px 0 70px; }
-  .h-brands { justify-content: flex-start; column-gap: .34em; font-size: clamp(2.6rem, 12.6vw, 4rem); line-height: 1.08; }
+  .h-brands { justify-content: flex-start; column-gap: .34em; font-size: clamp(2.3rem, 10.4vw, 4rem); line-height: max(44px, 1.08em); }
   .h-story { padding-top: 300px; }
   .h-story__pane { padding: 22px 20px; }
   .h-story__photo { height: 340px; object-position: 84% 40%; }
+  /* CULTURE whole and on screen, the pane catching only its foot */
+  .h-page .h-story__tag { font-size: 23vw; top: -88px; left: 16px; }
   .h-state { padding-top: calc(var(--overhang) + 54px); padding-bottom: 66px; }
   .h-state__text { font-size: clamp(2.4rem, 11vw, 3.4rem); }
   .h-strains { padding: 74px 0 66px; }
-  .h-strains__h { margin-bottom: 66px; }
-  .h-strains__row { grid-template-columns: minmax(0, 1fr); gap: 62px; }
-  .h-strain { min-height: 300px; }
+  .h-strains__h { margin-bottom: 44px; }
+  /* row cards: the art on the left crosses the card's top edge, the pane sits on the right; the photos fade out softly */
+  .h-strains__row { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .h-strain { min-height: 170px; justify-content: center; }
   .h-strain--indica, .h-strain--ruderalis { margin-top: 0; }
-  .h-strain__art { top: -44px; bottom: 30%; left: 12%; right: 12%; }
+  .h-strain__art { top: -22px; bottom: -4px; left: -2px; right: auto; width: 46%; }
+  .h-strain__img:not(.h-strain__img--cut) { -webkit-mask-image: radial-gradient(closest-side, #000 58%, transparent 100%); mask-image: radial-gradient(closest-side, #000 58%, transparent 100%); }
+  .h-strain__pane { margin: 10px 10px 10px 43%; }
+  .h-strain__name { font-size: min(2.5rem, 10.4vw); }
   .h-feat { padding-top: 66px; }
   .h-feat__cans { width: 112px; top: -62px; left: -8px; }
   .h-vids { padding-top: 66px; padding-bottom: 140px; }
   .h-vids__in { display: block; }
   .h-vids__h { margin-bottom: 18px; }
-  .h-vids__grid { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) 6px; scrollbar-width: none; }
+  .h-vids__grid { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) 6px; scrollbar-width: none; }
   .h-vids__grid::-webkit-scrollbar { display: none; }
-  .h-vid { flex: 0 0 84%; scroll-snap-align: center; }
+  .h-vid { flex: 0 0 84%; scroll-snap-align: start; }
+  .h-vid .ytcard__title { font-size: 1.3rem; line-height: 1.14; }
   .h-pillars { grid-template-columns: minmax(0, 1fr); }
   .h-mobb { padding-bottom: 56px; }
   .h-mobb__h { font-size: 15.5vw; }
   .h-mobb__print { width: 30vw; top: -36px; padding: 5px 5px 16px; }
-  .h-visit { min-height: 0; padding: 190px 0 48px; --lx: 50%; --ly: 12%; }
+  .h-visit { min-height: 0; padding: 120px 0 48px; --lx: 50%; --ly: 12%; }
   .h-visit__bg { height: 340px; bottom: auto; object-position: 50% 58%; }
   .h-news { padding: 62px 0 96px; }
-  .h-press__name { font-size: 1.9rem; }
+  .h-press__name { font-size: min(1.9rem, 7.2vw); }
   .h-posts { padding: 62px 0 96px; }
-  .h-posts__row { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+  .h-posts__row { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  /* a thumbnail on the left, the title top right and Read bottom right: each row is still one link */
+  .h-post { display: grid; grid-template-columns: min(44%, 200px) minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; column-gap: 14px; row-gap: 4px; }
+  .h-post__art { grid-row: 1 / -1; aspect-ratio: 4 / 3; }
+  .h-post__img { object-position: 78% 50%; }
+  .h-post__title { align-self: start; font-size: 1.35rem; }
+  .h-post__go { align-self: end; justify-self: start; }
   .h-cta { padding: 96px 0 54px; }
   .h-cta .h-cta__h { font-size: 26.5vw; }
   .h-cta .h-cta__go { width: 100%; }

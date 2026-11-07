@@ -195,6 +195,14 @@ html.gate-open .age-gate[hidden] { display: grid !important; }
     url('/assets/photos/paint/spray-blue-2.webp') calc(50% - 24vmin) calc(50% - 22vmin) / min(78vmin, 780px) no-repeat,
     radial-gradient(50vmin 50vmin at 62% 62%, rgba(255, 107, 0, .3), transparent 72%);
 }
+@media (max-width: 767px) {
+  .age-gate__burst {
+    background:
+      url('/assets/img/p-paint-spray-orange-1-800.webp') calc(50% + 15vmin) calc(50% + 12vmin) / min(118vmin, 1180px) no-repeat,
+      url('/assets/img/p-paint-spray-blue-2-480.webp') calc(50% - 24vmin) calc(50% - 22vmin) / min(78vmin, 780px) no-repeat,
+      radial-gradient(50vmin 50vmin at 62% 62%, rgba(255, 107, 0, .3), transparent 72%);
+  }
+}
 .age-gate__pane { position: relative; width: min(500px, 100%); display: grid; justify-items: center; gap: 14px; padding: clamp(26px, 4.4vw, 46px) clamp(20px, 3.6vw, 44px); text-align: center; border-radius: var(--radius-lg); background: linear-gradient(145deg, rgba(20, 17, 14, .74), rgba(7, 6, 5, .8)); }
 .age-gate__logo .logo__img { height: 92px; }
 .age-gate__ask, .age-gate__blocked { display: grid; justify-items: center; gap: 12px; }

@@ -428,7 +428,7 @@ const factRow = (t) => {
 function flyer(ctx, { file, alt, caption, viewLabel, cls = '' }) {
   return `<figure class="p-flyer ${cls}" data-reveal>
 <a${linkAttrs(`/assets/photos/${file}.webp`, { class: 'p-flyer__link', 'data-lightbox': true, 'data-tilt': true, 'aria-label': `${viewLabel}: ${caption}` })}>
-${photo(ctx, `${file}.webp`, { alt, sizes: '(max-width: 900px) 86vw, 420px' })}
+${photo(ctx, `${file}.webp`, { alt, sizes: '(max-width: 767px) 64vw, (max-width: 900px) 86vw, 420px' })}
 <span class="p-flyer__zoom">${esc(viewLabel)}</span>
 </a>
 <figcaption>${esc(caption)}</figcaption>
@@ -694,7 +694,7 @@ function socialLinks(ctx) {
     .map(([k, label]) => `<a${linkAttrs(s[k], { class: 'p-social', 'aria-label': `The Bridge on ${label}` })}>${icon(k)}<span>${esc(label)}</span></a>`).join('');
 }
 function faqHtml(items, cls = '') {
-  return `<div class="faq ${cls}">${items.map(([q, a]) => `<details class="faq__item" open><summary>${esc(q)}</summary><div class="faq__a">${rich(a)}</div></details>`).join('\n')}</div>`;
+  return `<div class="faq ${cls}">${items.map(([q, a], i) => `<details class="faq__item" open${i ? ' data-fold' : ''}><summary>${esc(q)}</summary><div class="faq__a">${rich(a)}</div></details>`).join('\n')}</div>`;
 }
 
 function contact(ctx) {

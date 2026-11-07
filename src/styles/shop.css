@@ -223,20 +223,21 @@ ul.s-glue__points { display: grid; gap: 12px; margin: 0; padding: clamp(22px, 2.
   .s-bento { padding-top: calc(var(--overhang) * 1.4 + 18px); }
   .s-bento__grid { grid-template-columns: minmax(0, 1fr); grid-auto-rows: auto; gap: 12px; }
   .s-cell, .s-cell--flower, .s-cell--pre-rolls, .s-cell--vapes, .s-cell--edibles, .s-cell--concentrates, .s-cell--beverages, .s-cell--wellness, .s-cell--lifestyle { grid-column: 1 / -1; }
-  .s-cat { min-height: 282px; }
-  .s-cat__art { inset: 0 0 auto 0; height: 58%; }
-  .s-cell--flower .s-cat { min-height: 340px; }
-  .s-cell--flower .s-cat__art { height: 66%; }
-  .s-cell--flower .s-cat__pane, .s-cat__pane { width: 100%; }
+  /* compact cards in the desktop composition: the art fills the card, the pane on the left, the subject on the right */
+  .s-cell--flower .s-cat { min-height: 250px; }
+  .s-bento .s-cat__pane { width: 66%; }
   .s-cat__shop { min-height: 44px; }
 
-  .s-railsec { padding-block: 48px; }
+  .s-railsec { padding-block: 74px 48px; }
+  /* the tag reads whole above the head pane (mobile.css .tag loads later, hence two classes) */
+  .s-railsec .s-railsec__tag { left: 50%; top: 18px; translate: -50% 0; font-size: min(16vw, 4.6rem); transform: rotate(-4deg); transform-origin: 50% 50%; }
   .s-rail__head { position: relative; inset: auto; left: auto; width: auto; margin-inline: var(--gutter); margin-bottom: 12px; gap: 10px; }
-  .s-rail__title { margin: 0; font-size: 2.9rem; }
+  .s-rail__title { margin: 0; font-size: min(2.9rem, 12vw); }
   .s-rail__track { padding-inline: var(--gutter); scroll-padding-left: var(--gutter); }
 
-  .s-ch { align-items: stretch; min-height: min(84svh, 680px); padding-bottom: 60px; }
-  .s-ch__art { inset: 0 0 auto 0; height: 60%; -webkit-mask-image: linear-gradient(#000 58%, transparent); mask-image: linear-gradient(#000 58%, transparent); }
+  .s-ch { align-items: stretch; min-height: min(72svh, 560px); padding-bottom: 60px; }
+  /* the photo keeps the size it had in the taller hero, so its crop and the crumbs' clearance stay */
+  .s-ch__art { inset: 0 0 auto 0; height: calc((min(84svh, 680px) + var(--bleed, 64px)) * .6); -webkit-mask-image: linear-gradient(#000 58%, transparent); mask-image: linear-gradient(#000 58%, transparent); }
   .s-ch__scrim, .s-ch--flip .s-ch__scrim { background: linear-gradient(180deg, rgba(0, 0, 0, .74), rgba(0, 0, 0, .3) 18%, transparent 30%); }
   .s-ch__copy .btn-row > .btn { flex: 0 0 auto; }
   .s-ch__copy, .s-ch--flip .s-ch__copy, .s-ch--top .s-ch__copy, .s-ch--mid .s-ch__copy { width: 100%; margin: auto 0 0; }
@@ -265,10 +266,10 @@ ul.s-glue__points { display: grid; gap: 12px; margin: 0; padding: clamp(22px, 2.
   .s-calm__in { grid-template-columns: minmax(0, 1fr); }
   .s-calm__lede { margin: 12px 0 0; }
   .s-read__row { grid-template-columns: minmax(0, 1fr); }
-  .s-list { min-height: 0; padding-bottom: 48px; }
+  .s-list { min-height: 0; padding-bottom: 70px; }
   .s-list__in { grid-template-columns: minmax(0, 1fr); }
   .s-list__h1 { font-size: 27vw; }
-  .s-list__tag { top: auto; bottom: 34%; right: -3%; font-size: 21vw; }
+  .s-list .s-list__tag { top: auto; bottom: 6px; left: 10px; right: auto; font-size: min(17vw, 5rem); }
   .s-list__spray { width: 150vw; right: -40%; top: auto; bottom: 0; }
   .s-front--can { right: 6px; bottom: calc(var(--overhang) * -1.7); width: 70px; }
 }

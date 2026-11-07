@@ -161,7 +161,7 @@ export function tag(text, { color = 'blue', cls = '', depth, wipe = true } = {})
 }
 
 // overspray image from the paint kit; while a file is missing, a CSS burst of the same box keeps the layout
-export function spray(name, { cls = '', depth, wipe = true, sizes = '(max-width: 767px) 110vw, 60vw' } = {}) {
+export function spray(name, { cls = '', depth, wipe = true, sizes = '(max-width: 767px) 100vw, 60vw' } = {}) {
   const file = `paint/spray-${name}.webp`;
   const a = { ...(wipe ? { 'data-spray': true } : {}), ...(depth != null ? { 'data-depth': depth } : {}), 'aria-hidden': 'true' };
   const c = `spray spray--${/blue/.test(name) ? 'blue' : 'orange'}${cls ? ' ' + cls : ''}`;
@@ -181,7 +181,7 @@ export function loopVideo(ctx, id, { cls = '', phone = true, eager = false } = {
   const sources = phone
     ? `${sm && exists(sm.slice(1)) ? `<source src="${escA(sm)}" media="(max-width: 759px)" type="video/mp4">` : ''}<source src="${escA(src)}" type="video/mp4">`
     : `<source src="${escA(src)}" media="(min-width: 760px)" type="video/mp4">`;
-  const vid = `<video class="loop__v${cls ? ' ' + cls : ''}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="${eager ? 'auto' : 'none'}"${poster && exists(poster.slice(1)) ? ` poster="${escA(poster)}"` : ''} aria-hidden="true" tabindex="-1" data-loop${eager ? ' data-eager' : ''}${phone ? '' : ' data-no-phone'}>${sources}</video>`;
+  const vid = `<video class="loop__v${cls ? ' ' + cls : ''}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="${eager ? 'auto' : 'none'}"${poster && exists(poster.slice(1)) ? (eager ? ` poster="${escA(poster)}"` : ` data-poster="${escA(poster)}"`) : ''} aria-hidden="true" tabindex="-1" data-loop${eager ? ' data-eager' : ''}${phone ? '' : ' data-no-phone'}>${sources}</video>`;
   return `${vid}<button class="loop-toggle${phone ? '' : ' loop-toggle--no-phone'}" type="button" data-loop-toggle aria-pressed="false" aria-label="Pause motion">${icon('pause', 'loop-toggle__pause')}${icon('play', 'loop-toggle__play')}</button>`;
 }
 
@@ -206,7 +206,7 @@ export function pcard(ctx, p, { h = 3, eager = false, sizes = '(max-width: 767px
 <a class="pcard__media"${linkAttrs(p.url)} tabindex="-1" aria-hidden="true">${pic}</a>
 <div class="pcard__body glass glass--lift">
 <span class="chip pcard__tag">${esc(p.tag)}</span>
-<${H} class="pcard__name"><a${linkAttrs(p.url)}>${esc(p.title)}</a></${H}>
+<${H} class="pcard__name"><a${linkAttrs(p.url)}>${esc(p.title).replace(/ \| /g, '&nbsp;| ')}</a></${H}>
 <div class="pcard__foot"><p class="pcard__price">${esc(p.price)}</p><a class="pcard__add btn btn--paint btn--sm"${linkAttrs(p.url)}>ADD TO CART</a></div>
 </div>
 </article>`;
@@ -367,7 +367,7 @@ function footerHtml(ctx, p) {
 <div class="footer__mark" aria-hidden="true" data-footer-light><span class="footer__word"><span class="footer__word-t">${word}</span><span class="footer__strip"></span></span></div>
 <div class="wrap wrap--wide footer__inner">
 <div class="footer__top">
-<div class="footer__brand">${logoHtml(ctx, { cls: 'footer__logo', sizes: '132px' })}<p class="footer__tagline">${esc(s.tagline)}</p></div>
+<div class="footer__brand">${logoHtml(ctx, { cls: 'footer__logo', sizes: '(max-width: 1023px) 106px, 132px' })}<p class="footer__tagline">${esc(s.tagline)}</p></div>
 <div class="footer__cols">
 ${(f.columns || []).map(col).join('\n')}
 </div>
@@ -449,7 +449,7 @@ export function page({ ctx, path: p, title, description, canonical, og = {}, jso
   const bc = [bodyClass, crumbBar ? 'has-crumbbar' : ''].filter(Boolean).join(' ');
   const key = String(ctx.site.ageKey).replace(/[^A-Za-z0-9_-]/g, '');
   return `<!doctype html>
-<html lang="en" data-spray-mask="/assets/photos/paint/spray-mask.webp">
+<html lang="en" data-spray-mask="/assets/photos/paint/spray-mask.webp" data-spray-mask-sm="/assets/img/p-paint-spray-mask-800.webp">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">

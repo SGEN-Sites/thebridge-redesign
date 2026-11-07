@@ -26,6 +26,9 @@
     -webkit-mask-position: 0% 0; mask-position: 0% 0;
     animation: spray-wipe 1.4s var(--ease-paint) backwards; animation-delay: calc(var(--i, 0) * 120ms);
   }
+  @media (max-width: 767px) {
+    html.spray-ok [data-spray].is-in:not(.spray-done) { -webkit-mask-image: url('/assets/img/p-paint-spray-mask-800.webp'); mask-image: url('/assets/img/p-paint-spray-mask-800.webp'); }
+  }
 
   /* drips run down when they come into view */
   html.js [data-reveal="drip"]:not(.is-in) { opacity: 1; clip-path: inset(0 0 100% 0); }

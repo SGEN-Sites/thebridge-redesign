@@ -1,6 +1,6 @@
 // util.mjs - shared helpers (main session owns this file; lanes import, never edit: ask through your report).
-import { img, picture, imgUrl, hasGenerated } from '../lib/images.mjs';
-export { img, picture, imgUrl, hasGenerated };
+import { img, picture, imgUrl, hasGenerated, capSizes } from '../lib/images.mjs';
+export { img, picture, imgUrl, hasGenerated, capSizes };
 
 // Generated image by id (docs/BUILD-CONTRACT.md "Generated image ids"). While IMAGERY is still producing, a lane build
 // with ALLOW_MISSING_GEN=1 gets a styled placeholder slot instead of a build failure; the final build (no env) fails on
