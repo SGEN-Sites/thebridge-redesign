@@ -29,7 +29,6 @@ Every generated image and media file in this site. All generated art is illustra
 | `h-mega-explore` | Higgsfield z_image | Glass jars of cured flower on black stone, menu card art | prompt kept in the project's working notes | AI-generated, illustrative |
 | `h-mega-resources` | Higgsfield z_image | An open book and a desk lamp at night, menu card art | prompt kept in the project's working notes | AI-generated, illustrative |
 | `loop-mist` | fal-ai/kling-video/v3/pro/image-to-video, from the still `s-mist` (fal-ai/flux-pro/v1.1-ultra) | Seamless orange spray paint mist in one shaft of light on black: `assets/media/loop-mist.mp4`, `loop-mist-sm.mp4`, posters `loop-mist.webp`, `loop-mist-sm.webp` | still `src/content/image-plan.json`, motion prompt below | AI-generated, illustrative |
-| `embers` | none | The client's own gold particle video, re-encoded, end joined to start with a crossfade: `assets/media/embers.mp4`, `embers-sm.mp4`, poster `embers.webp` | no prompt | client footage |
 
 Motion prompt of `loop-mist`: "Fine orange spray paint mist hangs in the shaft of sodium light and drifts slowly, countless tiny droplets float and glitter, the haze thins and thickens gently, the shaft of light stays fixed, camera locked, static shot, the black background stays black"
 
@@ -39,8 +38,13 @@ Motion prompt of `loop-mist`: "Fine orange spray paint mist hangs in the shaft o
 |---|---|---|---|
 | `assets/photos/cut/mobb-deep-hell.webp` | fal-ai/birefnet/v2 | Background removed from the client's photo. The men's pixels are the source photo; nothing was redrawn | client photo |
 | `assets/photos/cut/pro1.webp` to `pro8.webp` (except `pro3`) | fal-ai/esrgan, fal-ai/birefnet/v2 | The client's product shots upscaled 4x, background removed, trimmed. No generative model touched the labels | client photo, AI-enhanced |
+| `assets/media/bridge-hero-*.webp`, `bridge-hero-sm-*.webp` | fal-ai/topaz/upscale/image, Standard V2 | The client's own bridge photo upscaled 2x, tones lifted slightly, cut to the hero's sizes and a tall phone crop by `tools/bridge-hero.py`. Nothing added or restaged | client photo, AI-upscaled |
 | `assets/photos/cut/pro3.webp` | none | The client's own transparent image, trimmed | client photo |
 
 ## Procedural paint kit, no AI
 
 `assets/photos/paint/` (`spray-orange-1`, `spray-orange-2`, `spray-blue-1`, `spray-blue-2`, `grain`, `spray-mask`) is drawn by `tools/spray-art.py`, which is seeded and redraws the same pixels on each run.
+
+## Hero spray loop, no AI
+
+The blue QUEENS in the home hero is not a video. `src/scripts/spray-tag.js` paints it on a canvas along hand-drawn stroke paths, with speckle, drips and a moving nozzle mist, then holds, fades and repeats. The can that follows the nozzle is the generated `g-can`.

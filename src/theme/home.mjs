@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT } from '../lib/paths.mjs';
 import * as shell from './shell.mjs';
-import { esc, escA, linkAttrs, gimg, img, photo, store, sec, byCls, absUrl, hasGenerated } from './util.mjs';
+import { esc, escA, linkAttrs, gimg, img, photo, store, sec, byCls, absUrl, hasGenerated, imgUrl } from './util.mjs';
 
 const { icon, hoursHtml, tag, spray, drip, ytCard, pcard, loopVideo } = shell;
 const hasFile = (rel) => fs.existsSync(path.join(ROOT, rel));
@@ -23,25 +23,26 @@ function logoImg(set, alt, { sizes = '40vw', cls = '', eager = false } = {}) {
   return `<img${cls ? ` class="${cls}"` : ''} src="/assets/brand/${big[1]}.webp" srcset="${set.map(([w, n]) => `/assets/brand/${n}.webp ${w}w`).join(', ')}" sizes="${escA(sizes)}" width="1600" height="977" alt="${escA(alt)}" decoding="async"${eager ? ' fetchpriority="high"' : ' loading="lazy"'}>`;
 }
 
+const HERO_LG = [1280, 1920, 2560, 3840].map((w) => [w, `/assets/media/bridge-hero-${w}.webp`]);
+const HERO_SM = [800, 1200, 1600].map((w) => [w, `/assets/media/bridge-hero-sm-${w}.webp`]);
+
 // ---------- 1 hero ----------
 function hero(ctx, s) {
   const lines = byCls(s, 'hero-title').text.split(/\s+/);
   const logoAlt = (s.blocks.find((b) => b.tag === 'img') || {}).alt || ctx.site.fullName;
-  const steel = photo(ctx, 'Bridge-hero.webp', { alt: '', eager: true, sizes: '100vw', cls: 'h-hero__photo' });
+  // the client's own bridge photo, upscaled (docs/MEDIA.md); a tall crop on phones, up to 3840 px on desktop
+  const steel = `<picture><source media="(max-width: 759px)" srcset="${HERO_SM.map(([w, u]) => `${u} ${w}w`).join(', ')}" sizes="140vw"><source srcset="${HERO_LG.map(([w, u]) => `${u} ${w}w`).join(', ')}" sizes="(max-width: 1023px) 190vw, 100vw"><img class="h-hero__photo" src="${HERO_LG[1][1]}" width="3840" height="2817" alt="" decoding="async" fetchpriority="high"></picture>`;
   const h1 = lines.map((w, i) => `<span class="h-hero__line${/^CULTURE$/i.test(w) ? ' outline' : ''}" style="--i:${i}">${esc(w)}</span>`).join(' ');
   return `<section class="h-hero" aria-labelledby="h-hero-h1" data-video-host>
 <div class="band__clip h-hero__wall">
 ${steel}
-<span class="h-hero__pool"></span>
-${loopVideo(ctx, 'loop-mist', { cls: 'h-hero__mist', eager: true })}
-${loopVideo(ctx, 'embers', { cls: 'h-hero__embers', phone: false })}
 <span class="h-hero__scrim"></span>
 <span class="grain"></span>
 </div>
-${spray('orange-2', { cls: 'h-hero__spray', depth: '0.04' })}
-${tag('QUEENS', { color: 'blue', cls: 'h-hero__tag', depth: '-0.05' })}
-<svg class="h-defs" width="0" height="0" aria-hidden="true" focusable="false"><filter id="h-grit" x="-8%" y="-10%" width="116%" height="120%" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="5" result="fat"/><feGaussianBlur in="fat" stdDeviation="6" result="soft"/><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="hi"/><feComposite in="hi" in2="soft" operator="arithmetic" k1="1.5" k2="0" k3="0" k4="0" result="mix"/><feColorMatrix in="mix" type="matrix" values="0 0 0 0 .96 0 0 0 0 .945 0 0 0 0 .91 0 0 0 14 -11.2"/></filter></svg>
-<div class="h-hero__logo" data-depth="-0.07">${logoImg(LOGO_BONE, '', { sizes: '(max-width: 1023px) 60vw, 42vw', eager: true, cls: 'h-hero__halo' })}${logoImg(LOGO_BONE, logoAlt, { sizes: '(max-width: 1023px) 60vw, 42vw', eager: true })}</div>
+${tag('QUEENS', { color: 'blue', cls: 'h-hero__tag' })}
+<div class="h-spray" data-spray-tag data-can="${imgUrl('g-can', 400)}" aria-hidden="true"><canvas class="h-spray__paint"></canvas><canvas class="h-spray__fx"></canvas></div>
+<button class="loop-toggle" type="button" data-spray-toggle aria-pressed="false" aria-label="Pause motion">${icon('pause', 'loop-toggle__pause')}${icon('play', 'loop-toggle__play')}</button>
+<div class="h-hero__logo" data-depth="-0.07">${logoImg(LOGO_BONE, logoAlt, { sizes: '(max-width: 1023px) 60vw, 42vw', eager: true })}</div>
 <div class="wrap wrap--wide h-hero__copy">
 <p class="kicker h-hero__eyebrow">${esc(byCls(s, 'eyebrow').text)}</p>
 <h1 class="h-hero__h1" id="h-hero-h1">${h1}</h1>
@@ -67,8 +68,7 @@ function marquee(ctx) {
 </div>
 </div>
 <div class="seam h-front" aria-hidden="true">
-<div class="h-front__truss" data-depth="0.05">${gimg('g-truss', { alt: '', cls: 'cut h-front__img', sizes: '(max-width: 767px) 72vw, 53vw' })}</div>
-<div class="h-front__can" data-depth="-0.05">${gimg('g-can', { alt: '', cls: 'cut h-front__img', sizes: '(max-width: 720px) 24vw, 14vw' })}</div>
+<div class="h-front__truss" data-depth="0.05">${gimg('g-truss', { alt: '', cls: 'cut h-front__img', sizes: '(max-width: 767px) 72vw, 44vw' })}</div>
 </div>`;
 }
 
@@ -388,7 +388,11 @@ export async function render(ctx) {
     bodyClass: 'h-page',
     main,
     crumbs: [],
-    preload: [{ href: src, as: 'image', imagesrcset: srcset, imagesizes: '100vw', fetchpriority: 'high' }],
+    scripts: ['spray-tag.js'],
+    preload: [
+      { href: HERO_LG[1][1], as: 'image', type: 'image/webp', media: '(min-width: 760px)', imagesrcset: HERO_LG.map(([w, u]) => `${u} ${w}w`).join(', '), imagesizes: '(max-width: 1023px) 190vw, 100vw', fetchpriority: 'high' },
+      { href: HERO_SM[1][1], as: 'image', type: 'image/webp', media: '(max-width: 759px)', imagesrcset: HERO_SM.map(([w, u]) => `${u} ${w}w`).join(', '), imagesizes: '140vw', fetchpriority: 'high' },
+    ],
   });
   return [{ path: '/', html }];
 }

@@ -1,7 +1,14 @@
 {
-  "photos": {},
-  "media": {
-    "embers": {"mp4": "/assets/media/embers.mp4", "sm": "/assets/media/embers-sm.mp4", "poster": "/assets/media/embers.webp", "w": 1920, "h": 1080, "ai": false},
-    "loop-mist": {"mp4": "/assets/media/loop-mist.mp4", "sm": "/assets/media/loop-mist-sm.mp4", "poster": "/assets/media/loop-mist.webp", "posterSm": "/assets/media/loop-mist-sm.webp", "w": 1920, "h": 1074, "ai": true}
+ "photos": {},
+ "media": {
+  "loop-mist": {
+   "mp4": "/assets/media/loop-mist.mp4",
+   "sm": "/assets/media/loop-mist-sm.mp4",
+   "poster": "/assets/media/loop-mist.webp",
+   "posterSm": "/assets/media/loop-mist-sm.webp",
+   "w": 1920,
+   "h": 1074,
+   "ai": true
   }
+ }
 }
