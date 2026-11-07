@@ -215,9 +215,25 @@
     if (root.classList.contains('nav-open')) setDrawer(false, true);
   });
 
+  /* ---------------- folds (details[data-fold]): they ship open; on phones they start closed and the summary opens them.
+     mobile.css holds a fold's body back until this runs (with its own 2.5 s fail-safe). ---------------- */
+  var folds = $$('details[data-fold]');
+  if (folds.length) {
+    if (mq('(max-width: 767px)').matches) folds.forEach(function (d) { d.open = false; });
+    folds.forEach(function (d) { d.classList.add('fold-ready'); });
+  }
+  /* the blog's tab rail on phones starts with the current tab in view, where scroll-initial-target does not */
+  $$('.r-tabs__list').forEach(function (list) {
+    var on = $('.r-tab.is-on', list);
+    if (!on || list.scrollWidth <= list.clientWidth + 1) return;
+    var lr = list.getBoundingClientRect(), or = on.getBoundingClientRect();
+    if (or.right > lr.right || or.left < lr.left) list.scrollLeft += or.left - lr.left - (parseFloat(getComputedStyle(list).paddingLeft) || 0);
+  });
+
   /* ---------------- reveals ([data-reveal], [data-spray]): IntersectionObserver adds .is-in. motion.css holds the CSS
      fail-safe (visible at 2.5 s even with no JS running); the timer below covers a dead IntersectionObserver. ---------------- */
-  var maskUrl = root.getAttribute('data-spray-mask');
+  /* phones take the 800 px mask, the same file motion.css names below 768 px, so only one is ever fetched */
+  var maskUrl = (mq('(max-width: 767px)').matches && root.getAttribute('data-spray-mask-sm')) || root.getAttribute('data-spray-mask');
   if (maskUrl && !reduce && hasIO) {
     var maskImg = new Image();
     maskImg.onload = function () { root.classList.add('spray-ok'); };
@@ -573,6 +589,16 @@
   /* ---------------- autoplay loops: poster first; plays only on screen, never under reduced motion. The pause/play toggle moves
      out of .band__clip onto its band, so it is clickable. ---------------- */
   var loops = $$('video[data-loop]');
+  /* a poster is fetched as soon as the video exists, however far down: a loop below the first screens gets its poster
+     (data-poster) when it comes within about a screen and a half */
+  var late = $$('video[data-poster]');
+  var givePoster = function (v) { if (!v.getAttribute('poster')) v.setAttribute('poster', v.getAttribute('data-poster')); };
+  if (late.length && hasIO) {
+    var ioPoster = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { givePoster(e.target); ioPoster.unobserve(e.target); } });
+    }, { rootMargin: '150% 0px 150% 0px' });
+    late.forEach(function (v) { ioPoster.observe(v); });
+  } else late.forEach(givePoster);
   var playV = function (v) {
     if (v.hasAttribute('data-user-paused')) return;
     var p = v.play && v.play();
