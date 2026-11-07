@@ -252,7 +252,13 @@
     var markIn = function (el) { el.classList.add('is-in'); ioReveal.unobserve(el); };
     raf(function () {
       raf(function () {
-        reveals.forEach(function (el) { var r = el.getBoundingClientRect(); if ((r.width || r.height) && r.bottom > 0 && r.top < vh()) markIn(el); });
+        /* every read first, then every write: marking one in between reads made each next read force a layout. A reveal
+           inside a closed fold cannot be on screen, and measuring it would make the browser lay out the hidden content */
+        reveals.filter(function (el) {
+          if (el.parentElement && el.parentElement.closest('details:not([open])')) return false;
+          var r = el.getBoundingClientRect();
+          return (r.width || r.height) && r.bottom > 0 && r.top < vh();
+        }).forEach(markIn);
       });
     });
     setTimeout(function () {
