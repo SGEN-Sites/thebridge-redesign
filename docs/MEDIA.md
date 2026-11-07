@@ -47,4 +47,4 @@ Motion prompt of `loop-mist`: "Fine orange spray paint mist hangs in the shaft o
 
 ## Hero spray loop, no AI
 
-The blue QUEENS in the home hero is not a video. `src/scripts/spray-tag.js` paints it on a canvas along hand-drawn stroke paths, with speckle, drips and a moving nozzle mist, then holds, fades and repeats. The can that follows the nozzle is the generated `g-can`.
+The blue QUEENS in the home hero is not a video. `src/scripts/spray-tag.js` sprays it on a canvas in the tag's own font, Sedgwick Ave Display: the finished word is drawn with the font, and a nozzle that follows each letter's centre lines reveals it with a soft overspray edge, speckle and drips, then it holds, fades and repeats. The stroke paths come from `tools/tag-strokes.py`, which measures them from the font file and checks that they cover every letter.

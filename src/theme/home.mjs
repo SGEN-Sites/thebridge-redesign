@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT } from '../lib/paths.mjs';
 import * as shell from './shell.mjs';
-import { esc, escA, linkAttrs, gimg, img, photo, store, sec, byCls, absUrl, hasGenerated, imgUrl } from './util.mjs';
+import { esc, escA, linkAttrs, gimg, img, photo, store, sec, byCls, absUrl, hasGenerated } from './util.mjs';
 
 const { icon, hoursHtml, tag, spray, drip, ytCard, pcard, loopVideo } = shell;
 const hasFile = (rel) => fs.existsSync(path.join(ROOT, rel));
@@ -40,7 +40,7 @@ ${steel}
 <span class="grain"></span>
 </div>
 ${tag('QUEENS', { color: 'blue', cls: 'h-hero__tag' })}
-<div class="h-spray" data-spray-tag data-can="${imgUrl('g-can', 400)}" aria-hidden="true"><canvas class="h-spray__paint"></canvas><canvas class="h-spray__fx"></canvas></div>
+<div class="h-spray" data-spray-tag aria-hidden="true"><canvas class="h-spray__paint"></canvas><canvas class="h-spray__fx"></canvas></div>
 <button class="loop-toggle" type="button" data-spray-toggle aria-pressed="false" aria-label="Pause motion">${icon('pause', 'loop-toggle__pause')}${icon('play', 'loop-toggle__play')}</button>
 <div class="h-hero__logo" data-depth="-0.07">${logoImg(LOGO_BONE, logoAlt, { sizes: '(max-width: 1023px) 60vw, 42vw', eager: true })}</div>
 <div class="wrap wrap--wide h-hero__copy">
